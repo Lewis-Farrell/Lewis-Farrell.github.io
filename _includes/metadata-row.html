@@ -1,0 +1,11 @@
+<div class="metadata-row">
+  {% if include.date %}<span>{{ include.date }}</span>{% endif %}
+  {% if include.reading_time %}
+  <span class="separator"></span>
+  <span>{{ include.reading_time }} min read</span>
+  {% endif %}
+  {% if include.category %}
+  <span class="separator"></span>
+  <span>{{ include.category }}</span>
+  {% endif %}
+</div>

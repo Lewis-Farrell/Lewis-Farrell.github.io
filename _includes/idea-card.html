@@ -1,0 +1,16 @@
+<a href="{{ include.idea.url | relative_url }}" class="entry-item">
+  <div class="entry-body">
+    <h3 class="entry-title">{{ include.idea.title }}</h3>
+    {% if include.idea.summary %}<p class="entry-desc">{{ include.idea.summary }}</p>{% endif %}
+    {% if include.idea.tags %}
+    <div class="entry-tags">
+      {% for tag in include.idea.tags %}
+      <span class="entry-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  <div class="entry-meta">
+    {% if include.idea.date %}<span class="entry-date">{{ include.idea.date | date: "%b %Y" }}</span>{% endif %}
+  </div>
+</a>

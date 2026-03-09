@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<article class="project-page">
+  <div class="container">
+    <div class="page-hero">
+      {% if page.category %}<span class="badge">{{ page.category }}</span>{% endif %}
+      <h1>{{ page.title }}</h1>
+      {% if page.summary %}<p>{{ page.summary }}</p>{% endif %}
+      {% if page.technologies %}
+      <div class="tag-list" style="justify-content: center; margin-top: var(--space-5);">
+        {% for tech in page.technologies %}
+        <span class="badge badge-muted">{{ tech }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="container-reading">
+    <div class="reading-content">
+      {{ content }}
+    </div>
+
+    {% if page.links %}
+    <div class="section" style="border-top: 1px solid var(--border); margin-top: var(--space-8); padding-top: var(--space-7);">
+      <h2>Links</h2>
+      <div class="flex gap-4" style="margin-top: var(--space-4);">
+        {% if page.links.github %}
+        <a href="{{ page.links.github }}" class="btn btn-secondary" target="_blank" rel="noopener">GitHub</a>
+        {% endif %}
+        {% if page.links.demo %}
+        <a href="{{ page.links.demo }}" class="btn btn-primary" target="_blank" rel="noopener">Live Demo</a>
+        {% endif %}
+        {% if page.links.documentation %}
+        <a href="{{ page.links.documentation }}" class="btn btn-secondary" target="_blank" rel="noopener">Documentation</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</article>

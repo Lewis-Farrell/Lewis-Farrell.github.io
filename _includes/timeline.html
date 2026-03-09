@@ -1,0 +1,10 @@
+<div class="timeline">
+  {% for item in include.items %}
+  <div class="timeline-item fade-in">
+    {% if item.date %}<p class="timeline-date">{{ item.date }}</p>{% endif %}
+    <h3 class="timeline-title">{{ item.title }}</h3>
+    {% if item.org %}<p class="timeline-org">{{ item.org }}</p>{% endif %}
+    {% if item.description %}<p class="timeline-desc">{{ item.description }}</p>{% endif %}
+  </div>
+  {% endfor %}
+</div>

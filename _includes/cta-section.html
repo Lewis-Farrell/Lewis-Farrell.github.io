@@ -1,0 +1,14 @@
+<section class="cta-section fade-in">
+  <div class="container">
+    <h2>{{ include.heading }}</h2>
+    {% if include.text %}<p>{{ include.text }}</p>{% endif %}
+    <div class="cta-buttons">
+      {% if include.cta1_label %}
+      <a href="{{ include.cta1_link }}" class="btn btn-primary btn-lg">{{ include.cta1_label }}</a>
+      {% endif %}
+      {% if include.cta2_label %}
+      <a href="{{ include.cta2_link }}" class="btn btn-secondary btn-lg">{{ include.cta2_label }}</a>
+      {% endif %}
+    </div>
+  </div>
+</section>

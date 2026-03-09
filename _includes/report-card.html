@@ -1,0 +1,18 @@
+<div class="entry-item-static">
+  <div class="entry-body">
+    <h3 class="entry-title">{{ include.report.title }}</h3>
+    {% if include.report.summary %}<p class="entry-desc">{{ include.report.summary }}</p>{% endif %}
+    {% if include.report.file %}
+    <a href="{{ include.report.file | relative_url }}" class="entry-download" download>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:13px;height:13px;flex-shrink:0">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"/>
+      </svg>
+      Download PDF
+    </a>
+    {% endif %}
+  </div>
+  <div class="entry-meta">
+    {% if include.report.date %}<span class="entry-date">{{ include.report.date | date: "%b %Y" }}</span>{% endif %}
+    {% if include.report.audience %}<span class="entry-audience">{{ include.report.audience }}</span>{% endif %}
+  </div>
+</div>

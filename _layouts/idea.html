@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="idea-page">
+  <div class="container-reading">
+    <header class="page-hero" style="text-align: left; padding-bottom: var(--space-6);">
+      <h1 style="font-size: 32px;">{{ page.title }}</h1>
+      <div class="metadata-row" style="margin-top: var(--space-4);">
+        {% if page.date %}<span>{{ page.date | date: "%B %d, %Y" }}</span>{% endif %}
+      </div>
+      {% if page.tags %}
+      <div class="tag-list" style="margin-top: var(--space-4);">
+        {% for tag in page.tags %}
+        <span class="badge badge-secondary">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </header>
+
+    <div class="reading-content">
+      {{ content }}
+    </div>
+
+    <nav class="section" style="border-top: 1px solid var(--border); margin-top: var(--space-8); padding-top: var(--space-7);">
+      <a href="{{ '/relationships' | relative_url }}" class="btn-text">Back to Relationships</a>
+    </nav>
+  </div>
+</article>

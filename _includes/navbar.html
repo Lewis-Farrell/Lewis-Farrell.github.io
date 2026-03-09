@@ -1,0 +1,17 @@
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}" class="navbar-brand">Lewis Farrell</a>
+    <ul class="navbar-links">
+      <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+      <li><a href="{{ '/professional' | relative_url }}" {% if page.url contains 'professional' %}class="active"{% endif %}>Professional</a></li>
+      <li><a href="{{ '/relationships' | relative_url }}" {% if page.url contains 'relationships' %}class="active"{% endif %}>Relationships</a></li>
+      <li><a href="{{ '/reports' | relative_url }}" {% if page.url contains 'reports' %}class="active"{% endif %}>Reports</a></li>
+      <li><a href="{{ '/cv' | relative_url }}" {% if page.url contains 'cv' %}class="active"{% endif %}>CV</a></li>
+    </ul>
+    <button class="navbar-toggle" aria-label="Open menu" onclick="openMobileMenu()">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+  </div>
+</nav>

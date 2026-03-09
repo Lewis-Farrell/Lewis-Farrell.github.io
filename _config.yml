@@ -1,0 +1,53 @@
+title: Lewis Farrell
+description: "Build systems. Understand people."
+url: ""
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:slug/
+  essays:
+    output: true
+    permalink: /essays/:slug/
+  ideas:
+    output: true
+    permalink: /ideas/:slug/
+  reports:
+    output: true
+    permalink: /reports/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "essays"
+    values:
+      layout: "essay"
+  - scope:
+      path: ""
+      type: "ideas"
+    values:
+      layout: "idea"
+  - scope:
+      path: ""
+      type: "reports"
+    values:
+      layout: "report"
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
+exclude:
+  - specs
+  - README.md
+  - Gemfile
+  - Gemfile.lock

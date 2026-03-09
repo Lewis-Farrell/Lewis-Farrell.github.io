@@ -1,0 +1,49 @@
+:root {
+  /* Colors */
+  --bg-primary: #0B1020;
+  --bg-secondary: #121A2B;
+  --surface: #161F33;
+  --surface-hover: #1D2942;
+  --border: rgba(255, 255, 255, 0.08);
+  --text-primary: #F5F7FB;
+  --text-secondary: #B7C0D1;
+  --text-muted: #7F8AA3;
+  --accent-primary: #4DA3FF;
+  --accent-hover: #78B8FF;
+  --accent-soft: rgba(77, 163, 255, 0.12);
+  --success: #3DDC97;
+  --warning: #FFB84D;
+  --secondary-accent: #A78BFA;
+  --secondary-accent-soft: rgba(167, 139, 250, 0.12);
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+
+  /* Radii */
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  /* Container widths */
+  --container-lg: 1200px;
+  --container-md: 960px;
+  --reading-width: 720px;
+
+  /* Shadows */
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.2);
+  --shadow-card-hover: 0 8px 24px rgba(0, 0, 0, 0.3);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+}

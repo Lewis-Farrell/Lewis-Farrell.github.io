@@ -1,0 +1,17 @@
+<a href="{{ include.essay.url | relative_url }}" class="entry-item">
+  <div class="entry-body">
+    <h3 class="entry-title">{{ include.essay.title }}</h3>
+    {% if include.essay.summary %}<p class="entry-desc">{{ include.essay.summary }}</p>{% endif %}
+    {% if include.essay.tags %}
+    <div class="entry-tags">
+      {% for tag in include.essay.tags %}
+      <span class="entry-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  <div class="entry-meta">
+    {% if include.essay.date %}<span class="entry-date">{{ include.essay.date | date: "%b %Y" }}</span>{% endif %}
+    {% if include.essay.reading_time %}<span class="entry-read-time">{{ include.essay.reading_time }} min</span>{% endif %}
+  </div>
+</a>

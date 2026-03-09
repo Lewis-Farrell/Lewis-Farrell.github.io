@@ -1,0 +1,12 @@
+<a href="{{ include.project.url | relative_url }}" class="entry-item">
+  <div class="entry-body">
+    {% if include.project.category %}
+    <div class="entry-tags"><span class="entry-tag">{{ include.project.category }}</span></div>
+    {% endif %}
+    <h3 class="entry-title">{{ include.project.title }}</h3>
+    {% if include.project.summary %}<p class="entry-desc">{{ include.project.summary }}</p>{% endif %}
+  </div>
+  <div class="entry-meta">
+    {% if include.project.status == 'active' %}<span class="entry-date">Active</span>{% endif %}
+  </div>
+</a>
