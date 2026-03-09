@@ -13,7 +13,7 @@ technologies:
   - AWS
   - Docker
 links:
-  github: https://github.com/
+  github:
   demo:
   documentation:
 hero_image:

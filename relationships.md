@@ -31,7 +31,7 @@ page_class: relationships
         </ul>
         <a href="#" class="btn btn-secondary" style="align-self:flex-start;">Explore Affinity</a>
       </div>
-      <div class="product-module-visual">Product visual</div>
+      <div class="product-module-visual"></div>
     </div>
   </div>
 </section>

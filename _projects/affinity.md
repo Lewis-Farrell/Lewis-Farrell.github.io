@@ -13,7 +13,7 @@ technologies:
   - PostgreSQL
   - Data Analysis
 links:
-  github: https://github.com/
+  github:
   demo:
   documentation:
 hero_image:

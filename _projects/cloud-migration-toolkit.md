@@ -13,7 +13,7 @@ technologies:
   - Python
   - Documentation
 links:
-  github: https://github.com/
+  github:
   demo:
   documentation:
 hero_image:
