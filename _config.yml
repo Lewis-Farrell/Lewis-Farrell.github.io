@@ -1,7 +1,7 @@
 title: Lewis Farrell
 description: "Build systems. Understand people."
 url: "https://lewis-farrell.github.io"
-baseurl: "/lewisfarrell.io"
+baseurl: ""
 
 markdown: kramdown
 permalink: pretty
