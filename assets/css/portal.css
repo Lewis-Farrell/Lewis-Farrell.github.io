@@ -794,6 +794,7 @@ body.portal-body {
     flex-direction: column;
     height: auto;
     min-height: calc(100vh - 52px);
+    margin-top: 52px;
   }
 
   .portal-panel {
@@ -809,7 +810,7 @@ body.portal-body {
     flex: none;
     width: 100%;
     min-height: auto;
-    padding: 40px 24px;
+    padding: 28px 24px;
     border-right: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   }
@@ -823,8 +824,8 @@ body.portal-body {
   }
 
   .bio-avatar {
-    width: 80px;
-    height: 80px;
+    width: 72px;
+    height: 72px;
     flex-shrink: 0;
   }
 
@@ -838,18 +839,37 @@ body.portal-body {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
   }
 
-  /* Always show revealed content on touch devices */
+  /* Disable all hover/transition effects on touch — prevents glitch */
+  .portal-panel,
+  .panel-bg,
+  .panel-overlay,
+  .portal-content,
+  .pc-title,
+  .pc-eyebrow,
+  .pc-reveal,
+  .panel-professional::before,
+  .panel-relationships::before {
+    transition: none !important;
+    animation: none;
+  }
+
+  .portal-panel:not(.panel-bio):hover .panel-bg {
+    transform: none;
+  }
+
+  .panel-overlay {
+    background: rgba(0, 0, 0, 0.3) !important;
+  }
+
+  /* Always show revealed content */
   .pc-reveal {
     opacity: 1;
     transform: none;
   }
 
-  .pc-title {
+  .pc-title,
+  .pc-eyebrow {
     transform: none !important;
-  }
-
-  .panel-overlay {
-    background: rgba(0, 0, 0, 0.3) !important;
   }
 
   .portal-nav {
