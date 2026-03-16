@@ -2,33 +2,137 @@
 layout: default
 page_class: essay
 ---
-<article class="essay-page">
-  <div class="container-reading-wide">
-    <header class="page-hero" style="text-align: left; padding-bottom: var(--space-6);">
-      <h1>{{ page.title }}</h1>
-      <div class="metadata-row" style="margin-top: var(--space-4);">
-        {% if page.date %}<span>{{ page.date | date: "%B %d, %Y" }}</span>{% endif %}
-        {% if page.reading_time %}
-        <span class="separator"></span>
-        <span>{{ page.reading_time }} min read</span>
-        {% endif %}
-      </div>
-      {% if page.tags %}
-      <div class="tag-list" style="margin-top: var(--space-4);">
-        {% for tag in page.tags %}
-        <span class="badge badge-secondary">{{ tag }}</span>
-        {% endfor %}
-      </div>
+
+<article class="article">
+  <!-- Article Header -->
+  <header class="article__header">
+    <span class="article__category">{{ page.category | default: "Intimacy Economics" }}</span>
+    <h1 class="article__title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <p class="article__subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+    <div class="article__meta">
+      <span class="article__meta-item">{{ page.date | date: "%B %d, %Y" }}</span>
+      <span class="article__meta-separator">·</span>
+      <span class="article__meta-item">{{ page.reading_time | default: "8 min read" }}</span>
+      {% if page.section %}
+        <span class="article__meta-separator">·</span>
+        <span class="article__meta-item">{{ page.section }}</span>
       {% endif %}
-    </header>
-
-    <div class="reading-content">
-      {{ content }}
     </div>
+  </header>
 
-    <nav class="section" style="border-top: 1px solid var(--border); margin-top: var(--space-8); padding-top: var(--space-7);">
-      <a href="{{ '/relationships' | relative_url }}" class="btn-text">Back to Relationships</a>
-    </nav>
+  <!-- Article Layout (3 columns) -->
+  <div class="article__layout">
+    <!-- Left Share Rail -->
+    <aside class="article__share">
+      <div class="article__share-sticky">
+        <button class="share-button" title="Share" aria-label="Share article">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/>
+          </svg>
+        </button>
+        <button class="share-button" title="Copy link" aria-label="Copy link">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/>
+          </svg>
+        </button>
+        <a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url }}" target="_blank" class="share-button" title="Share on X" aria-label="Share on X">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url }}" target="_blank" class="share-button" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </a>
+        <button class="share-button" title="Save" aria-label="Save article">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/>
+          </svg>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Reading Column -->
+    <main class="article__content">
+      {% if page.lead %}
+        <p class="article__lead">{{ page.lead }}</p>
+      {% endif %}
+
+      <div class="article__body">
+        {{ content }}
+      </div>
+
+      <!-- Author Footer -->
+      <footer class="article__author">
+        <div class="article__author-photo">
+          <img src="{{ '/assets/images/headshot.jpg' | relative_url }}" alt="Lewis Farrell" onerror="this.style.display='none'">
+        </div>
+        <div class="article__author-info">
+          <h3 class="article__author-name">Lewis Farrell</h3>
+          <p class="article__author-bio">Management consultant at Woodhurst, writing on systems, incentives, and intimacy economics. Studied Economics & Management at Oxford. Explores how strategic thinking applies to organisations, dating, and modern relationships.</p>
+          <div class="article__author-links">
+            <a href="{{ '/professional' | relative_url }}">Professional</a>
+            <a href="{{ '/relationships' | relative_url }}">Relationships</a>
+            <a href="{{ '/cv' | relative_url }}">CV</a>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Article Footer Navigation -->
+      <nav class="article__footer-nav">
+        <a href="{{ '/relationships' | relative_url }}" class="article__footer-link">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+          </svg>
+          Back to Relationships
+        </a>
+      </nav>
+
+      <!-- Article Closure -->
+      <div class="article__closure">
+        <div class="article__closure-divider"></div>
+        <p class="article__closure-text">Part of the Intimacy Economics series</p>
+      </div>
+    </main>
+
+    <!-- Right Sidebar -->
+    <aside class="article__sidebar">
+      <div class="article__sidebar-sticky">
+
+        <!-- Affinity Promo Module -->
+        <div class="article__sidebar-module sidebar-module--featured">
+          <span class="sidebar-module__label">Product</span>
+          <h3 class="sidebar-module__title">Affinity</h3>
+          <p class="sidebar-module__text">A decision-making tool for dating and relationship clarity — built on the principles discussed in this essay.</p>
+          <a href="#" class="sidebar-module__link">Explore Affinity →</a>
+        </div>
+
+        <!-- Related Essays Module -->
+        <div class="article__sidebar-module">
+          <h4 class="sidebar-module__heading">Related Essays</h4>
+          <ul class="sidebar-module__list">
+            {% assign current_id = page.slug %}
+            {% for essay in site.essays limit:3 %}
+              {% if essay.slug != current_id and essay.status != 'draft' %}
+                <li class="sidebar-module__list-item">
+                  <a href="{{ essay.url | relative_url }}" class="sidebar-module__list-link">{{ essay.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+
+        <!-- Newsletter / Email CTA Module -->
+        <div class="article__sidebar-module sidebar-module--cta">
+          <h4 class="sidebar-module__heading">Stay Updated</h4>
+          <p class="sidebar-module__text">New essays on incentives, markets, and modern relationships.</p>
+          <a href="#" class="sidebar-module__button">Subscribe</a>
+        </div>
+
+      </div>
+    </aside>
   </div>
 </article>
-

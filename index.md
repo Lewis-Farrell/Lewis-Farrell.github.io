@@ -33,20 +33,6 @@ Intellectually, I explore intimacy through economics, game theory, and anthropol
     <!-- Background scene: network / systems diagram -->
     <div class="panel-scene" aria-hidden="true">
       <svg class="scene-pro" viewBox="0 0 960 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-        <!-- Faint grid -->
-        <g stroke="rgba(77,163,255,0.04)" stroke-width="0.5" fill="none">
-          <line x1="0" y1="80"  x2="960" y2="80"/>
-          <line x1="0" y1="160" x2="960" y2="160"/>
-          <line x1="0" y1="240" x2="960" y2="240"/>
-          <line x1="0" y1="320" x2="960" y2="320"/>
-          <line x1="0" y1="400" x2="960" y2="400"/>
-          <line x1="0" y1="480" x2="960" y2="480"/>
-          <line x1="160" y1="0" x2="160" y2="560"/>
-          <line x1="320" y1="0" x2="320" y2="560"/>
-          <line x1="480" y1="0" x2="480" y2="560"/>
-          <line x1="640" y1="0" x2="640" y2="560"/>
-          <line x1="800" y1="0" x2="800" y2="560"/>
-        </g>
         <!-- Connection lines -->
         <g stroke="rgba(77,163,255,0.10)" stroke-width="1" fill="none">
           <line x1="160" y1="140" x2="320" y2="80"/>
@@ -91,15 +77,15 @@ Intellectually, I explore intimacy through economics, game theory, and anthropol
       <p class="pc-eyebrow">Professional</p>
       <h2 class="pc-title">Strategy &amp; Systems</h2>
       <div class="pc-reveal">
-        <p class="pc-desc">Consulting, systems implementation, strategy, and technical work.</p>
+        <p class="pc-desc">Designing and implementing data systems for organisations — combining strategy, architecture, and technical delivery.</p>
         <div class="pc-chips">
           <span class="pc-chip">Projects</span>
           <span class="pc-chip">Reports</span>
+          <span class="pc-chip">Experience</span>
           <span class="pc-chip">CV</span>
-          <span class="pc-chip">Apps</span>
         </div>
         <div class="pc-entry">
-          Explore Work
+          View Professional Work
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/>
           </svg>

@@ -8,7 +8,7 @@ page_class: professional
   <div class="container">
     <span class="eyebrow">Professional</span>
     <h1>Strategy &amp; Systems</h1>
-    <p>I design and implement systems for organisations, combining strategy, data architecture, and execution to deliver lasting change.</p>
+    <p>I design and implement data systems for organisations — combining strategy, architecture, and technical delivery to create lasting change.</p>
   </div>
 </section>
 
@@ -44,7 +44,7 @@ page_class: professional
   <div class="container">
     {% include section-header.html
       eyebrow="Projects"
-      heading="Systems and Products"
+      heading="Systems &amp; Products"
       text="Technical systems, implementation work, and products built around complex problem-solving."
     %}
     <div class="entry-list">
@@ -63,9 +63,9 @@ page_class: professional
 <section class="section" id="reports">
   <div class="container">
     {% include section-header.html
-      eyebrow="Reports"
-      heading="Research &amp; Analysis"
-      text="Research, analysis, and structured thinking on strategy, systems, and technology."
+      eyebrow="Research"
+      heading="Reports &amp; Analysis"
+      text="Structured thinking on strategy, data systems, and technology across sectors."
     %}
     <div class="entry-list">
       {% for report in site.reports %}
@@ -80,11 +80,14 @@ page_class: professional
 <!-- CV -->
 <section class="section" id="cv">
   <div class="container">
-    <h2 style="font-size:28px;letter-spacing:-0.02em;margin-bottom:var(--space-4);">Curriculum Vitae</h2>
-    <p style="font-size:16px;color:var(--text-secondary);max-width:460px;margin-bottom:var(--space-6);">A detailed overview of my experience across consulting, systems design, technical delivery, and product thinking.</p>
+    {% include section-header.html
+      eyebrow="Background"
+      heading="Curriculum Vitae"
+      text="Full experience, skills, and career detail across consulting, systems design, and technical delivery."
+    %}
     <div style="display:flex;gap:var(--space-4);flex-wrap:wrap;">
-      <a href="/assets/pdfs/lewis-farrell-cv.pdf" class="btn btn-primary" download>Download PDF</a>
-      <a href="/cv" class="btn btn-secondary">View CV Page</a>
+      <a href="/cv" class="btn btn-primary">View Full CV</a>
+      <a href="/assets/pdfs/lewis-farrell-cv.pdf" class="btn btn-secondary" download>Download PDF</a>
     </div>
   </div>
 </section>

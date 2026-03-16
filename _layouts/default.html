@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="{{ '/assets/css/components.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/animations.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/subpage.css' | relative_url }}">
+  {% if page.url contains '/essays/' %}
+  <link rel="stylesheet" href="{{ '/assets/css/article.css' | relative_url }}">
+  {% endif %}
   {% if page.math %}
   <script>
     MathJax = {
@@ -25,7 +28,7 @@
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
   {% endif %}
 </head>
-<body{% if page.page_class %} class="page-{{ page.page_class }}"{% endif %}>
+<body{% if page.url contains '/essays/' %} class="page-essay"{% elsif page.page_class %} class="page-{{ page.page_class }}"{% endif %}>
   <div class="page-bg-layer" aria-hidden="true"></div>
   <div class="page-frame" aria-hidden="true"></div>
   {% include navbar.html %}
