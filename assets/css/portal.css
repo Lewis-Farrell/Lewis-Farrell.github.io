@@ -207,16 +207,41 @@ body.portal-body {
   transform: none;
 }
 
-/* Ambient glow behind avatar in bio panel */
-.panel-bio .panel-bg::before {
+/* Bio panel vignette for depth */
+.panel-bio .panel-bg::after {
   content: '';
   position: absolute;
   inset: 0;
   background: radial-gradient(
-    ellipse 70% 55% at 50% 45%,
-    rgba(77, 163, 255, 0.1) 0%,
-    transparent 70%
+    ellipse 100% 100% at 50% 50%,
+    transparent 0%,
+    transparent 40%,
+    rgba(0, 0, 0, 0.12) 100%
   );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Topographic contours + ambient glow in bio panel */
+.panel-bio .panel-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    /* Single topographic contour ring */
+    repeating-radial-gradient(
+      circle at 50% 45%,
+      transparent 0px,
+      transparent 120px,
+      rgba(77, 163, 255, 0.028) 120px,
+      rgba(77, 163, 255, 0.028) 122px
+    ),
+    /* Ambient glow behind avatar */
+    radial-gradient(
+      ellipse 70% 55% at 50% 45%,
+      rgba(77, 163, 255, 0.1) 0%,
+      transparent 70%
+    );
   pointer-events: none;
   animation: bioAmbientDrift 18s ease-in-out infinite;
 }
@@ -241,7 +266,7 @@ body.portal-body {
    ============================ */
 .panel-content {
   position: relative;
-  z-index: 4;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -252,8 +277,10 @@ body.portal-body {
 }
 
 .bio-content {
-  align-items: flex-start;
-  text-align: left;
+  position: relative;
+  z-index: 10;
+  align-items: center;
+  text-align: center;
   padding: 48px;
   gap: 28px;
   width: 100%;
@@ -344,15 +371,13 @@ body.portal-body {
   background: linear-gradient(160deg, #0a1628 0%, #0B1020 55%, #070e1c 100%);
 }
 
-/* Grid texture */
+/* No grid - clean background */
 .panel-professional .panel-bg::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-image:
-    linear-gradient(rgba(77, 163, 255, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(77, 163, 255, 0.035) 1px, transparent 1px);
-  background-size: 48px 48px;
+  background: transparent;
+  z-index: 0;
 }
 
 /* Animated ambient blue bloom */
@@ -389,59 +414,129 @@ body.portal-body {
 .scene-hub:nth-child(6) { animation-delay: -3.75s; }
 
 /* ============================
-   Relationships — base gradient + aurora
+   Relationships — purple galaxy with nebula clouds
    ============================ */
 .panel-relationships .panel-bg {
-  background: linear-gradient(160deg, #120b2a 0%, #0e0920 55%, #0B1020 100%);
+  background:
+    radial-gradient(ellipse at 15% 25%, #1a0a2e 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 75%, #0f051f 0%, transparent 50%),
+    linear-gradient(160deg, #0d0620 0%, #0a0515 55%, #0B1020 100%);
 }
 
+/* Layer 1: Subtle game theory diagram lines */
 .panel-relationships .panel-bg::before {
   content: '';
   position: absolute;
   inset: 0;
   background-image:
-    radial-gradient(circle at 25% 35%, rgba(139, 92, 246, 0.07) 0%, transparent 50%),
-    radial-gradient(circle at 75% 65%, rgba(167, 139, 250, 0.05) 0%, transparent 45%);
+    /* Starfield */
+    radial-gradient(0.8px 0.8px at 22% 18%, rgba(255, 255, 255, 0.2), transparent),
+    radial-gradient(0.6px 0.6px at 38% 65%, rgba(255, 255, 255, 0.15), transparent),
+    radial-gradient(0.7px 0.7px at 68% 28%, rgba(255, 255, 255, 0.18), transparent),
+    radial-gradient(0.5px 0.5px at 78% 72%, rgba(255, 255, 255, 0.12), transparent),
+    radial-gradient(0.6px 0.6px at 15% 85%, rgba(255, 255, 255, 0.14), transparent),
+
+    /* Decision nodes - small purple dots at strategic points */
+    radial-gradient(circle 3.5px at 30% 28%, rgba(200, 160, 255, 0.28), transparent),
+    radial-gradient(circle 3px at 45% 48%, rgba(200, 160, 255, 0.25), transparent),
+    radial-gradient(circle 3.5px at 65% 35%, rgba(200, 160, 255, 0.27), transparent),
+    radial-gradient(circle 3px at 55% 68%, rgba(200, 160, 255, 0.24), transparent),
+    radial-gradient(circle 3px at 25% 70%, rgba(200, 160, 255, 0.26), transparent),
+
+    /* Minimal diagonal branches suggesting decision trees */
+    linear-gradient(
+      40deg,
+      transparent 0%,
+      transparent 35%,
+      rgba(200, 160, 255, 0.035) 35%,
+      rgba(200, 160, 255, 0.035) 35.4%,
+      transparent 35.4%,
+      transparent 100%
+    ),
+    linear-gradient(
+      140deg,
+      transparent 0%,
+      transparent 58%,
+      rgba(200, 160, 255, 0.032) 58%,
+      rgba(200, 160, 255, 0.032) 58.4%,
+      transparent 58.4%,
+      transparent 100%
+    ),
+    linear-gradient(
+      -50deg,
+      transparent 0%,
+      transparent 48%,
+      rgba(200, 160, 255, 0.03) 48%,
+      rgba(200, 160, 255, 0.03) 48.4%,
+      transparent 48.4%,
+      transparent 100%
+    );
+
+  background-size: 100% 100%;
+  animation: economicDiagramDrift 58s ease-in-out infinite;
+  z-index: 1;
 }
 
-/* Animated ambient violet bloom */
+/* Layer 2: Subtle ambient glow only */
 .panel-relationships .panel-bg::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(
-    ellipse 70% 65% at 50% 50%,
-    rgba(139, 92, 246, 0.15) 0%,
-    transparent 70%
-  );
-  animation: relationshipsPulse 28s ease-in-out infinite;
+  background-image:
+    /* Subtle ambient glow */
+    radial-gradient(
+      ellipse 65% 55% at 32% 42%,
+      rgba(139, 92, 246, 0.08) 0%,
+      transparent 65%
+    ),
+    radial-gradient(
+      ellipse 55% 60% at 72% 62%,
+      rgba(147, 51, 234, 0.06) 0%,
+      transparent 60%
+    );
+
+  background-size: 100% 100%;
+  animation: relationshipsGlowDrift 28s ease-in-out infinite;
+  z-index: 0;
 }
 
-/* Relationships background scene — organic gradient blobs */
+/* Relationships background scene — nebula clouds */
 .panel-relationships .panel-scene::before {
   content: '';
   position: absolute;
-  width: 560px;
-  height: 560px;
-  left: -120px;
-  top: -80px;
+  width: 600px;
+  height: 600px;
+  left: -100px;
+  top: -50px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(139, 92, 246, 0.13) 0%, rgba(167, 139, 250, 0.06) 45%, transparent 70%);
-  filter: blur(64px);
-  animation: relBlob1 48s ease-in-out infinite;
+  background: radial-gradient(
+    circle,
+    rgba(139, 92, 246, 0.15) 0%,
+    rgba(167, 139, 250, 0.08) 35%,
+    rgba(88, 28, 135, 0.04) 50%,
+    transparent 70%
+  );
+  filter: blur(70px);
+  animation: nebula1Drift 55s ease-in-out infinite;
 }
 
 .panel-relationships .panel-scene::after {
   content: '';
   position: absolute;
-  width: 440px;
-  height: 440px;
-  right: -90px;
-  bottom: 40px;
+  width: 500px;
+  height: 500px;
+  right: -80px;
+  bottom: -30px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(219, 39, 119, 0.09) 0%, rgba(167, 139, 250, 0.05) 50%, transparent 70%);
-  filter: blur(80px);
-  animation: relBlob2 62s ease-in-out infinite;
+  background: radial-gradient(
+    circle,
+    rgba(147, 51, 234, 0.12) 0%,
+    rgba(126, 34, 206, 0.06) 40%,
+    rgba(88, 28, 135, 0.03) 55%,
+    transparent 70%
+  );
+  filter: blur(85px);
+  animation: nebula2Drift 70s ease-in-out infinite;
 }
 
 /* ============================
@@ -683,11 +778,11 @@ body.portal-body {
   66%       { opacity: 0.7; transform: translate(5%, 4%) scale(0.94); }
 }
 
-/* Relationships ambient bloom pulse */
-@keyframes relationshipsPulse {
-  0%, 100% { opacity: 0.7; transform: translate(0, 0) scale(1); }
-  35%       { opacity: 1;   transform: translate(4%, -4%) scale(1.07); }
-  70%       { opacity: 0.75; transform: translate(-3%, 5%) scale(0.95); }
+/* Relationships nebula glow pulse */
+@keyframes nebulaGlow {
+  0%, 100% { opacity: 0.75; transform: translate(0, 0) scale(1); }
+  35%       { opacity: 1;   transform: translate(3%, -2%) scale(1.05); }
+  70%       { opacity: 0.8; transform: translate(-2%, 3%) scale(0.97); }
 }
 
 /* Professional SVG scene drift */
@@ -703,18 +798,73 @@ body.portal-body {
   50%       { opacity: 1;   transform: scale(1.6); }
 }
 
-/* Relationships blob 1 — top left */
-@keyframes relBlob1 {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  33%       { transform: translate(55px, 35px) scale(1.15); }
-  66%       { transform: translate(-30px, 65px) scale(0.9); }
+/* Nebula cloud 1 — gentle drift */
+@keyframes nebula1Drift {
+  0%, 100% { transform: translate(0, 0) scale(1) rotate(0deg); }
+  33%       { transform: translate(30px, 20px) scale(1.08) rotate(1deg); }
+  66%       { transform: translate(-20px, 40px) scale(0.95) rotate(-1deg); }
 }
 
-/* Relationships blob 2 — bottom right */
-@keyframes relBlob2 {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  40%       { transform: translate(-65px, -45px) scale(1.2); }
-  75%       { transform: translate(45px, 55px) scale(0.88); }
+/* Nebula cloud 2 — gentle drift */
+@keyframes nebula2Drift {
+  0%, 100% { transform: translate(0, 0) scale(1) rotate(0deg); }
+  40%       { transform: translate(-40px, -30px) scale(1.12) rotate(-1.5deg); }
+  75%       { transform: translate(30px, 35px) scale(0.92) rotate(1deg); }
+}
+
+/* Systems grid drift — professional panel */
+@keyframes systemsGridDrift {
+  0%, 100% { transform: translate(0, 0); }
+  45%       { transform: translate(-5px, -4px); }
+  80%       { transform: translate(4px, 5px); }
+}
+
+/* Diagram layer drift — matrices and decision trees */
+@keyframes economicDiagramDrift {
+  0%, 100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  35% {
+    transform: translate(-7px, -5px);
+    opacity: 0.92;
+  }
+  70% {
+    transform: translate(5px, 7px);
+    opacity: 0.88;
+  }
+}
+
+/* Curves layer float — indifference curves and payoffs */
+@keyframes economicCurvesFloat {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  40% {
+    transform: translate(6px, -4px) scale(1.01);
+    opacity: 0.9;
+  }
+  75% {
+    transform: translate(-5px, 6px) scale(0.99);
+    opacity: 0.94;
+  }
+}
+
+/* Relationships ambient glow drift — similar to professional */
+@keyframes relationshipsGlowDrift {
+  0%, 100% {
+    opacity: 0.85;
+    transform: translate(0, 0) scale(1);
+  }
+  35% {
+    opacity: 1;
+    transform: translate(-3%, -2%) scale(1.04);
+  }
+  68% {
+    opacity: 0.75;
+    transform: translate(4%, 3%) scale(0.96);
+  }
 }
 
 /* ============================
@@ -741,7 +891,9 @@ body.portal-body {
 
   .bio-avatar,
   .panel-bio .panel-bg::before,
+  .panel-professional .panel-bg::before,
   .panel-professional .panel-bg::after,
+  .panel-relationships .panel-bg::before,
   .panel-relationships .panel-bg::after,
   .panel-relationships .panel-scene::before,
   .panel-relationships .panel-scene::after,
