@@ -39,6 +39,24 @@ document.addEventListener('keydown', function (e) {
   }
 });
 
+// Reading progress bar — essay pages only
+(function () {
+  if (!document.querySelector('.article')) return;
+
+  var bar = document.createElement('div');
+  bar.className = 'reading-progress';
+  document.body.appendChild(bar);
+
+  function updateBar() {
+    var scrolled = window.scrollY;
+    var total = document.documentElement.scrollHeight - window.innerHeight;
+    bar.style.width = total > 0 ? Math.min((scrolled / total) * 100, 100) + '%' : '0';
+  }
+
+  window.addEventListener('scroll', updateBar, { passive: true });
+  updateBar();
+})();
+
 // Fade-in on scroll (Intersection Observer)
 (function () {
   if (!('IntersectionObserver' in window)) {

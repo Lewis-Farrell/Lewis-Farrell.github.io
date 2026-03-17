@@ -23,7 +23,7 @@ Professionally, I design and implement data systems for organisations.
 Intellectually, I explore intimacy through economics, game theory, and anthropology.</p>
         <p class="bio-cred">Oxford · Management Consultant · Woodhurst</p>
       </div>
-    </div>
+    </div>![alt text](image.png)
   </div>
 
   <!-- Professional -->
