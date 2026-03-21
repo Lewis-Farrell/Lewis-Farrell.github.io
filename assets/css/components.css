@@ -223,6 +223,10 @@
   cursor: pointer;
   padding: var(--space-2);
   color: var(--text-primary);
+  min-width: 44px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar-toggle svg {
@@ -236,7 +240,7 @@
   }
 
   .navbar-toggle {
-    display: block;
+    display: flex;
   }
 }
 
@@ -275,6 +279,11 @@
   color: var(--text-primary);
   cursor: pointer;
   padding: var(--space-2);
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mobile-menu-close svg {
@@ -372,6 +381,7 @@
 .footer {
   border-top: 1px solid var(--border);
   padding: var(--space-8) 0;
+  padding-bottom: calc(var(--space-8) + env(safe-area-inset-bottom));
   margin-top: var(--space-9);
 }
 

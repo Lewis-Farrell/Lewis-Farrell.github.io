@@ -253,6 +253,40 @@
   font-feature-settings: 'liga' 1, 'kern' 1;
   orphans: 3;
   widows: 3;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.article__body pre {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.article__body code {
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+.article__body pre code {
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+.article__body table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}
+
+.article__body img {
+  max-width: 100%;
+  height: auto;
+}
+
+.article__body a {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .article__body > p {
