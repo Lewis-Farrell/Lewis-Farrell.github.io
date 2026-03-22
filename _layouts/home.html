@@ -16,6 +16,16 @@
 
   <header class="portal-nav">
     <a href="{{ '/' | relative_url }}" class="portal-brand">Lewis Farrell</a>
+    <!-- Mobile-only bio strip (replaces bio panel on small screens) -->
+    <div class="portal-nav-bio">
+      <div class="nav-bio-avatar">
+        <img src="/assets/images/headshot.jpg" alt="Lewis Farrell" onerror="this.style.display='none'">
+      </div>
+      <div class="nav-bio-identity">
+        <span class="nav-bio-name">Lewis Farrell</span>
+        <span class="nav-bio-title">Consultant ~ Intimacy Economist</span>
+      </div>
+    </div>
     <nav class="portal-nav-links">
       <a href="{{ '/professional' | relative_url }}">Professional</a>
       <a href="{{ '/relationships' | relative_url }}">Relationships</a>
