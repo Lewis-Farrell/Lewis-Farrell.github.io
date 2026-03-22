@@ -1087,17 +1087,17 @@ body.portal-body {
   /* Flex column body fills exactly the viewport */
   body.portal-body {
     height: 100dvh;
-    overflow: hidden;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
   }
 
-  /* Header: in-flow, not fixed */
+  /* Header: in-flow, not fixed — browser handles safe area automatically */
   .portal-nav {
     position: relative;
     flex-shrink: 0;
     height: auto;
-    padding: calc(env(safe-area-inset-top) + 10px) 20px 10px;
+    padding: 10px 20px;
   }
 
   /* Bio strip in header — show on mobile */
@@ -1129,16 +1129,14 @@ body.portal-body {
     min-height: 0;
     flex-direction: column;
     width: 100vw;
-    overflow: hidden;
-    /* reset desktop styles */
     height: auto;
     margin-top: 0;
   }
 
-  /* Each panel gets half the portal height */
+  /* Panels share available height but have a comfortable minimum */
   .portal-panel {
     flex: 1;
-    min-height: 0;
+    min-height: 44vh;
     transition: none !important;
   }
 
