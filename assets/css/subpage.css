@@ -872,8 +872,12 @@ body.page-cv .card:hover {
 .essay-scroll-container {
   width: 100%;
   overflow-x: auto;
-  overflow-y: visible !important;
+  overflow-y: visible;
   -webkit-overflow-scrolling: touch;
+  padding-top: 8px;
+  margin-top: -8px;
+  padding-bottom: 12px;
+  margin-bottom: -12px;
   scrollbar-width: thin;
   scrollbar-color: rgba(77, 163, 255, 0.3) transparent;
   margin-top: var(--space-4);

@@ -78,9 +78,7 @@ title: Lewis Farrell
         <p class="pc-desc">Designing and implementing data systems for organisations — combining strategy, architecture, and technical delivery.</p>
         <div class="pc-chips">
           <span class="pc-chip">Projects</span>
-          <span class="pc-chip">Reports</span>
           <span class="pc-chip">Experience</span>
-          <span class="pc-chip">CV</span>
         </div>
         <div class="pc-entry">
           View Professional Work
