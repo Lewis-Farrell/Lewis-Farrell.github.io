@@ -57,37 +57,3 @@ page_class: professional
   </div>
 </section>
 
-<div class="section-divider"></div>
-
-<!-- Reports -->
-<section class="section" id="reports">
-  <div class="container">
-    {% include section-header.html
-      eyebrow="Research"
-      heading="Reports &amp; Analysis"
-      text="Structured thinking on strategy, data systems, and technology across sectors."
-    %}
-    <div class="entry-list">
-      {% for report in site.reports %}
-        {% include report-card.html report=report %}
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<div class="section-divider"></div>
-
-<!-- CV -->
-<section class="section" id="cv">
-  <div class="container">
-    {% include section-header.html
-      eyebrow="Background"
-      heading="Curriculum Vitae"
-      text="Full experience, skills, and career detail across consulting, systems design, and technical delivery."
-    %}
-    <div style="display:flex;gap:var(--space-4);flex-wrap:wrap;">
-      <a href="/cv" class="btn btn-primary">View Full CV</a>
-      <a href="/assets/pdfs/lewis-farrell-cv.pdf" class="btn btn-secondary" download>Download PDF</a>
-    </div>
-  </div>
-</section>

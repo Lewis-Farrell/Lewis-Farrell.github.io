@@ -2,7 +2,7 @@
 title: Opportunity Cost and the Paradox of Choice
 date: 2024-07-12
 excerpt: How abundance in dating markets increases search costs and decision paralysis, paradoxically reducing matching efficiency.
-image: /assets/images/essays/opportunity-cost.jpg
+image: /assets/images/essays/opportunity-cost.png
 status: published
 lead: More choice should improve outcomes. In dating markets, it often does the opposite—abundance increases search costs, heightens opportunity cost awareness, and creates decision paralysis that reduces matching efficiency.
 reading_time: 10 min read
