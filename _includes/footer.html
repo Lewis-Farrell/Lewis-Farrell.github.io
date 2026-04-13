@@ -1,30 +1,15 @@
 <footer class="footer">
   <div class="container">
     <div class="footer-inner">
-      <div>
-        <p class="footer-brand">Lewis Farrell</p>
-        <p class="footer-tagline">Build systems. Understand people.</p>
-      </div>
-      <div class="footer-links">
-        <div class="footer-col">
-          <h4>Navigate</h4>
-          <ul>
-            <li><a href="{{ '/' | relative_url }}">Home</a></li>
-            <li><a href="{{ '/professional' | relative_url }}">Professional</a></li>
-            <li><a href="{{ '/relationships' | relative_url }}">Relationships</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Connect</h4>
-          <ul>
-            <li><a href="https://github.com/lewis-farrell" target="_blank" rel="noopener">GitHub</a></li>
-            <li><a href="https://linkedin.com/in/-lewisfarrell-" target="_blank" rel="noopener">LinkedIn</a></li>
-          </ul>
-        </div>
-      </div>
+      <p class="footer-brand">Lewis Farrell</p>
+      <nav class="footer-nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/professional' | relative_url }}">Professional</a>
+        <a href="{{ '/relationships' | relative_url }}">Relationships</a>
+        <a href="https://github.com/lewis-farrell" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/-lewisfarrell-" target="_blank" rel="noopener">LinkedIn</a>
+      </nav>
     </div>
-    <div class="footer-bottom">
-      <p>&copy; {{ 'now' | date: "%Y" }} Lewis Farrell. All rights reserved.</p>
-    </div>
+    <p class="footer-copy">&copy; {{ 'now' | date: "%Y" }} Lewis Farrell</p>
   </div>
 </footer>

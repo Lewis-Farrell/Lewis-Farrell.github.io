@@ -22,13 +22,13 @@ page_class: professional
     %}
     <div class="timeline">
       <div class="timeline-item fade-in">
-        <p class="timeline-date">2024 — Present</p>
+        <p class="timeline-date">Jun 2024 — Present</p>
         <h3 class="timeline-title">Management Consultant</h3>
         <p class="timeline-org">Woodhurst Consulting</p>
         <p class="timeline-desc">Leading data modernisation and cloud transformation across financial services — from strategy and vendor selection through to architecture, implementation, and insight delivery.</p>
       </div>
       <div class="timeline-item fade-in">
-        <p class="timeline-date">2021 — 2024</p>
+        <p class="timeline-date">Oct 2021 — Jun 2024</p>
         <h3 class="timeline-title">Economics &amp; Management</h3>
         <p class="timeline-org">University of Oxford</p>
         <p class="timeline-desc">Specialised in Microeconomics and its application to business. Modules in Game Theory, Strategy, Marketing, and Organisational Behaviour.</p>
@@ -39,7 +39,7 @@ page_class: professional
 
 <div class="section-divider"></div>
 
-<!-- Projects -->
+<!-- Projects
 <section class="section" id="projects">
   <div class="container">
     {% include section-header.html
@@ -55,5 +55,5 @@ page_class: professional
       {% endfor %}
     </div>
   </div>
-</section>
+</section> -->
 

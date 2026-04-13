@@ -36,7 +36,7 @@ body.page-professional .page-bg-layer::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.35;
   animation: sceneDrift 38s ease-in-out infinite;
   z-index: 0;
 }
@@ -153,6 +153,31 @@ main {
   z-index: 10;
 }
 
+/* Solid content panel for professional/relationships — lets the SVG
+   decoration show in the left and right margins. Gradient edges blend
+   the panel naturally into the background rather than hard-cutting. */
+body.page-professional main::before,
+body.page-relationships main::before,
+body.page-professional .footer::before,
+body.page-relationships .footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(1280px, 100%);
+  background: var(--bg-primary);
+  z-index: -1;
+  pointer-events: none;
+}
+
+body.page-professional .footer,
+body.page-relationships .footer {
+  position: relative;
+  margin-top: 0;
+}
+
 /* Ensure all page content stays above background layers */
 .page-hero,
 .section,
@@ -225,8 +250,10 @@ body:not(.portal-body) .navbar .container {
 .page-frame::before { left:  max(var(--space-6), calc(50% - 600px)); }
 .page-frame::after  { right: max(var(--space-6), calc(50% - 600px)); }
 
-/* Essay pages - disable the default frame as article has its own */
-body.page-essay .page-frame {
+/* Essay, professional, relationships — disable frame; panel edge serves the same purpose */
+body.page-essay .page-frame,
+body.page-professional .page-frame,
+body.page-relationships .page-frame {
   display: none;
 }
 
