@@ -16,10 +16,10 @@ title: Lewis Farrell
         </div>
         <div class="bio-identity">
           <h1 class="bio-name">Lewis Farrell</h1>
-          <p class="bio-title">Consultant ~ Intimacy Economist</p>
+          <p class="bio-title">Consultant · Intimacy Economist</p>
         </div>
       </div>
-      <p class="bio-intro">Professionally, I design and implement data systems for organisations. Intellectually, I explore intimacy through economics, game theory, and anthropology.</p>
+      <p class="bio-intro">I design data systems for organisations. I study relationships as systems — shaped by incentives, strategy, and human behaviour.</p>
       <p class="bio-cred">Oxford · Management Consultant · Woodhurst</p>
     </div>
   </div>
@@ -75,7 +75,7 @@ title: Lewis Farrell
       <p class="pc-eyebrow">Professional</p>
       <h2 class="pc-title">Strategy &amp; Systems</h2>
       <div class="pc-reveal">
-        <p class="pc-desc">Designing and implementing data systems for organisations — combining strategy, architecture, and technical delivery.</p>
+        <p class="pc-desc">I design and deliver data systems — spanning strategy, architecture, and implementation — to drive measurable organisational change.</p>
         <div class="pc-chips">
           <span class="pc-chip">Projects</span>
           <span class="pc-chip">Experience</span>
@@ -104,7 +104,7 @@ title: Lewis Farrell
       <p class="pc-eyebrow">Intimacy Economics</p>
       <h2 class="pc-title">Dating &amp; Relationships</h2>
       <div class="pc-reveal">
-        <p class="pc-desc">Essays, frameworks, and products on Intimacy Economics.</p>
+        <p class="pc-desc">Frameworks, essays, and products exploring how modern relationships actually work — beneath the surface.</p>
         <div class="pc-chips">
           <span class="pc-chip">Essays</span>
           <span class="pc-chip">Ideas</span>

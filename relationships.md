@@ -8,7 +8,7 @@ page_class: relationships
   <div class="container">
     <span class="eyebrow">Intimacy Economics</span>
     <h1>Dating &amp; Relationships</h1>
-    <p>Exploring modern intimacy through economics, game theory, and systems thinking — making relationships more explainable and decisions more useful.</p>
+    <p>An economic approach to understanding the interplay of incentives, markets, and strategies within modern dating.</p>
   </div>
 </section>
 
@@ -18,7 +18,7 @@ page_class: relationships
     {% include section-header.html
       eyebrow="Essays"
       heading="Long-Form Writing"
-      text="In-depth analysis on dating, mate choice, incentives, and the market dynamics of modern relationships."
+      text="Articles that apply economic theory to explain modern dating."
     %}
 
     <!-- Horizontal scrolling essay cards -->
@@ -54,16 +54,16 @@ page_class: relationships
     {% include section-header.html
       eyebrow="Product"
       heading="Affinity"
-      text="A practical tool for thinking more clearly about dating and relationship decisions."
+      text="A decision system for clearer thinking in dating and relationships."
     %}
     <div class="product-module fade-in">
       <div class="product-module-text">
-        <p class="product-tagline">Dating decisions improve when you understand the incentives shaping them.</p>
-        <p class="product-desc">Affinity is a reflection and decision-making tool built on the idea that romantic choices are shaped by incentives, preferences, constraints, and behavioral patterns. It helps individuals understand their experiences and make better decisions.</p>
+        <p class="product-tagline">Better decisions come from understanding the incentives behind them.</p>
+        <p class="product-desc">Affinity helps you interpret your dating experiences through structure — mapping preferences, constraints, and behavioural patterns to improve how you choose and act.</p>
         <ul>
-          <li>Structured reflection for individuals</li>
-          <li>Behavioral insight from relationship patterns</li>
-          <li>Practical frameworks for dating decisions</li>
+          <li>Structured reflection and decision frameworks</li>
+          <li>Insight from behavioural patterns over time</li>
+          <li>Applied thinking for real dating situations</li>
         </ul>
         <a href="#" class="btn btn-secondary" style="align-self:flex-start;">Explore Affinity</a>
       </div>

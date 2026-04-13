@@ -8,7 +8,7 @@ page_class: cv
   <div class="container">
     <span class="eyebrow">Curriculum Vitae</span>
     <h1>Lewis Farrell</h1>
-    <p>Economist, management consultant, and builder of systems, frameworks, and ideas.</p>
+    <p>Economist, consultant, and builder of systems — technical, strategic, and behavioural.</p>
   </div>
 </section>
 
@@ -19,21 +19,21 @@ page_class: cv
     {% include section-header.html
       eyebrow="Experience"
       heading="Career"
-      text="Consulting, systems design, and an economics foundation from Oxford."
+      text="Consulting experience grounded in economics and applied systems design."
     %}
 
     <div class="timeline fade-in">
       <div class="timeline-item">
-        <p class="timeline-date">2022 — Present</p>
+        <p class="timeline-date">2024 — Present</p>
         <h3 class="timeline-title">Management Consultant</h3>
         <p class="timeline-org">Woodhurst Consulting</p>
-        <p class="timeline-desc">Designed and implemented end-to-end data modernisation work within financial services environments. Worked across strategy, vendor selection, data model design, insight generation, and technical delivery. Led teams, upskilled clients, and operated across architecture, analysis, and engineering responsibilities.</p>
+        <p class="timeline-desc">Leading data modernisation and cloud transformation across financial services — from strategy and vendor selection through to architecture, implementation, and insight delivery.</p>
       </div>
       <div class="timeline-item">
-        <p class="timeline-date">2018 — 2022</p>
+        <p class="timeline-date">2021 — 2024</p>
         <h3 class="timeline-title">Economics &amp; Management</h3>
         <p class="timeline-org">University of Oxford</p>
-        <p class="timeline-desc">Studied economic theory, management strategy, and quantitative methods. Developed a strong interest in incentives, decision-making, and the behaviour of complex systems.</p>
+        <p class="timeline-desc">Specialised in Microeconomics and its application to business. Modules in Game Theory, Strategy, Marketing, and Organisational Behaviour.</p>
       </div>
     </div>
 
@@ -49,7 +49,7 @@ page_class: cv
     {% include section-header.html
       eyebrow="Skills"
       heading="Capabilities"
-      text="A range of skills across strategy, systems, and technical delivery."
+      text="Strategy, systems, and technical delivery across the full stack of modern data environments."
     %}
 
     <div class="tag-list">
@@ -73,7 +73,7 @@ page_class: cv
 <section class="section" id="download">
   <div class="container">
     <h2 style="font-size:28px;letter-spacing:-0.02em;margin-bottom:var(--space-4);">Download CV</h2>
-    <p style="font-size:16px;color:var(--text-secondary);max-width:440px;margin-bottom:var(--space-6);">Full PDF version with experience, skills, and project detail.</p>
+    <p style="font-size:16px;color:var(--text-secondary);max-width:440px;margin-bottom:var(--space-6);">Full version with detailed experience and project work.</p>
     <a href="/assets/pdfs/lewis-farrell-cv.pdf" class="btn btn-primary btn-lg" download>Download CV as PDF</a>
   </div>
 </section>

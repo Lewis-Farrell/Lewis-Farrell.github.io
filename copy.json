@@ -1,0 +1,152 @@
+{
+  "homepage": {
+    "bio_panel": {
+      "name": "Lewis Farrell",
+      "title": "Consultant · Intimacy Economist",
+      "bio": "I design data systems for organisations. I study relationships as systems — shaped by incentives, strategy, and human behaviour.",
+      "credentials": "Oxford · Management Consultant · Woodhurst"
+    },
+    "professional_panel": {
+      "eyebrow": "Professional",
+      "title": "Strategy & Systems",
+      "description": "I design and deliver data systems — spanning strategy, architecture, and implementation — to drive measurable organisational change.",
+      "cta": "View Professional Work"
+    },
+    "relationships_panel": {
+      "eyebrow": "Intimacy Economics",
+      "title": "Dating & Relationships",
+      "description": "Frameworks, essays, and products exploring how modern relationships actually work — beneath the surface.",
+      "cta": "Explore Ideas"
+    },
+    "footer_credentials": [
+      "Management Consultant",
+      "Oxford Economics & Management",
+      "Intimacy Economist"
+    ]
+  },
+  "professional_page": {
+    "hero": {
+      "eyebrow": "Professional",
+      "title": "Strategy & Systems",
+      "subtitle": "I design and deliver data systems — spanning strategy, architecture, and implementation — to drive measurable organisational change."
+    },
+    "experience_section": {
+      "eyebrow": "Career",
+      "heading": "Experience",
+      "text": "A foundation in economics, applied through consulting."
+    },
+    "timeline": [
+      {
+        "period": "2024 — Present",
+        "title": "Management Consultant",
+        "org": "Woodhurst Consulting",
+        "description": "Leading data modernisation and cloud transformation across financial services — from strategy and vendor selection through to architecture, implementation, and insight delivery."
+      },
+      {
+        "period": "2021 — 2024",
+        "title": "Economics & Management",
+        "org": "University of Oxford",
+        "description": "Specialised in Microeconomics and it's application to business. Modules in Game Theory, Strategy, Marketing, and Organisational Behaviour."
+      }
+    ],
+    "projects_section": {
+      "eyebrow": "Projects",
+      "heading": "Systems & Products",
+      "text": "Selected work across data systems, implementation, and product thinking."
+    }
+  },
+  "relationships_page": {
+    "hero": {
+      "eyebrow": "Intimacy Economics",
+      "title": "Dating & Relationships",
+      "subtitle": "An economic approach to understanding the interplay of incentives, markets, and strategies within modern dating."
+    },
+    "essays_section": {
+      "eyebrow": "Essays",
+      "heading": "Long-Form Writing",
+      "text": "Articles that apply economic theory to explain modern dating.",
+      "cta": "View All Essays"
+    },
+    "affinity_section": {
+      "eyebrow": "Product",
+      "heading": "Affinity",
+      "text": "A decision system for clearer thinking in dating and relationships.",
+      "tagline": "Better decisions come from understanding the incentives behind them.",
+      "description": "Affinity helps you interpret your dating experiences through structure — mapping preferences, constraints, and behavioural patterns to improve how you choose and act.",
+      "features": [
+        "Structured reflection and decision frameworks",
+        "Insight from behavioural patterns over time",
+        "Applied thinking for real dating situations"
+      ],
+      "cta": "Explore Affinity"
+    }
+  },
+  "cv_page": {
+    "hero": {
+      "eyebrow": "Curriculum Vitae",
+      "title": "Lewis Farrell",
+      "subtitle": "Economist, consultant, and builder of systems — technical, strategic, and behavioural."
+    },
+    "experience_section": {
+      "eyebrow": "Experience",
+      "heading": "Career",
+      "text": "Consulting experience grounded in economics and applied systems design."
+    },
+    "timeline": [
+      {
+        "period": "2024 — Present",
+        "title": "Management Consultant",
+        "org": "Woodhurst Consulting",
+        "description": "Leading data modernisation and cloud transformation across financial services — from strategy and vendor selection through to architecture, implementation, and insight delivery."
+      },
+      {
+        "period": "2021 — 2024",
+        "title": "Economics & Management",
+        "org": "University of Oxford",
+        "description": "Specialised in Microeconomics and it's application to business. Modules in Game Theory, Strategy, Marketing, and Organisational Behaviour."
+      }
+    ],
+    "skills_section": {
+      "eyebrow": "Skills",
+      "heading": "Capabilities",
+      "text": "Strategy, systems, and technical delivery across the full stack of modern data environments.",
+      "badges": [
+        "Strategy",
+        "Systems Design",
+        "Data Modernisation",
+        "Cloud Architecture",
+        "Product Thinking",
+        "Python",
+        "SQL",
+        "JavaScript",
+        "Stakeholder Management"
+      ]
+    },
+    "download_section": {
+      "heading": "Download CV",
+      "text": "Full version with detailed experience and project work.",
+      "cta": "Download CV as PDF"
+    }
+  },
+  "essay_layout": {
+    "author_bio": "Management consultant at Woodhurst. Writes on systems, incentives, and intimacy economics — applying strategic thinking to organisations, dating, and modern relationships.",
+    "series_label": "Part of the Intimacy Economics series",
+    "affinity_sidebar": {
+      "label": "Product",
+      "title": "Affinity",
+      "description": "A decision system for dating clarity — built on the same principles explored in these essays.",
+      "cta": "Explore Affinity →"
+    },
+    "newsletter_sidebar": {
+      "heading": "Stay Updated",
+      "text": "New essays on incentives, markets, and modern relationships.",
+      "cta": "Subscribe"
+    },
+    "back_link": "Back to Relationships"
+  },
+  "footer": {
+    "brand": "Lewis Farrell",
+    "tagline": "Build systems. Understand people.",
+    "copyright": "© [Year] Lewis Farrell. All rights reserved."
+  }
+}
