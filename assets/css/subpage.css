@@ -22,9 +22,9 @@
   pointer-events: none;
 }
 
-/* Professional — clean gradient with ambient bloom (matching portal) */
+/* Professional — cool near-black + mint (matching portal) */
 body.page-professional .page-bg-layer {
-  background: linear-gradient(160deg, #0a1628 0%, var(--bg-primary) 55%, #070e1c 100%);
+  background: linear-gradient(160deg, #0A0E18 0%, var(--pro-bg, #07090F) 55%, #050810 100%);
 }
 
 body.page-professional .page-bg-layer::before {
@@ -32,7 +32,7 @@ body.page-professional .page-bg-layer::before {
   background: transparent;
   position: absolute;
   inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 960 560' preserveAspectRatio='xMidYMid slice' xmlns='http://www.w3.org/2000/svg'%3E%3Cg stroke='rgba(77,163,255,0.06)' stroke-width='1' fill='none'%3E%3Cline x1='160' y1='140' x2='320' y2='80'/%3E%3Cline x1='160' y1='140' x2='280' y2='280'/%3E%3Cline x1='320' y1='80' x2='460' y2='160'/%3E%3Cline x1='320' y1='80' x2='540' y2='60'/%3E%3Cline x1='280' y1='280' x2='460' y2='160'/%3E%3Cline x1='280' y1='280' x2='420' y2='460'/%3E%3Cline x1='460' y1='160' x2='640' y2='200'/%3E%3Cline x1='460' y1='160' x2='580' y2='380'/%3E%3Cline x1='540' y1='60' x2='640' y2='200'/%3E%3Cline x1='540' y1='60' x2='760' y2='120'/%3E%3Cline x1='640' y1='200' x2='580' y2='380'/%3E%3Cline x1='640' y1='200' x2='760' y2='120'/%3E%3Cline x1='580' y1='380' x2='800' y2='340'/%3E%3Cline x1='580' y1='380' x2='420' y2='460'/%3E%3Cline x1='760' y1='120' x2='800' y2='340'/%3E%3C/g%3E%3Cg fill='rgba(77,163,255,0.12)' stroke='rgba(77,163,255,0.08)' stroke-width='1'%3E%3Ccircle cx='160' cy='140' r='3'/%3E%3Ccircle cx='540' cy='60' r='3'/%3E%3Ccircle cx='800' cy='340' r='3'/%3E%3Ccircle cx='420' cy='460' r='3'/%3E%3C/g%3E%3Cg fill='rgba(77,163,255,0.18)' stroke='rgba(77,163,255,0.12)' stroke-width='1'%3E%3Ccircle cx='320' cy='80' r='4.5'/%3E%3Ccircle cx='460' cy='160' r='4.5'/%3E%3Ccircle cx='640' cy='200' r='4.5'/%3E%3Ccircle cx='580' cy='380' r='4.5'/%3E%3Ccircle cx='760' cy='120' r='4.5'/%3E%3Ccircle cx='280' cy='280' r='4.5'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 960 560' preserveAspectRatio='xMidYMid slice' xmlns='http://www.w3.org/2000/svg'%3E%3Cg stroke='rgba(92,224,196,0.07)' stroke-width='1' fill='none'%3E%3Cline x1='160' y1='140' x2='320' y2='80'/%3E%3Cline x1='160' y1='140' x2='280' y2='280'/%3E%3Cline x1='320' y1='80' x2='460' y2='160'/%3E%3Cline x1='320' y1='80' x2='540' y2='60'/%3E%3Cline x1='280' y1='280' x2='460' y2='160'/%3E%3Cline x1='280' y1='280' x2='420' y2='460'/%3E%3Cline x1='460' y1='160' x2='640' y2='200'/%3E%3Cline x1='460' y1='160' x2='580' y2='380'/%3E%3Cline x1='540' y1='60' x2='640' y2='200'/%3E%3Cline x1='540' y1='60' x2='760' y2='120'/%3E%3Cline x1='640' y1='200' x2='580' y2='380'/%3E%3Cline x1='640' y1='200' x2='760' y2='120'/%3E%3Cline x1='580' y1='380' x2='800' y2='340'/%3E%3Cline x1='580' y1='380' x2='420' y2='460'/%3E%3Cline x1='760' y1='120' x2='800' y2='340'/%3E%3C/g%3E%3Cg fill='rgba(92,224,196,0.14)' stroke='rgba(92,224,196,0.10)' stroke-width='1'%3E%3Ccircle cx='160' cy='140' r='3'/%3E%3Ccircle cx='540' cy='60' r='3'/%3E%3Ccircle cx='800' cy='340' r='3'/%3E%3Ccircle cx='420' cy='460' r='3'/%3E%3C/g%3E%3Cg fill='rgba(92,224,196,0.22)' stroke='rgba(92,224,196,0.14)' stroke-width='1'%3E%3Ccircle cx='320' cy='80' r='4.5'/%3E%3Ccircle cx='460' cy='160' r='4.5'/%3E%3Ccircle cx='640' cy='200' r='4.5'/%3E%3Ccircle cx='580' cy='380' r='4.5'/%3E%3Ccircle cx='760' cy='120' r='4.5'/%3E%3Ccircle cx='280' cy='280' r='4.5'/%3E%3C/g%3E%3C/svg%3E");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,52 +44,51 @@ body.page-professional .page-bg-layer::before {
 body.page-professional .page-bg-layer::after {
   background: radial-gradient(
     ellipse 65% 60% at 50% 55%,
-    rgba(77, 163, 255, 0.08) 0%,
+    rgba(92, 224, 196, 0.07) 0%,
     transparent 70%
   );
   animation: professionalDrift 22s ease-in-out infinite;
   z-index: 0;
 }
 
-/* Relationships — purple galaxy with decision nodes (matching portal) */
+/* Relationships — warm off-black + rose (matching portal) */
 body.page-relationships .page-bg-layer {
   background:
-    radial-gradient(ellipse at 15% 25%, #1a0a2e 0%, transparent 50%),
-    radial-gradient(ellipse at 85% 75%, #0f051f 0%, transparent 50%),
-    linear-gradient(160deg, #0d0620 0%, #0a0515 55%, var(--bg-primary) 100%);
+    radial-gradient(ellipse at 20% 30%, #1C0F18 0%, transparent 55%),
+    radial-gradient(ellipse at 80% 70%, #160C10 0%, transparent 50%),
+    linear-gradient(160deg, #130810 0%, var(--rel-bg, #100C14) 55%, #0D0910 100%);
 }
 
-/* Layer 1: Starfield + decision nodes + diagonal lines */
+/* Layer 1: Starfield + rose decision nodes */
 body.page-relationships .page-bg-layer::before {
   background-image:
-    /* Starfield */
     radial-gradient(0.8px 0.8px at 22% 18%, rgba(255, 255, 255, 0.12), transparent),
     radial-gradient(0.6px 0.6px at 38% 65%, rgba(255, 255, 255, 0.08), transparent),
-    radial-gradient(0.7px 0.7px at 68% 28%, rgba(255, 255, 255, 0.1), transparent),
+    radial-gradient(0.7px 0.7px at 68% 28%, rgba(255, 255, 255, 0.10), transparent),
     radial-gradient(0.5px 0.5px at 78% 72%, rgba(255, 255, 255, 0.06), transparent),
     radial-gradient(0.6px 0.6px at 15% 85%, rgba(255, 255, 255, 0.08), transparent),
 
-    /* Decision nodes */
-    radial-gradient(circle 3.5px at 30% 28%, rgba(200, 160, 255, 0.16), transparent),
-    radial-gradient(circle 3px at 45% 48%, rgba(200, 160, 255, 0.14), transparent),
-    radial-gradient(circle 3.5px at 65% 35%, rgba(200, 160, 255, 0.15), transparent),
-    radial-gradient(circle 3px at 55% 68%, rgba(200, 160, 255, 0.13), transparent),
-    radial-gradient(circle 3px at 25% 70%, rgba(200, 160, 255, 0.14), transparent),
+    /* Rose decision nodes */
+    radial-gradient(circle 3.5px at 30% 28%, rgba(242, 123, 161, 0.18), transparent),
+    radial-gradient(circle 3px  at 45% 48%, rgba(242, 123, 161, 0.14), transparent),
+    radial-gradient(circle 3.5px at 65% 35%, rgba(242, 123, 161, 0.16), transparent),
+    radial-gradient(circle 3px  at 55% 68%, rgba(242, 123, 161, 0.13), transparent),
+    radial-gradient(circle 3px  at 25% 70%, rgba(242, 123, 161, 0.15), transparent),
 
     /* Diagonal branches */
-    linear-gradient(40deg, transparent 0%, transparent 35%, rgba(200, 160, 255, 0.02) 35%, rgba(200, 160, 255, 0.02) 35.4%, transparent 35.4%, transparent 100%),
-    linear-gradient(140deg, transparent 0%, transparent 58%, rgba(200, 160, 255, 0.018) 58%, rgba(200, 160, 255, 0.018) 58.4%, transparent 58.4%, transparent 100%),
-    linear-gradient(-50deg, transparent 0%, transparent 48%, rgba(200, 160, 255, 0.016) 48%, rgba(200, 160, 255, 0.016) 48.4%, transparent 48.4%, transparent 100%);
+    linear-gradient(40deg,  transparent 0%, transparent 35%, rgba(242, 123, 161, 0.018) 35%, rgba(242, 123, 161, 0.018) 35.4%, transparent 35.4%, transparent 100%),
+    linear-gradient(140deg, transparent 0%, transparent 58%, rgba(242, 123, 161, 0.016) 58%, rgba(242, 123, 161, 0.016) 58.4%, transparent 58.4%, transparent 100%),
+    linear-gradient(-50deg, transparent 0%, transparent 48%, rgba(242, 123, 161, 0.014) 48%, rgba(242, 123, 161, 0.014) 48.4%, transparent 48.4%, transparent 100%);
   background-size: 100% 100%;
   animation: economicDiagramDrift 58s ease-in-out infinite;
   z-index: 0;
 }
 
-/* Layer 2: Ambient glow */
+/* Layer 2: Rose ambient glow */
 body.page-relationships .page-bg-layer::after {
   background:
-    radial-gradient(ellipse 65% 55% at 32% 42%, rgba(139, 92, 246, 0.05) 0%, transparent 65%),
-    radial-gradient(ellipse 55% 60% at 72% 62%, rgba(147, 51, 234, 0.04) 0%, transparent 60%);
+    radial-gradient(ellipse 65% 55% at 32% 42%, rgba(242, 123, 161, 0.05) 0%, transparent 65%),
+    radial-gradient(ellipse 55% 60% at 72% 62%, rgba(220, 80, 120, 0.04) 0%, transparent 60%);
   animation: relationshipsGlowDrift 28s ease-in-out infinite;
   z-index: 0;
 }
@@ -128,21 +127,21 @@ body.page-writing .page-bg-layer::after {
   background: radial-gradient(ellipse 55% 40% at 50% 12%, rgba(127, 138, 163, 0.045) 0%, transparent 65%);
 }
 
-/* Essay — quiet dark study; not the full galaxy treatment */
+/* Essay — warm dark study, matching V4 Relationships essay reading view */
 body.page-essay .page-bg-layer {
-  background: linear-gradient(160deg, #0d0b1a 0%, #0b1020 50%, #080c18 100%);
+  background: linear-gradient(160deg, #130810 0%, #100C14 55%, #0D0910 100%);
 }
 
 body.page-essay .page-bg-layer::before {
   background:
-    radial-gradient(ellipse 70% 50% at 12% 30%, rgba(139, 92, 246, 0.03) 0%, transparent 70%),
-    radial-gradient(ellipse 50% 40% at 88% 70%, rgba(99, 51, 200, 0.025) 0%, transparent 70%);
+    radial-gradient(ellipse 70% 50% at 12% 30%, rgba(242, 123, 161, 0.03) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 40% at 88% 70%, rgba(200, 80, 120, 0.02) 0%, transparent 70%);
 }
 
 body.page-essay .page-bg-layer::after {
   background:
-    radial-gradient(ellipse 55% 45% at 28% 35%, rgba(139, 92, 246, 0.04) 0%, transparent 65%),
-    radial-gradient(ellipse 45% 40% at 76% 65%, rgba(147, 51, 234, 0.03) 0%, transparent 60%);
+    radial-gradient(ellipse 55% 45% at 28% 35%, rgba(242, 123, 161, 0.04) 0%, transparent 65%),
+    radial-gradient(ellipse 45% 40% at 76% 65%, rgba(220, 80, 120, 0.03) 0%, transparent 60%);
 }
 
 /* ============================
@@ -194,10 +193,10 @@ body.page-relationships .footer {
 body:not(.portal-body) .navbar {
   height: 52px;
   padding: 0;
-  background: rgba(11, 16, 32, 0.85);
+  background: rgba(11, 10, 16, 0.88);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(77, 163, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
   position: relative;
   z-index: 100;
 }
@@ -212,7 +211,7 @@ body.page-essay .navbar::after {
   height: 1px;
   background: linear-gradient(90deg,
     transparent 0%,
-    rgba(77, 163, 255, 0.15) 50%,
+    rgba(242, 123, 161, 0.20) 50%,
     transparent 100%);
 }
 
@@ -275,11 +274,11 @@ body.page-relationships .page-frame {
   margin-bottom: var(--space-4);
 }
 
-body.page-professional .page-hero .eyebrow { color: rgba(77, 163, 255, 0.65); }
-body.page-relationships .page-hero .eyebrow { color: rgba(167, 139, 250, 0.7); }
+body.page-professional .page-hero .eyebrow { color: var(--pro-accent, #5CE0C4); opacity: 0.8; }
+body.page-relationships .page-hero .eyebrow { color: var(--rel-accent, #F27BA1); opacity: 0.85; }
 body.page-reports .page-hero .eyebrow      { color: rgba(127, 138, 163, 0.65); }
 body.page-writing .page-hero .eyebrow      { color: rgba(127, 138, 163, 0.65); }
-body.page-cv .page-hero .eyebrow           { color: rgba(77, 163, 255, 0.65); }
+body.page-cv .page-hero .eyebrow           { color: var(--pro-accent, #5CE0C4); opacity: 0.75; }
 
 .page-hero h1 {
   font-size: clamp(38px, 5vw, 62px);
@@ -292,11 +291,22 @@ body.page-cv .page-hero .eyebrow           { color: rgba(77, 163, 255, 0.65); }
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
 }
 
-/* Relationships and professional pages — match portal panel heading size for consistency */
+/* Relationships and professional pages — Fraunces display + matched portal heading size */
 body.page-relationships .page-hero h1,
 body.page-professional .page-hero h1 {
-  font-size: clamp(32px, 3.5vw, 48px);
-  line-height: 1.08;
+  font-family: var(--font-display, 'Fraunces', Georgia, serif);
+  font-size: clamp(36px, 4vw, 56px);
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  line-height: 1.06;
+}
+
+/* Mono eyebrow on track pages */
+body.page-relationships .page-hero .eyebrow,
+body.page-professional .page-hero .eyebrow {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-weight: 500;
+  letter-spacing: 0.18em;
 }
 
 .page-hero p {
@@ -411,11 +421,11 @@ body.page-relationships .product-desc {
 /* ============================
    Section header eyebrow tints
    ============================ */
-body.page-professional .section-header .eyebrow { color: rgba(77, 163, 255, 0.65); }
-body.page-relationships .section-header .eyebrow { color: rgba(167, 139, 250, 0.65); }
+body.page-professional .section-header .eyebrow { color: var(--pro-accent, #5CE0C4); opacity: 0.75; }
+body.page-relationships .section-header .eyebrow { color: var(--rel-accent, #F27BA1); opacity: 0.80; }
 body.page-reports .section-header .eyebrow       { color: rgba(127, 138, 163, 0.6); }
 body.page-writing .section-header .eyebrow       { color: rgba(127, 138, 163, 0.6); }
-body.page-cv .section-header .eyebrow            { color: rgba(77, 163, 255, 0.65); }
+body.page-cv .section-header .eyebrow            { color: var(--pro-accent, #5CE0C4); opacity: 0.70; }
 
 /* ============================
    Entry list — editorial format
@@ -491,15 +501,15 @@ body.page-relationships .entry-item:hover .entry-title {
 }
 
 body.page-professional .entry-tag {
-  color: rgba(77, 163, 255, 0.75);
-  background: rgba(77, 163, 255, 0.07);
-  border: 1px solid rgba(77, 163, 255, 0.14);
+  color: var(--pro-accent, #5CE0C4);
+  background: var(--pro-accent-soft, rgba(92, 224, 196, 0.07));
+  border: 1px solid rgba(92, 224, 196, 0.18);
 }
 
 body.page-relationships .entry-tag {
-  color: rgba(167, 139, 250, 0.75);
-  background: rgba(167, 139, 250, 0.07);
-  border: 1px solid rgba(167, 139, 250, 0.14);
+  color: var(--rel-accent, #F27BA1);
+  background: var(--rel-accent-soft, rgba(242, 123, 161, 0.07));
+  border: 1px solid rgba(242, 123, 161, 0.18);
 }
 
 body.page-reports .entry-tag {
@@ -542,14 +552,15 @@ body.page-reports .entry-tag {
   gap: 5px;
   font-size: 12px;
   font-weight: 600;
-  color: rgba(77, 163, 255, 0.7);
+  color: var(--pro-accent, #5CE0C4);
+  opacity: 0.75;
   text-decoration: none;
   transition: color var(--transition-fast);
   margin-top: var(--space-2);
 }
 
 .entry-download:hover {
-  color: #4DA3FF;
+  opacity: 1;
 }
 
 /* Non-linked entry (e.g. reports without individual pages) */
@@ -573,8 +584,8 @@ body.page-reports .entry-tag {
   grid-template-columns: 1fr 1fr;
   gap: var(--space-9);
   align-items: center;
-  background: rgba(167, 139, 250, 0.03);
-  border: 1px solid rgba(167, 139, 250, 0.1);
+  background: var(--rel-accent-soft, rgba(242, 123, 161, 0.03));
+  border: 1px solid var(--rel-border, rgba(242, 123, 161, 0.10));
   border-radius: var(--radius-lg);
   padding: var(--space-8);
 }
@@ -586,11 +597,13 @@ body.page-reports .entry-tag {
 }
 
 .product-module .eyebrow {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: rgba(167, 139, 250, 0.65);
+  letter-spacing: 0.16em;
+  color: var(--rel-accent, #F27BA1);
+  opacity: 0.75;
 }
 
 .product-module h2 {
@@ -637,15 +650,15 @@ body.page-reports .entry-tag {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: rgba(167, 139, 250, 0.55);
+  background: var(--rel-accent, rgba(242, 123, 161, 0.6));
 }
 
 .product-module-visual {
   background:
-    radial-gradient(circle at 30% 40%, rgba(167, 139, 250, 0.08) 0%, transparent 50%),
-    radial-gradient(circle at 70% 60%, rgba(139, 92, 246, 0.06) 0%, transparent 50%),
-    rgba(167, 139, 250, 0.02);
-  border: 1px solid rgba(167, 139, 250, 0.12);
+    radial-gradient(circle at 30% 40%, rgba(242, 123, 161, 0.07) 0%, transparent 50%),
+    radial-gradient(circle at 70% 60%, rgba(200, 80, 120, 0.05) 0%, transparent 50%),
+    rgba(242, 123, 161, 0.02);
+  border: 1px solid rgba(242, 123, 161, 0.12);
   border-radius: var(--radius-md);
   min-height: 280px;
   display: flex;
@@ -676,7 +689,7 @@ body.page-reports .entry-tag {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(167, 139, 250, 0.3);
+  color: rgba(242, 123, 161, 0.30);
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -697,11 +710,13 @@ body.page-reports .entry-tag {
 }
 
 .text-section .section-eyebrow {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: rgba(167, 139, 250, 0.65);
+  letter-spacing: 0.16em;
+  color: var(--rel-accent, #F27BA1);
+  opacity: 0.75;
   margin-bottom: var(--space-4);
   display: block;
 }
@@ -906,7 +921,7 @@ body.page-cv .card:hover {
   padding-bottom: 12px;
   margin-bottom: -12px;
   scrollbar-width: thin;
-  scrollbar-color: rgba(77, 163, 255, 0.3) transparent;
+  scrollbar-color: rgba(242, 123, 161, 0.3) transparent;
   margin-top: var(--space-4);
   position: relative;
   z-index: 1;
@@ -921,12 +936,12 @@ body.page-cv .card:hover {
 }
 
 .essay-scroll-container::-webkit-scrollbar-thumb {
-  background: rgba(77, 163, 255, 0.3);
+  background: rgba(242, 123, 161, 0.3);
   border-radius: 3px;
 }
 
 .essay-scroll-container::-webkit-scrollbar-thumb:hover {
-  background: rgba(77, 163, 255, 0.5);
+  background: rgba(242, 123, 161, 0.5);
 }
 
 .essay-scroll-track {
@@ -941,8 +956,8 @@ body.page-cv .card:hover {
   flex-direction: column;
   width: 380px;
   min-width: 380px;
-  background: rgba(15, 23, 42, 0.6);
-  border: 1px solid rgba(77, 163, 255, 0.12);
+  background: var(--rel-bg2, rgba(21, 16, 28, 0.7));
+  border: 1px solid var(--rel-border, rgba(255, 220, 240, 0.08));
   border-radius: 12px;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -955,15 +970,15 @@ body.page-cv .card:hover {
 
 .essay-card-horizontal:hover {
   transform: translateY(-4px);
-  border-color: rgba(77, 163, 255, 0.3);
-  box-shadow: 0 12px 40px rgba(77, 163, 255, 0.15);
+  border-color: rgba(242, 123, 161, 0.30);
+  box-shadow: 0 12px 40px rgba(242, 123, 161, 0.12);
   z-index: 999 !important;
 }
 
 .essay-card-image {
   width: 100%;
   height: 160px;
-  background-color: rgba(77, 163, 255, 0.08);
+  background-color: rgba(242, 123, 161, 0.06);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -971,28 +986,28 @@ body.page-cv .card:hover {
 
 /* Fallback gradient patterns for each essay (when no image exists) */
 .essay-card-horizontal:nth-child(1) .essay-card-image {
-  background: linear-gradient(135deg, rgba(77, 163, 255, 0.15) 0%, rgba(59, 130, 246, 0.08) 100%),
-              radial-gradient(ellipse at 20% 30%, rgba(147, 51, 234, 0.12), transparent 50%);
+  background: linear-gradient(135deg, rgba(242, 123, 161, 0.14) 0%, rgba(200, 80, 120, 0.07) 100%),
+              radial-gradient(ellipse at 20% 30%, rgba(180, 60, 100, 0.10), transparent 50%);
 }
 
 .essay-card-horizontal:nth-child(2) .essay-card-image {
-  background: linear-gradient(225deg, rgba(139, 92, 246, 0.15) 0%, rgba(99, 102, 241, 0.08) 100%),
-              radial-gradient(ellipse at 80% 40%, rgba(77, 163, 255, 0.12), transparent 50%);
+  background: linear-gradient(225deg, rgba(220, 100, 140, 0.14) 0%, rgba(242, 123, 161, 0.07) 100%),
+              radial-gradient(ellipse at 80% 40%, rgba(200, 80, 120, 0.10), transparent 50%);
 }
 
 .essay-card-horizontal:nth-child(3) .essay-card-image {
-  background: linear-gradient(45deg, rgba(99, 102, 241, 0.15) 0%, rgba(139, 92, 246, 0.08) 100%),
-              radial-gradient(ellipse at 50% 60%, rgba(147, 51, 234, 0.12), transparent 50%);
+  background: linear-gradient(45deg, rgba(200, 80, 120, 0.14) 0%, rgba(242, 123, 161, 0.07) 100%),
+              radial-gradient(ellipse at 50% 60%, rgba(180, 60, 100, 0.10), transparent 50%);
 }
 
 .essay-card-horizontal:nth-child(4) .essay-card-image {
-  background: linear-gradient(315deg, rgba(147, 51, 234, 0.15) 0%, rgba(77, 163, 255, 0.08) 100%),
-              radial-gradient(ellipse at 30% 70%, rgba(99, 102, 241, 0.12), transparent 50%);
+  background: linear-gradient(315deg, rgba(180, 60, 100, 0.14) 0%, rgba(200, 80, 120, 0.07) 100%),
+              radial-gradient(ellipse at 30% 70%, rgba(242, 123, 161, 0.10), transparent 50%);
 }
 
 .essay-card-horizontal:nth-child(5) .essay-card-image {
-  background: linear-gradient(180deg, rgba(59, 130, 246, 0.15) 0%, rgba(139, 92, 246, 0.08) 100%),
-              radial-gradient(ellipse at 70% 20%, rgba(147, 51, 234, 0.12), transparent 50%);
+  background: linear-gradient(180deg, rgba(220, 100, 140, 0.14) 0%, rgba(180, 60, 100, 0.07) 100%),
+              radial-gradient(ellipse at 70% 20%, rgba(242, 123, 161, 0.10), transparent 50%);
 }
 
 .essay-card-image::before {
@@ -1036,7 +1051,7 @@ body.page-cv .card:hover {
 }
 
 .essay-card-link {
-  color: var(--accent-blue);
+  color: var(--rel-accent, #F27BA1);
   font-size: 0.9rem;
   font-weight: 500;
   text-decoration: none;
@@ -1073,4 +1088,37 @@ body.page-cv .card:hover {
   .essay-scroll-track {
     gap: var(--space-4);
   }
+}
+
+/* ============================
+   Track-specific typography overrides
+   Professional: Fraunces display + mono dates
+   Relationships: Fraunces display + mono meta
+   ============================ */
+body.page-professional .timeline-title,
+body.page-professional h2,
+body.page-professional h3 {
+  font-family: var(--font-display, 'Fraunces', Georgia, serif);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+body.page-professional .timeline-date {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-size: 12px;
+  color: var(--pro-accent, #5CE0C4);
+  letter-spacing: 0.08em;
+}
+
+body.page-professional .timeline-org {
+  font-size: 14px;
+  color: var(--pro-muted, #7A8497);
+}
+
+body.page-relationships .essay-card-title,
+body.page-relationships h2,
+body.page-relationships h3 {
+  font-family: var(--font-display, 'Fraunces', Georgia, serif);
+  font-weight: 500;
+  letter-spacing: -0.02em;
 }

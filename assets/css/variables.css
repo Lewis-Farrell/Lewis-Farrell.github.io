@@ -1,20 +1,49 @@
 :root {
-  /* Colors */
-  --bg-primary: #0B1020;
-  --bg-secondary: #121A2B;
-  --surface: #161F33;
-  --surface-hover: #1D2942;
-  --border: rgba(255, 255, 255, 0.08);
-  --text-primary: #F5F7FB;
-  --text-secondary: #B7C0D1;
-  --text-muted: #7F8AA3;
-  --accent-primary: #4DA3FF;
-  --accent-hover: #78B8FF;
-  --accent-soft: rgba(77, 163, 255, 0.12);
+  /* Colors — neutral base */
+  --bg-primary: #0B0A10;
+  --bg-secondary: #100E16;
+  --surface: #18141F;
+  --surface-hover: #1F1A27;
+  --border: rgba(255, 255, 255, 0.07);
+  --text-primary: #EDE8F0;
+  --text-secondary: #C8C0D0;
+  --text-muted: #8C8594;
+  --accent-primary: #5CE0C4;
+  --accent-hover: #7EEBD4;
+  --accent-soft: rgba(92, 224, 196, 0.10);
   --success: #3DDC97;
   --warning: #FFB84D;
-  --secondary-accent: #A78BFA;
-  --secondary-accent-soft: rgba(167, 139, 250, 0.12);
+  --secondary-accent: #F27BA1;
+  --secondary-accent-soft: rgba(242, 123, 161, 0.12);
+
+  /* Professional track — cool near-black + mint */
+  --pro-bg:           #07090F;
+  --pro-bg2:          #0B0F17;
+  --pro-surface:      #10151F;
+  --pro-border:       rgba(200, 220, 255, 0.08);
+  --pro-border-strong:rgba(200, 220, 255, 0.14);
+  --pro-text:         #E6EBF2;
+  --pro-body:         #BFC7D5;
+  --pro-muted:        #7A8497;
+  --pro-accent:       #5CE0C4;
+  --pro-accent-soft:  rgba(92, 224, 196, 0.10);
+
+  /* Relationships track — warm off-black + rose */
+  --rel-bg:           #100C14;
+  --rel-bg2:          #15101C;
+  --rel-surface:      #1A1422;
+  --rel-border:       rgba(255, 220, 240, 0.08);
+  --rel-border-strong:rgba(255, 220, 240, 0.14);
+  --rel-text:         #F1E9F2;
+  --rel-body:         #D4C9D7;
+  --rel-muted:        #9A8CA0;
+  --rel-accent:       #F27BA1;
+  --rel-accent-soft:  rgba(242, 123, 161, 0.12);
+
+  /* Typography families */
+  --font-sans:    'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Fraunces', 'Source Serif Pro', Georgia, serif;
+  --font-mono:    'JetBrains Mono', ui-monospace, Menlo, monospace;
 
   /* Spacing */
   --space-1: 4px;
