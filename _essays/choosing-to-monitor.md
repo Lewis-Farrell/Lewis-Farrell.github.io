@@ -6,6 +6,8 @@ category: Intimacy Economics
 reading_time: 39
 summary: "Before you find out, ask what you would do with the answer. An economist's way of pricing a look at a partner: when it is worth the cost, why, once the other person responds, looking harder can tell a checker less, and who else pays."
 lead: "Before you find out, ask what you would do with the answer. An economist's way of pricing a look at a partner: when it is worth the cost, why, once the other person responds, looking harder can tell a checker less, and who else pays."
+excerpt: "Before you find out, ask what you would do with the answer. An economist's way of pricing a look at a partner: when it is worth the cost, why, once the other person responds, looking harder can tell a checker less, and who else pays."
+image: /assets/images/essays/choosing-to-monitor.svg
 ---
 
 ## 1. The Question You Are Standing In

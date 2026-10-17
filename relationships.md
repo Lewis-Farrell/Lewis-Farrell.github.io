@@ -21,29 +21,14 @@ page_class: relationships
       text="Articles that apply economic theory to explain modern dating."
     %}
 
-    <!-- Horizontal scrolling essay cards -->
-    <div class="essay-scroll-container">
-      <div class="essay-scroll-track">
-        {% for essay in site.essays %}
-          {% if essay.status != 'draft' %}
-            <a href="{{ essay.url | relative_url }}" class="essay-card-horizontal">
-              <div class="essay-card-image" style="background-image: url('{{ essay.image }}');"></div>
-              <div class="essay-card-content">
-                <p class="essay-card-date">{{ essay.date | date: "%B %d, %Y" }}</p>
-                <h3 class="essay-card-title">{{ essay.title }}</h3>
-                <p class="essay-card-excerpt">{{ essay.excerpt }}</p>
-                <span class="essay-card-link">Read Essay →</span>
-              </div>
-            </a>
-          {% endif %}
-        {% endfor %}
-      </div>
+    <div class="essay-grid">
+      {% for essay in site.essays %}
+        {% if essay.status != 'draft' %}
+          {% include essay-card.html essay=essay %}
+        {% endif %}
+      {% endfor %}
     </div>
 
-    <!-- View More Section -->
-    <div class="view-more-section">
-      <a href="/writing#essays" class="btn btn-secondary">View All Essays</a>
-    </div>
   </div>
 </section>
 

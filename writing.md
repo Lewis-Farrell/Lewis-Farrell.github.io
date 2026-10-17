@@ -38,7 +38,7 @@ page_class: writing
       heading="Essays"
       text="Long-form writing on dating, mate choice, incentives, and relationship dynamics."
     %}
-    <div class="entry-list">
+    <div class="essay-grid">
       {% for essay in site.essays %}
         {% if essay.status != 'draft' %}
           {% include essay-card.html essay=essay %}
@@ -61,7 +61,7 @@ page_class: writing
     <div class="entry-list">
       {% for idea in site.ideas %}
         {% if idea.status != 'draft' %}
-          {% include idea-card.html idea=card %}
+          {% include idea-card.html idea=idea %}
         {% endif %}
       {% endfor %}
     </div>

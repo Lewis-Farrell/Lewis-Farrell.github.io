@@ -6,6 +6,8 @@ category: Intimacy Economics
 reading_time: 29
 summary: "Most dating advice tells you to choose better people. But the deeper problem is design: modern dating makes ambiguity cheap, seriousness easy to fake, and real alignment painfully slow to reveal. This article argues that better romantic outcomes come not from wanting them harder, but from building structures where truth, effort, and intention separate themselves from noise."
 lead: "Most dating advice tells you to choose better people. But the deeper problem is design: modern dating makes ambiguity cheap, seriousness easy to fake, and real alignment painfully slow to reveal. This article argues that better romantic outcomes come not from wanting them harder, but from building structures where truth, effort, and intention separate themselves from noise."
+excerpt: "Most dating advice tells you to choose better people. But the deeper problem is design: modern dating makes ambiguity cheap, seriousness easy to fake, and real alignment painfully slow to reveal. This article argues that better romantic outcomes come not from wanting them harder, but from building structures where truth, effort, and intention separate themselves from noise."
+image: /assets/images/essays/mechanism-design.svg
 ---
 
 You have been here before. Not with this particular person — with this

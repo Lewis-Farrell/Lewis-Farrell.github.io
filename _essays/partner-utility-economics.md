@@ -7,6 +7,8 @@ reading_time: 29
 math: true
 summary: "Popularised by Hannah Fry in her book \"The Mathematics of Love\", the 37% rule is an application of the \"secretary problem\". It's a great display of taking a more structured view of relationships, yet applied literally it's inconducive to practical advice. The answer assumes you are choosing from a silent queue, whereas real partner choice is bilateral, gradual, and shaped by what happens after commitment, not just by the moment you decide to stop looking."
 lead: "Popularised by Hannah Fry in her book \"The Mathematics of Love\", the 37% rule is an application of the \"secretary problem\". It's a great display of taking a more structured view of relationships, yet applied literally it's inconducive to practical advice. The answer assumes you are choosing from a silent queue, whereas real partner choice is bilateral, gradual, and shaped by what happens after commitment, not just by the moment you decide to stop looking."
+excerpt: "Popularised by Hannah Fry in her book \"The Mathematics of Love\", the 37% rule is an application of the \"secretary problem\". It's a great display of taking a more structured view of relationships, yet applied literally it's inconducive to practical advice. The answer assumes you are choosing from a silent queue, whereas real partner choice is bilateral, gradual, and shaped by what happens after commitment, not just by the moment you decide to stop looking."
+image: /assets/images/essays/partner-utility-economics.svg
 ---
 
 The date is going well enough that your usual defenses have started to slip.

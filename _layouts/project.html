@@ -1,42 +1,56 @@
 ---
 layout: default
+page_class: project
 ---
-<article class="project-page">
-  <div class="container">
-    <div class="page-hero">
-      {% if page.category %}<span class="badge">{{ page.category }}</span>{% endif %}
-      <h1>{{ page.title }}</h1>
-      {% if page.summary %}<p>{{ page.summary }}</p>{% endif %}
-      {% if page.technologies %}
-      <div class="tag-list" style="justify-content: center; margin-top: var(--space-5);">
-        {% for tech in page.technologies %}
-        <span class="badge badge-muted">{{ tech }}</span>
-        {% endfor %}
+
+<article class="article">
+  <header class="article-header">
+    <div class="container">
+      <span class="kicker">{{ page.category | default: "Case study" }}</span>
+      <h1 class="article-title">{{ page.title }}</h1>
+      {% if page.summary %}<p class="article-dek">{{ page.summary }}</p>{% endif %}
+    </div>
+  </header>
+
+  {% if page.image %}
+  <div class="article-hero">
+    <img src="{{ page.image | relative_url }}" alt="">
+  </div>
+  {% endif %}
+
+  <div class="article-layout article-layout--project">
+    <div class="article-main">
+      <div class="article-body">
+        {{ content }}
+      </div>
+      <p class="article-back"><a href="{{ '/professional' | relative_url }}#work" class="btn-text">&larr; All work</a></p>
+    </div>
+
+    <aside class="article-aside">
+      <div class="aside-block">
+        <h4 class="aside-label">At a glance</h4>
+        <dl class="facts">
+          {% if page.client %}<dt>Client</dt><dd>{{ page.client }}</dd>{% endif %}
+          {% if page.role %}<dt>Role</dt><dd>{{ page.role }}</dd>{% endif %}
+          {% if page.period %}<dt>Context</dt><dd>{{ page.period }}</dd>{% endif %}
+        </dl>
+      </div>
+      {% if page.results %}
+      <div class="aside-block">
+        <h4 class="aside-label">Results</h4>
+        <ul class="aside-list aside-list--plain">
+          {% for r in page.results %}<li>{{ r }}</li>{% endfor %}
+        </ul>
       </div>
       {% endif %}
-    </div>
-  </div>
-
-  <div class="container-reading">
-    <div class="reading-content">
-      {{ content }}
-    </div>
-
-    {% if page.links %}
-    <div class="section" style="border-top: 1px solid var(--border); margin-top: var(--space-8); padding-top: var(--space-7);">
-      <h2>Links</h2>
-      <div class="flex gap-4" style="margin-top: var(--space-4);">
-        {% if page.links.github %}
-        <a href="{{ page.links.github }}" class="btn btn-secondary" target="_blank" rel="noopener">GitHub</a>
-        {% endif %}
-        {% if page.links.demo %}
-        <a href="{{ page.links.demo }}" class="btn btn-primary" target="_blank" rel="noopener">Live Demo</a>
-        {% endif %}
-        {% if page.links.documentation %}
-        <a href="{{ page.links.documentation }}" class="btn btn-secondary" target="_blank" rel="noopener">Documentation</a>
-        {% endif %}
+      {% if page.stack %}
+      <div class="aside-block">
+        <h4 class="aside-label">Built with</h4>
+        <ul class="aside-list aside-list--plain">
+          {% for t in page.stack %}<li>{{ t }}</li>{% endfor %}
+        </ul>
       </div>
-    </div>
-    {% endif %}
+      {% endif %}
+    </aside>
   </div>
 </article>

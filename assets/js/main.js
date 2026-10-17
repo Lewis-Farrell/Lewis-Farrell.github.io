@@ -88,3 +88,31 @@ document.addEventListener('keydown', function (e) {
     observer.observe(target);
   });
 })();
+
+// Essay share buttons
+(function () {
+  var rail = document.querySelector('.article-share');
+  if (!rail) return;
+
+  var native = rail.querySelector('[data-share="native"]');
+  if (native && navigator.share) {
+    native.hidden = false;
+    native.addEventListener('click', function () {
+      navigator.share({ title: document.title, url: location.href }).catch(function () {});
+    });
+  }
+
+  var copy = rail.querySelector('[data-share="copy"]');
+  if (copy) {
+    copy.addEventListener('click', function () {
+      var done = function () {
+        copy.classList.add('is-done');
+        copy.title = 'Link copied';
+        setTimeout(function () { copy.classList.remove('is-done'); copy.title = 'Copy link'; }, 1600);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(location.href).then(done, function () {});
+      }
+    });
+  }
+})();

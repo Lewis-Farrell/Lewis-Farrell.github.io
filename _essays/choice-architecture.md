@@ -6,6 +6,8 @@ category: Intimacy Economics
 reading_time: 15
 summary: "Most date advice treats venue choice as taste. But a date is a screening environment: the structure changes what becomes easy, what becomes awkward, and what kinds of chemistry can be mistaken for compatibility. The useful question is not \"what is the best date?\" but \"what am I trying to learn, and what kind of noise am I willing to add?\""
 lead: "Most date advice treats venue choice as taste. But a date is a screening environment: the structure changes what becomes easy, what becomes awkward, and what kinds of chemistry can be mistaken for compatibility. The useful question is not \"what is the best date?\" but \"what am I trying to learn, and what kind of noise am I willing to add?\""
+excerpt: "Most date advice treats venue choice as taste. But a date is a screening environment: the structure changes what becomes easy, what becomes awkward, and what kinds of chemistry can be mistaken for compatibility. The useful question is not \"what is the best date?\" but \"what am I trying to learn, and what kind of noise am I willing to add?\""
+image: /assets/images/essays/choice-architecture.svg
 ---
 
 You have the yes. They said yes to the date, or you said yes to theirs, and

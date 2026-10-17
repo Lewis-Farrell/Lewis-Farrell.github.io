@@ -7,16 +7,8 @@
   <meta name="description" content="{{ page.summary | default: site.description }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/variables.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/layout.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/typography.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/components.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/animations.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/subpage.css' | relative_url }}">
-  {% if page.url contains '/essays/' %}
-  <link rel="stylesheet" href="{{ '/assets/css/article.css' | relative_url }}">
-  {% endif %}
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   {% if page.math %}
   <script>
     MathJax = {
@@ -32,8 +24,6 @@
   {% endif %}
 </head>
 <body{% if page.url contains '/essays/' %} class="page-essay"{% elsif page.page_class %} class="page-{{ page.page_class }}"{% endif %}>
-  <div class="page-bg-layer" aria-hidden="true"></div>
-  <div class="page-frame" aria-hidden="true"></div>
   {% include navbar.html %}
   {% include mobile-menu.html %}
 

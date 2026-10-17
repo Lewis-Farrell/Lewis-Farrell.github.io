@@ -1,12 +1,12 @@
-<a href="{{ include.project.url | relative_url }}" class="entry-item">
-  <div class="entry-body">
-    {% if include.project.category %}
-    <div class="entry-tags"><span class="entry-tag">{{ include.project.category }}</span></div>
-    {% endif %}
-    <h3 class="entry-title">{{ include.project.title }}</h3>
-    {% if include.project.summary %}<p class="entry-desc">{{ include.project.summary }}</p>{% endif %}
-  </div>
-  <div class="entry-meta">
-    {% if include.project.status == 'active' %}<span class="entry-date">Active</span>{% endif %}
+{% assign p = include.project %}
+<a href="{{ p.url | relative_url }}" class="essay-card">
+  {% if p.image %}
+  <div class="essay-card-media"><img src="{{ p.image | relative_url }}" alt="" loading="lazy"></div>
+  {% endif %}
+  <div class="essay-card-body">
+    <span class="essay-card-kicker">{{ p.category | default: "Case study" }}</span>
+    <h3 class="essay-card-title">{{ p.title }}</h3>
+    {% if p.summary %}<p class="essay-card-dek">{{ p.summary }}</p>{% endif %}
+    <div class="essay-card-meta">{{ p.client }}{% if p.period %} &middot; {{ p.period }}{% endif %}</div>
   </div>
 </a>

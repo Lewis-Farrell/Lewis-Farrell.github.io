@@ -4,6 +4,10 @@ date: 2026-10-17
 status: published
 category: Intimacy Economics
 reading_time: 15
+excerpt: "Attraction is easy to see and alignment is not. Why a partner can like you and still be badly matched on what the relationship should become, and how to tell the difference."
+summary: "Attraction is easy to see and alignment is not. Why a partner can like you and still be badly matched on what the relationship should become, and how to tell the difference."
+lead: "Attraction is easy to see and alignment is not. Why a partner can like you and still be badly matched on what the relationship should become, and how to tell the difference."
+image: /assets/images/essays/principal-agent.svg
 ---
 
 ## 1. They Can Like You And Still Be Badly Aligned

@@ -6,6 +6,8 @@ category: Intimacy Economics
 reading_time: 15
 summary: "People read sexual timing as information \u2014 who you slept with, how quickly, under what conditions. This piece explains why they do, why that signal is far noisier than folk wisdom admits, and how to judge seriousness through sustained patterns rather than one charged decision."
 lead: "People read sexual timing as information \u2014 who you slept with, how quickly, under what conditions. This piece explains why they do, why that signal is far noisier than folk wisdom admits, and how to judge seriousness through sustained patterns rather than one charged decision."
+excerpt: "People read sexual timing as information \u2014 who you slept with, how quickly, under what conditions. This piece explains why they do, why that signal is far noisier than folk wisdom admits, and how to judge seriousness through sustained patterns rather than one charged decision."
+image: /assets/images/essays/signaling-game.svg
 ---
 
 ## 1. The Moment, Then The Puzzle
