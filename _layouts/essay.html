@@ -15,7 +15,7 @@ page_class: essay
     <div class="article__meta">
       <span class="article__meta-item">{{ page.date | date: "%B %d, %Y" }}</span>
       <span class="article__meta-separator">·</span>
-      <span class="article__meta-item">{{ page.reading_time | default: "8 min read" }}</span>
+      <span class="article__meta-item">{{ page.reading_time | default: 8 }} min read</span>
       {% if page.section %}
         <span class="article__meta-separator">·</span>
         <span class="article__meta-item">{{ page.section }}</span>
