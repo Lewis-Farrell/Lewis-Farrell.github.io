@@ -1,10 +1,17 @@
 ---
 title: "Dating Is A Signaling Game, And Sex Is One Of The Loudest Signals"
-date: 2026-10-17
+date: 2026-07-14
+date_public: true
+takeaways:
+  - "People read sexual timing as a sign of seriousness, but one decision is a noisy signal."
+  - "Waiting only separates types if it costs the short-term type more; social norms and apps make both wait."
+  - "Judge seriousness by costly consistency over months, and tell dedication apart from constraint."
 status: published
 category: Intimacy Economics
 reading_time: 15
-summary: "People read sexual timing as information \u2014 who you slept with, how quickly, under what conditions. This piece explains why they do, why that signal is far noisier than folk wisdom admits, and how to judge seriousness through sustained patterns rather than one charged decision."
+order: 3
+topic: "Signals & information"
+summary: "Why people read sexual timing as information, why that signal is noisier than folk wisdom admits, and how to judge seriousness from sustained patterns."
 lead: "People read sexual timing as information \u2014 who you slept with, how quickly, under what conditions. This piece explains why they do, why that signal is far noisier than folk wisdom admits, and how to judge seriousness through sustained patterns rather than one charged decision."
 excerpt: "People read sexual timing as information \u2014 who you slept with, how quickly, under what conditions. This piece explains why they do, why that signal is far noisier than folk wisdom admits, and how to judge seriousness through sustained patterns rather than one charged decision."
 image: /assets/images/essays/signaling-game.svg
@@ -53,6 +60,9 @@ Even when types *could* theoretically separate, sometimes they do not. Both type
 Suppose social norms create a strong expectation that serious people wait. If the norm is powerful enough, even someone with no long-term intentions will wait — not because it is costly, but because violating the norm carries its own penalties. Being seen as "too eager" has a social cost that has nothing to do with actual patience. When both types prefer to send the same signal for reputational or social reasons, the signal stops separating them. Waiting tells you nothing about type because everyone is waiting.
 
 The clearest formal illustration of this is the Beer-Quiche game (Cho and Kreps, 1987). The setup: there are two types of player — call them tough and weak. There is an observer who will challenge the player only if they believe the player is weak. Before the observer decides, the player chooses a publicly visible action: order beer or order quiche. In the model's logic, tough types genuinely prefer beer, weak types prefer quiche. But here is the problem: the weak type *also* knows that the observer associates beer with toughness. So the weak type orders beer too — not because they like it, but because being seen as tough (and therefore not challenged) is worth more than eating what they actually want.
+
+> Waiting tells you nothing about type because everyone is waiting.
+{: .pull}
 
 The result: both types order beer. The observer sees beer, learns nothing, and cannot tell the types apart. The signal has pooled. The action that was supposed to reveal type instead conceals it, because the cost of mimicry (eating something you dislike) is lower than the cost of being correctly identified (getting challenged).
 

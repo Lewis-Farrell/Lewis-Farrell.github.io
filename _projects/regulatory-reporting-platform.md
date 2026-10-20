@@ -7,6 +7,8 @@ client: FTSE 100 asset manager
 role: Management consultant, embedded in the Corporate Functions team
 period: Woodhurst · Liquidity reporting
 status: published
+metric: "30+"
+metric_label: "regulatory reports run end to end in ~15 minutes"
 summary: Building the Databricks pipelines behind 30+ regulatory reports, from event-driven ingestion to a deployment process that ships 75% faster.
 stack:
   - Databricks (PySpark, Delta Lake, DABs)

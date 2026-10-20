@@ -8,13 +8,12 @@ page_class: essay
     <div class="container">
       <span class="kicker">{{ page.category | default: "Intimacy Economics" }}</span>
       <h1 class="article-title">{{ page.title }}</h1>
-      {% if page.lead %}<p class="article-dek">{{ page.lead }}</p>{% endif %}
+      {% assign dek = page.dek | default: page.summary | default: page.lead %}
+      {% if dek %}<p class="article-dek">{{ dek }}</p>{% endif %}
       <div class="article-byline">
         <strong>By Lewis Farrell</strong>
-        <span class="dot"></span>
-        <span>{{ page.date | date: "%B %-d, %Y" }}</span>
-        <span class="dot"></span>
-        <span>{{ page.reading_time | default: 8 }} min read</span>
+        {% if page.date_public %}<span class="dot"></span><span>{{ page.date | date: "%B %-d, %Y" }}</span>{% endif %}
+        {% if page.reading_time %}<span class="dot"></span><span>{{ page.reading_time }} min read</span>{% endif %}
       </div>
     </div>
   </header>
@@ -44,6 +43,20 @@ page_class: essay
     </aside>
 
     <div class="article-main">
+      <details class="toc-mobile" data-toc-mobile hidden>
+        <summary>Contents</summary>
+        <ol class="toc-list"></ol>
+      </details>
+
+      {% if page.takeaways and page.takeaways.size > 0 %}
+      <aside class="takeaways" aria-labelledby="takeaways-h">
+        <h2 class="takeaways-title" id="takeaways-h">The argument in three lines</h2>
+        <ol class="takeaways-list">
+          {% for t in page.takeaways %}<li>{{ t | markdownify | remove: '<p>' | remove: '</p>' }}</li>{% endfor %}
+        </ol>
+      </aside>
+      {% endif %}
+
       <div class="article-body">
         {{ content }}
       </div>
@@ -56,39 +69,59 @@ page_class: essay
           <div class="article-author-links">
             <a href="{{ '/professional' | relative_url }}">Professional</a>
             <a href="{{ '/relationships' | relative_url }}">Relationships</a>
-            <a href="{{ '/cv' | relative_url }}">CV</a>
           </div>
         </div>
       </footer>
 
-      <p class="article-back"><a href="{{ '/relationships' | relative_url }}" class="btn-text">&larr; All essays</a></p>
+      {% assign prev_essay = nil %}{% assign next_essay = nil %}{% assign found = false %}
+      {% for e in site.essays %}
+        {% if e.status != 'draft' %}
+          {% if e.url == page.url %}{% assign found = true %}
+          {% elsif found == false %}{% assign prev_essay = e %}
+          {% elsif next_essay == nil %}{% assign next_essay = e %}{% endif %}
+        {% endif %}
+      {% endfor %}
+      <nav class="keep-reading" aria-labelledby="keep-reading-h">
+        <h2 class="keep-reading-label" id="keep-reading-h">Keep reading</h2>
+        <div class="pager">
+          {% if prev_essay %}<a class="pager-link" href="{{ prev_essay.url | relative_url }}"><span>Previous</span><strong>{{ prev_essay.title }}</strong></a>{% else %}<span></span>{% endif %}
+          {% if next_essay %}<a class="pager-link pager-link--next" href="{{ next_essay.url | relative_url }}"><span>Next</span><strong>{{ next_essay.title }}</strong></a>{% endif %}
+        </div>
+        <ul class="aside-list keep-reading-list">{% include essay-related.html %}</ul>
+      </nav>
+
+      <p class="article-back">
+        <a href="{{ '/writing' | relative_url }}" class="btn-text">&larr; All essays</a>
+        <a href="{{ '/feed.xml' | relative_url }}" class="btn-text">RSS</a>
+        <a href="{{ '/contact' | relative_url }}" class="btn-text">Get in touch</a>
+      </p>
     </div>
 
-    <aside class="article-aside">
-      <div class="aside-block">
-        <h4 class="aside-label">More essays</h4>
-        <ul class="aside-list">
-          {% assign shown = 0 %}
-          {% for essay in site.essays %}
-            {% if essay.slug != page.slug and essay.status != 'draft' and shown < 4 %}
-              <li><a href="{{ essay.url | relative_url }}">{{ essay.title }}</a></li>
-              {% assign shown = shown | plus: 1 %}
-            {% endif %}
-          {% endfor %}
-        </ul>
+    <aside class="article-aside article-aside--essay">
+      <div class="aside-rest">
+        <div class="aside-block">
+          <h4 class="aside-label">Related essays</h4>
+          <ul class="aside-list">{% include essay-related.html %}</ul>
+        </div>
+
+        <div class="aside-block">
+          <h4 class="aside-label">Follow</h4>
+          <p class="aside-text">New essays on incentives, markets, and modern relationships.</p>
+          <a href="{{ '/feed.xml' | relative_url }}" class="aside-link">RSS feed &rarr;</a><br>
+          <a href="{{ '/contact' | relative_url }}" class="aside-link">Get in touch &rarr;</a><br>
+          <a href="{{ '/glossary' | relative_url }}" class="aside-link">Glossary &rarr;</a>
+        </div>
       </div>
 
-      <div class="aside-block">
-        <h4 class="aside-label">Product</h4>
-        <p class="aside-text"><strong>Affinity</strong>A decision system for dating clarity, built on the same principles explored in these essays.</p>
-        <a href="#" class="aside-link">Explore Affinity &rarr;</a>
-      </div>
-
-      <div class="aside-block">
-        <h4 class="aside-label">Stay updated</h4>
-        <p class="aside-text">New essays on incentives, markets, and modern relationships.</p>
-        <a href="#" class="aside-link">Subscribe &rarr;</a>
+      <div class="toc-wrap">
+        <div class="aside-block toc-block" data-toc-desktop hidden>
+          <h4 class="aside-label">Contents</h4>
+          <ol class="toc-list"></ol>
+        </div>
       </div>
     </aside>
   </div>
 </article>
+<script src="{{ '/assets/js/essay.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+{% include glossary-data.html %}
+<script src="{{ '/assets/js/glossary.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

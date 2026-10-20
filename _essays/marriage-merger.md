@@ -1,10 +1,17 @@
 ---
 title: "Marriage Is the Merger That Never Quite Merges"
-date: 2026-10-17
+date: 2026-10-13
+date_public: true
+takeaways:
+  - "Marriage fuses exposure to big decisions but gives neither partner the final say."
+  - "Unplanned decisions get settled by fallback options, tolerance of delay and who proposes, not merit."
+  - "Audit each domain, see who concedes, and set an explicit rule for what happens when you disagree."
 status: published
 category: Intimacy Economics
 reading_time: 30
-summary: "Marriage fuses two people's money, homes and futures as if they were one actor, and gives neither of them the last word. The merger metaphor explains a surprising amount of what follows, and then fails at exactly the point that matters. The failure is the finding, and it tells you what is really settling your disagreements."
+order: 8
+topic: "Structure & commitment"
+summary: "Marriage fuses money, homes and futures yet gives neither person the last word. The merger metaphor fails where it matters, and that failure is the finding."
 excerpt: "Marriage fuses two people's money, homes and futures as if they were one actor, and gives neither of them the last word. The merger metaphor explains a surprising amount of what follows, and then fails at exactly the point that matters. The failure is the finding, and it tells you what is really settling your disagreements."
 lead: "Marriage fuses two people's money, homes and futures as if they were one actor, and gives neither of them the last word. The merger metaphor explains a surprising amount of what follows, and then fails at exactly the point that matters. The failure is the finding, and it tells you what is really settling your disagreements."
 image: /assets/images/essays/marriage-merger.svg
@@ -87,6 +94,9 @@ So the useful version is a question, not a theorem. If marriage is an incomplete
 The uncomfortable answer: by things other than which option is better — the route need not track decision quality, as the toy below shows, even when both people accept the result.
 
 Start with the best-supported candidate, **outside options**. Household bargaining models, from Manser and Brown and McElroy and Horney through Lundberg and Pollak's "separate spheres", and in a different register Chiappori's collective model, share a core idea: what a couple ends up with depends on each partner's position, above all on what each could get if cooperation broke down, by leaving or by retreating into a colder, more separate version of the marriage.^10 The essay on making it official works through the machinery;^11 this one imports the conclusion. That is a theoretical prediction about how bargaining outcomes depend on relative position, not direct evidence that outside options are what settle any particular marital dispute. The partner with the better fallback does not win every argument. They can just afford to lose fewer of them.
+
+> A disagreement that nobody can settle by right is often settled by whoever can stand it staying unsettled for longer.
+{: .pull}
 
 The second candidate is **tolerance of delay**. A disagreement that nobody can settle by right is often settled by whoever can stand it staying unsettled for longer. This is the same quantity the previous essay called "how long you can let it sit",^1 applied now not to the unbooked dentist or the overflowing recycling but to one large, one-off decision with a deadline. It has no obvious relationship to who is right.
 

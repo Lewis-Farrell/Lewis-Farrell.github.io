@@ -1,10 +1,17 @@
 ---
 title: "Two Is the Nash Equilibrium (Or: Why Not Poly?)"
-date: 2026-10-17
+date: 2026-09-03
+date_public: true
+takeaways:
+  - "Two is a stable arrangement for most people, not the only one, and poly can be stable too."
+  - "Coordination costs, competing claims and unprotected investment outgrow the extra surplus past two."
+  - "Price your calendar, tie-break rule and horizon first; stable does not mean happy."
 status: published
 category: Intimacy Economics
 reading_time: 27
-summary: "The economic case for more partners is better than most monogamists admit: more relationships should mean more surplus and less risk. For most people it fails anyway, and the reasons have nothing to do with morals. Count the coordination costs, the competing claims on one person's attention, and the investments nobody makes without protection, and two turns out to be the arrangement that stays put. That is not the same as the arrangement that works."
+order: 9
+topic: "Structure & commitment"
+summary: "The case for more partners is better than monogamists admit, yet coordination costs, divided attention and unprotected investment make two the stable number."
 excerpt: "The economic case for more partners is better than most monogamists admit: more relationships should mean more surplus and less risk. For most people it fails anyway, and the reasons have nothing to do with morals. Count the coordination costs, the competing claims on one person's attention, and the investments nobody makes without protection, and two turns out to be the arrangement that stays put. That is not the same as the arrangement that works."
 lead: "The economic case for more partners is better than most monogamists admit: more relationships should mean more surplus and less risk. For most people it fails anyway, and the reasons have nothing to do with morals. Count the coordination costs, the competing claims on one person's attention, and the investments nobody makes without protection, and two turns out to be the arrangement that stays put. That is not the same as the arrangement that works."
 image: /assets/images/essays/two-is-nash.svg
@@ -91,6 +98,9 @@ Put a relationship through that test. Knowing exactly which silence means tired 
 Now add people. Two people have one relationship to maintain. Three people who all know each other have three pairwise relationships, plus the group as a whole. Four people have six. The number of connections grows faster than the number of people, and each connection has its own schedule, its own history, its own unspoken rules, and its own need to hear about decisions made in the others. Not every pair has to be romantic, but every pair has to be coordinated. Take a *hinge*, the person in the middle of a V whose two partners aren't with each other. The hinge doesn't just split their time; they become the clearing-house for everyone's plans. Practitioners have a name for the load that falls on that person: the "hinge tax."
 
 None of this requires anyone to be jealous, insecure or bad at communicating. Perfect communicators still pay the overhead, because communicating perfectly *is* the overhead. The people living this way say as much. A 2026 study in the *Journal of Sex & Marital Therapy* found that time management was the challenge polyamorous respondents reported most often, cited by 72.6% of them, and it included logistics, scheduling, and feeling "spread too thin." Jealousy, the thing outsiders assume will sink poly, came third at 35.2%.^8 The most common complaint isn't heartache. It's the calendar.
+
+> Perfect communicators still pay the overhead, because communicating perfectly is the overhead.
+{: .pull}
 
 The transaction-cost argument doesn't say poly can't work. It says that for most people, each extra relationship adds surplus at a declining rate (or, at best, a steady one) and adds overhead at an accelerating rate. At some point, usually sooner than enthusiasts expect, the cost curve crosses the benefit curve. For most people, it crosses at two.
 

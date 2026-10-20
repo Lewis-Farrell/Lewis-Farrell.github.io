@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Intimacy Economics original-style vector preview</title>
+  <desc id="desc">A vector brand sheet aligned with the original approved identity board.</desc>
+  <rect width="1600" height="1100" fill="#FBF9F6"/>
+  <text x="70" y="58" fill="#343230" font-family="Arial" font-size="13" letter-spacing="7">BRAND IDENTITY</text>
+  <text x="1530" y="58" text-anchor="end" fill="#343230" font-family="Arial" font-size="13" letter-spacing="7">INTIMACY ECONOMICS</text>
+  <line x1="70" y1="88" x2="1530" y2="88" stroke="#C9C4BF"/>
+  <text x="72" y="145" fill="#343230" font-family="Arial" font-size="14" letter-spacing="7">PRIMARY WORDMARK</text>
+  <text x="72" y="300" fill="#0F0F0F" font-family="Didot, 'Bodoni MT', 'Times New Roman', serif" font-size="142" letter-spacing="-5">INTIMACY</text>
+  <text x="72" y="440" fill="#0F0F0F" font-family="Didot, 'Bodoni MT', 'Times New Roman', serif" font-size="142" letter-spacing="-5">ECONOMICS</text>
+  <line x1="76" y1="480" x2="166" y2="480" stroke="#E6392D" stroke-width="4"/>
+  <text x="76" y="530" fill="#343230" font-family="Arial" font-size="16" letter-spacing="6">PEOPLE  ×  INCENTIVES  ×  BETTER RELATIONSHIPS</text>
+  <line x1="895" y1="135" x2="895" y2="555" stroke="#C9C4BF"/>
+  <text x="935" y="145" fill="#343230" font-family="Arial" font-size="14" letter-spacing="7">LOGO MARK</text>
+  <g transform="translate(900 130) scale(.82)"><defs><clipPath id="lc"><circle cx="250" cy="230" r="150"/></clipPath></defs><circle cx="350" cy="230" r="150" fill="#E7D6D2" fill-opacity=".48" clip-path="url(#lc)"/><circle cx="250" cy="230" r="150" fill="none" stroke="#0F0F0F" stroke-width="7"/><circle cx="350" cy="230" r="150" fill="none" stroke="#E6392D" stroke-width="7"/><line x1="300" y1="178" x2="300" y2="282" stroke="#0F0F0F" stroke-width="7"/><circle cx="300" cy="178" r="15" fill="#0F0F0F"/><circle cx="300" cy="282" r="15" fill="#E6392D" stroke="#0F0F0F" stroke-width="2"/></g>
+  <text x="1370" y="260" fill="#343230" font-family="Arial" font-size="15" letter-spacing="6"><tspan x="1370">PEOPLE</tspan><tspan x="1370" dy="42">INCENTIVES</tspan><tspan x="1370" dy="42">SYSTEMS</tspan><tspan x="1370" dy="42">BETTER</tspan><tspan x="1370" dy="28">RELATIONSHIPS</tspan></text>
+  <line x1="70" y1="590" x2="1530" y2="590" stroke="#C9C4BF"/>
+  <text x="70" y="642" fill="#343230" font-family="Arial" font-size="14" letter-spacing="7">ICON LANGUAGE</text>
+  <g transform="translate(130 675)"><circle cx="60" cy="30" r="20" fill="none" stroke="#0F0F0F" stroke-width="3"/><circle cx="130" cy="30" r="20" fill="none" stroke="#0F0F0F" stroke-width="3"/><path d="M15 145v-35c0-32 18-50 45-50s45 18 45 50v35c0 10-7 17-17 17H32c-10 0-17-7-17-17ZM85 145v-35c0-32 18-50 45-50s45 18 45 50v35c0 10-7 17-17 17h-56c-10 0-17-7-17-17Z" fill="none" stroke="#0F0F0F" stroke-width="3"/><path d="M95 78C86 90 86 129 95 150C104 129 104 90 95 78Z" fill="#FBF9F6" stroke="#E6392D" stroke-width="2.5" stroke-linejoin="round"/><text x="95" y="208" text-anchor="middle" font-family="Arial" font-size="13" letter-spacing="6">PEOPLE</text></g>
+  <g transform="translate(510 665)"><rect x="20" y="100" width="32" height="64" fill="none" stroke="#0F0F0F" stroke-width="3"/><rect x="68" y="65" width="32" height="99" fill="none" stroke="#0F0F0F" stroke-width="3"/><rect x="116" y="25" width="32" height="139" fill="none" stroke="#0F0F0F" stroke-width="3"/><path d="M18 58c48-12 88-35 132-76M131-13l20-8-2 22" fill="none" stroke="#E6392D" stroke-width="3"/><text x="85" y="208" text-anchor="middle" font-family="Arial" font-size="13" letter-spacing="5">INCENTIVES</text></g>
+  <g transform="translate(875 660)"><circle cx="95" cy="90" r="68" fill="none" stroke="#0F0F0F" stroke-width="2" stroke-dasharray="4 6"/><circle cx="95" cy="22" r="13" fill="#0F0F0F"/><circle cx="36" cy="124" r="13" fill="#E6392D" stroke="#0F0F0F"/><circle cx="154" cy="124" r="13" fill="#EDE7E1" stroke="#0F0F0F"/><text x="95" y="208" text-anchor="middle" font-family="Arial" font-size="13" letter-spacing="6">SYSTEMS</text></g>
+  <line x1="1185" y1="630" x2="1185" y2="895" stroke="#C9C4BF"/>
+  <text x="1235" y="642" fill="#343230" font-family="Arial" font-size="14" letter-spacing="7">COLOUR PALETTE</text>
+  <circle cx="1265" cy="735" r="42" fill="#0F0F0F"/><circle cx="1370" cy="735" r="42" fill="#E6392D"/><circle cx="1475" cy="735" r="42" fill="#E7D6D2"/>
+  <text x="1265" y="810" text-anchor="middle" font-family="Arial" font-size="11" letter-spacing="3">CHARCOAL</text><text x="1370" y="810" text-anchor="middle" font-family="Arial" font-size="11" letter-spacing="3">ACCENT RED</text><text x="1475" y="810" text-anchor="middle" font-family="Arial" font-size="11" letter-spacing="3">WARM BLUSH</text>
+  <line x1="70" y1="935" x2="1530" y2="935" stroke="#C9C4BF"/>
+  <text x="70" y="992" fill="#343230" font-family="Arial" font-size="13" letter-spacing="6">PAPER #FBF9F6   •   WARM STONE #EDE7E1   •   WARM BLUSH #E7D6D2   •   ACCENT RED #E6392D   •   CHARCOAL #0F0F0F</text>
+  <text x="70" y="1044" fill="#0F0F0F" font-family="Didot, 'Bodoni MT', 'Times New Roman', serif" font-size="38">Relationships make sense when you see the system.</text>
+</svg>

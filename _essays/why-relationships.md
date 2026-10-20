@@ -1,10 +1,17 @@
 ---
 title: "The Relationship Is a Firm. Here Is What It Makes."
-date: 2026-10-17
+date: 2026-08-11
+date_public: true
+takeaways:
+  - "A relationship is a small firm that earns a surplus from specialisation, insurance and shared costs."
+  - "Historic terms followed each partner's walk-away point, so better outside options explain falling marriage."
+  - "Pick partners with uncorrelated risk, protect the specialist's exit, and accept economics stops short of why."
 status: published
 category: Intimacy Economics
 reading_time: 23
-summary: "You no longer need a partner to eat, own property or survive a bad year, and you still want one anyway. Economics can explain most of that puzzle: a relationship is a small firm with three production lines (divided labour, mutual insurance and shared fixed costs), and the history of marriage tracks what happened to each of them. What economics can't explain is the part you care about most, and this article shows exactly where that gap begins."
+order: 2
+topic: "Models & theory"
+summary: "Why do people still pair up when they no longer need to? A relationship as a small firm with three production lines, and where that economics runs out."
 excerpt: "You no longer need a partner to eat, own property or survive a bad year, and you still want one anyway. Economics can explain most of that puzzle: a relationship is a small firm with three production lines (divided labour, mutual insurance and shared fixed costs), and the history of marriage tracks what happened to each of them. What economics can't explain is the part you care about most, and this article shows exactly where that gap begins."
 lead: "You no longer need a partner to eat, own property or survive a bad year, and you still want one anyway. Economics can explain most of that puzzle: a relationship is a small firm with three production lines (divided labour, mutual insurance and shared fixed costs), and the history of marriage tracks what happened to each of them. What economics can't explain is the part you care about most, and this article shows exactly where that gap begins."
 image: /assets/images/essays/why-relationships.svg
@@ -88,6 +95,9 @@ If partnership really works as insurance, it should make a testable prediction. 
 France seems to have provided something close to a test. Around 1999, a change to the rules on layoffs left part of the workforce with less job protection than before. The workers affected did not choose the reform, so it works as a natural experiment. What did they do next? According to a 2020 working paper using the reform, they became more likely to marry, and the rise was concentrated in marriages to partners whose own jobs were *more* secure.^8 People facing new risk appear to have sought out a partner whose income could carry them. That is the insurance motive, observed in the wild. The citation still needs external verification before publication, and the article treats the finding as evidence *consistent with* the insurance prediction rather than as settled fact.
 
 One distinction matters here. The French study measured *marriage*, the legal contract, and not merely the decision to share a life. Marriage turns an informal pool into an enforceable one: shared assets, obligations on separation, a public commitment. The insurance logic applies to cohabiting couples too, but people facing sharper risk may want the version with a contract attached. That is not romance. It is the reason insurers don't sell policies on a handshake.
+
+> The best insurance partner is not the one most like you.
+{: .pull}
 
 The scope condition follows straight from the box. When shocks are correlated, the pool fails at exactly the moment you need it. Two people at the same company, in the same sector and the same city during a downturn will be hit together. The best insurance partner is not the one most like you. A freelancer paired with a salaried employee, or a private-sector worker paired with someone in the public sector, holds a more valuable policy than two consultants at the same firm.
 

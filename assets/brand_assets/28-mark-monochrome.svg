@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="460" viewBox="0 0 600 460" role="img" aria-labelledby="title desc">
+  <title id="title">Intimacy Economics monochrome wordless mark</title>
+  <desc id="desc">Transparent single-colour mark for embossing, stamps and constrained applications.</desc>
+  <circle cx="250" cy="230" r="150" fill="none" stroke="#0F0F0F" stroke-width="7"/>
+  <circle cx="350" cy="230" r="150" fill="none" stroke="#0F0F0F" stroke-width="7"/>
+  <line x1="300" y1="178" x2="300" y2="282" stroke="#0F0F0F" stroke-width="7"/>
+  <circle cx="300" cy="178" r="15" fill="#0F0F0F"/>
+  <circle cx="300" cy="282" r="15" fill="#0F0F0F"/>
+</svg>

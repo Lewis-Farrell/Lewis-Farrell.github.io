@@ -1,10 +1,17 @@
 ---
 title: "Incentive-Compatible Dating"
-date: 2026-10-17
+date: 2026-09-22
+date_public: true
+takeaways:
+  - "Dating frustration is often a design failure: vague talk is free, so unlike intentions look identical."
+  - "Only costly steps like clarity, planning and follow-through separate serious people from the merely pleasant."
+  - "Match closeness to commitment in stages, and ask what seriousness would cost here."
 status: published
 category: Intimacy Economics
 reading_time: 29
-summary: "Most dating advice tells you to choose better people. But the deeper problem is design: modern dating makes ambiguity cheap, seriousness easy to fake, and real alignment painfully slow to reveal. This article argues that better romantic outcomes come not from wanting them harder, but from building structures where truth, effort, and intention separate themselves from noise."
+order: 1
+topic: "Structure & commitment"
+summary: "Dating makes ambiguity cheap and seriousness easy to fake. Better outcomes come from structures that make truth and effort separate themselves from noise."
 lead: "Most dating advice tells you to choose better people. But the deeper problem is design: modern dating makes ambiguity cheap, seriousness easy to fake, and real alignment painfully slow to reveal. This article argues that better romantic outcomes come not from wanting them harder, but from building structures where truth, effort, and intention separate themselves from noise."
 excerpt: "Most dating advice tells you to choose better people. But the deeper problem is design: modern dating makes ambiguity cheap, seriousness easy to fake, and real alignment painfully slow to reveal. This article argues that better romantic outcomes come not from wanting them harder, but from building structures where truth, effort, and intention separate themselves from noise."
 image: /assets/images/essays/mechanism-design.svg
@@ -255,6 +262,9 @@ whether the third date going well is a real indicator, when the honest answer
 is: at that stage, the mechanism has not yet imposed enough differential cost
 to tell you much. The signal is not fake — it is just cheap enough that both
 types can produce it.
+
+> Clarity is expensive when you do not want to be pinned down.
+{: .pull}
 
 The Mimicry Gap only starts to widen when the structure demands something that
 is differentially costly: planning ahead, showing up consistently over weeks

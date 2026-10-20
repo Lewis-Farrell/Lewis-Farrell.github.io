@@ -2,14 +2,18 @@
   <div class="container">
     <div class="footer-inner">
       <p class="footer-brand">Lewis Farrell</p>
-      <nav class="footer-nav">
+      <nav class="footer-nav" aria-label="Footer">
         <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/professional' | relative_url }}">Professional</a>
-        <a href="{{ '/relationships' | relative_url }}">Relationships</a>
-        <a href="https://github.com/lewis-farrell" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://linkedin.com/in/-lewisfarrell-" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="{{ '/writing' | relative_url }}">Writing</a>
+        <a href="{{ '/contact' | relative_url }}">Contact</a>
       </nav>
     </div>
-    <p class="footer-copy">&copy; {{ 'now' | date: "%Y" }} Lewis Farrell</p>
+    <nav class="footer-nav footer-social" aria-label="Elsewhere">
+      <a href="https://github.com/lewis-farrell" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/-lewisfarrell-" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </nav>
+    <p class="footer-copy">&copy; {{ 'now' | date: "%Y" }} Lewis Farrell &middot; Last updated {{ site.time | date: "%-d %B %Y" }}</p>
   </div>
 </footer>

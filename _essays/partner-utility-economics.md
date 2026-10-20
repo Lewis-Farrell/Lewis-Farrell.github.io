@@ -1,11 +1,18 @@
 ---
 title: "The 37% Rule Solves the Wrong Problem in Love"
-date: 2026-10-17
+date: 2026-07-02
+date_public: true
+takeaways:
+  - "The 37% rule assumes you alone choose from a silent queue, but real partners are choosing you too."
+  - "The payoff comes from years of bargaining and cooperation after commitment, so first-date chemistry misleads."
+  - "Initiate, define what you maximize, escalate by choice not drift, and screen for steadiness under pressure."
 status: published
 category: Intimacy Economics
 reading_time: 29
+order: 7
+topic: "Dating mechanics"
+summary: "The 37% rule assumes a silent queue of candidates. Real partner choice is two-sided, gradual, and shaped by what happens after you commit."
 math: true
-summary: "Popularised by Hannah Fry in her book \"The Mathematics of Love\", the 37% rule is an application of the \"secretary problem\". It's a great display of taking a more structured view of relationships, yet applied literally it's inconducive to practical advice. The answer assumes you are choosing from a silent queue, whereas real partner choice is bilateral, gradual, and shaped by what happens after commitment, not just by the moment you decide to stop looking."
 lead: "Popularised by Hannah Fry in her book \"The Mathematics of Love\", the 37% rule is an application of the \"secretary problem\". It's a great display of taking a more structured view of relationships, yet applied literally it's inconducive to practical advice. The answer assumes you are choosing from a silent queue, whereas real partner choice is bilateral, gradual, and shaped by what happens after commitment, not just by the moment you decide to stop looking."
 excerpt: "Popularised by Hannah Fry in her book \"The Mathematics of Love\", the 37% rule is an application of the \"secretary problem\". It's a great display of taking a more structured view of relationships, yet applied literally it's inconducive to practical advice. The answer assumes you are choosing from a silent queue, whereas real partner choice is bilateral, gradual, and shaped by what happens after commitment, not just by the moment you decide to stop looking."
 image: /assets/images/essays/partner-utility-economics.svg
@@ -287,6 +294,9 @@ a market where compatible types are rare, each signal carries more weight — yo
 cannot afford to walk away from a plausibly good match on thin evidence. In a
 market flooded with options, signals need to be stronger before they justify
 continued investment.
+
+> Dating is a two-way audit conducted under the polite fiction that no one is auditing.
+{: .pull}
 
 And crucially, both of you face this tradeoff simultaneously. You are learning
 about them. They are learning about you. Either party can conclude, at any

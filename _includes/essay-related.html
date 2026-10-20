@@ -1,0 +1,3 @@
+{%- assign rel_n = 0 -%}
+{%- if page.topic -%}{%- for e in site.essays -%}{%- if e.url != page.url and e.status != 'draft' and e.topic == page.topic and rel_n < 4 -%}<li><a href="{{ e.url | relative_url }}">{{ e.title }}</a></li>{%- assign rel_n = rel_n | plus: 1 -%}{%- endif -%}{%- endfor -%}{%- endif -%}
+{%- for e in site.essays -%}{%- if e.url != page.url and e.status != 'draft' and rel_n < 4 -%}{%- unless page.topic and e.topic == page.topic -%}<li><a href="{{ e.url | relative_url }}">{{ e.title }}</a></li>{%- assign rel_n = rel_n | plus: 1 -%}{%- endunless -%}{%- endif -%}{%- endfor -%}

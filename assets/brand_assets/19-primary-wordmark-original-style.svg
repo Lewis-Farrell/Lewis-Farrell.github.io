@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">Intimacy Economics primary editorial wordmark</title>
+  <desc id="desc">Large two-line all-caps editorial serif wordmark with a red rule and spaced descriptor.</desc>
+  <text x="72" y="205" fill="#0F0F0F" font-family="Didot, 'Bodoni MT', 'Times New Roman', serif" font-size="164" letter-spacing="-6">INTIMACY</text>
+  <text x="72" y="372" fill="#0F0F0F" font-family="Didot, 'Bodoni MT', 'Times New Roman', serif" font-size="164" letter-spacing="-6">ECONOMICS</text>
+  <line x1="76" y1="421" x2="170" y2="421" stroke="#E6392D" stroke-width="4"/>
+  <text x="76" y="473" fill="#343230" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing="7">PEOPLE  ×  INCENTIVES  ×  BETTER RELATIONSHIPS</text>
+</svg>

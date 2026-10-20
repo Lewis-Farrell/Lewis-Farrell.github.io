@@ -1,10 +1,17 @@
 ---
 title: "Is Monogamy an Evolutionarily Stable Strategy?"
-date: 2026-10-17
+date: 2026-08-19
+date_public: true
+takeaways:
+  - "Monogamy is not an evolutionarily stable strategy: a faithful population is the best place to cheat."
+  - "Cheating cannot take over either, so defection settles at a mix, from about 1% to 48% of children."
+  - "Fidelity lasts where witnesses and costs hold it, so build those instead of trusting words."
 status: published
 category: Intimacy Economics
 reading_time: 26
-summary: "Somewhere between 1% and 48% of children in studied human populations were not fathered by the man raising them. That range is not a measurement failure. Evolutionary game theory predicts it: a population of faithful partners is the best possible place to be a cheater, and so monogamy cannot hold itself in place. It survives where something holds it there, and seeing what that something is changes how you read a partner, a promise, and the moment when nobody would ever know."
+order: 11
+topic: "Models & theory"
+summary: "Evolutionary game theory predicts monogamy cannot hold itself in place. It survives where something holds it there, which changes how you read a promise."
 excerpt: "Somewhere between 1% and 48% of children in studied human populations were not fathered by the man raising them. That range is not a measurement failure. Evolutionary game theory predicts it: a population of faithful partners is the best possible place to be a cheater, and so monogamy cannot hold itself in place. It survives where something holds it there, and seeing what that something is changes how you read a partner, a promise, and the moment when nobody would ever know."
 lead: "Somewhere between 1% and 48% of children in studied human populations were not fathered by the man raising them. That range is not a measurement failure. Evolutionary game theory predicts it: a population of faithful partners is the best possible place to be a cheater, and so monogamy cannot hold itself in place. It survives where something holds it there, and seeing what that something is changes how you read a partner, a promise, and the moment when nobody would ever know."
 image: /assets/images/essays/monogamy-ess.svg
@@ -89,6 +96,9 @@ So the rare cad's imitation of commitment doesn't need to be good. It only needs
 Notice what kind of game the cad is playing. It is one-shot. He passes through, collects, and moves on before any consequence can catch up with him. Each encounter is effectively the first and last time the two parties meet. This is what *nobody would ever know* means in strategic terms: the interaction has no future in which defection could be punished. Hold onto that, because the fix in Section 8 is to give that interaction a future.
 
 Faithful players fight back. The individual-level defense is **mate guarding**: vigilance, keeping rivals away, displays of resources and commitment, sometimes threats. David Buss's review of human mate guarding shows it is real, varied, and expensive, and that people spend more on it as they perceive more risk.^6 The cost is paid by the people trying to stay faithful, in time and attention that could go elsewhere. And it leaks, because no amount of vigilance gets detection error to zero. A rare cad who puts effort into his performance will sometimes get through.
+
+> A population of complete monogamists contains the conditions for its own invasion.
+{: .pull}
 
 This invasion result follows directly from the payoff structure, given the assumptions: detection is imperfect, investment matters to offspring, and the cad starts out rare. Change those assumptions and the result can change. They are not exotic assumptions, though. They describe the world most humans have lived in. **A population of complete monogamists contains the conditions for its own invasion.** That is the first half of the article's core claim, and it is the hawk-dove logic Maynard Smith developed with the labels changed to describe mating.^3
 

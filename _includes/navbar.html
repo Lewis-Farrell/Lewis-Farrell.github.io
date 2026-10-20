@@ -1,13 +1,16 @@
-<nav class="navbar" role="navigation" aria-label="Main navigation">
+{%- assign sec = page.section -%}
+{%- if sec == 'relationships' %}{% assign sec = 'writing' %}{% endif -%}
+<nav class="navbar" aria-label="Main navigation">
   <div class="container">
     <a href="{{ '/' | relative_url }}" class="navbar-brand">Lewis Farrell</a>
     <ul class="navbar-links">
-      <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
-      <li><a href="{{ '/professional' | relative_url }}" {% if page.url contains 'professional' or page.url contains 'project' or page.url contains 'cv' %}class="active"{% endif %}>Professional</a></li>
-      <li><a href="{{ '/relationships' | relative_url }}" {% if page.url contains 'relationships' or page.url contains 'essay' or page.url contains 'idea' %}class="active"{% endif %}>Relationships</a></li>
+      <li><a href="{{ '/' | relative_url }}"{% if sec == 'home' %} class="active" aria-current="page"{% endif %}>Home</a></li>
+      <li><a href="{{ '/professional' | relative_url }}"{% if sec == 'professional' %} class="active" aria-current="page"{% endif %}>Professional</a></li>
+      <li><a href="{{ '/writing' | relative_url }}"{% if sec == 'writing' %} class="active" aria-current="page"{% endif %}>Writing</a></li>
+      <li><a href="{{ '/contact' | relative_url }}"{% if sec == 'contact' %} class="active" aria-current="page"{% endif %}>Contact</a></li>
     </ul>
-    <button class="navbar-toggle" aria-label="Open menu" onclick="openMobileMenu()">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <button class="navbar-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-controls="mobileMenu" aria-expanded="false">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
       </svg>
     </button>

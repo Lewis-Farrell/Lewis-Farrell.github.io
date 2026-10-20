@@ -1,0 +1,2 @@
+{%- assign gl = site.data.glossary | sort_natural: "term" -%}
+<script type="application/json" id="glossary-data">[{% for g in gl %}{"term":{{ g.term | jsonify }},"definition":{{ g.definition | jsonify }},"match":{{ g.match | default: g.term | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>

@@ -1,10 +1,17 @@
 ---
 title: "The Check Worth Making"
-date: 2026-10-17
+date: 2026-08-05
+date_public: true
+takeaways:
+  - "A look is worth buying only if some result could change what you would do."
+  - "Once the partner responds, past a point each extra look tells the checker less and flags turn false."
+  - "Being checked costs the innocent too, and a refusal only signals guilt if few innocent people refuse."
 status: published
 category: Intimacy Economics
 reading_time: 39
-summary: "Before you find out, ask what you would do with the answer. An economist's way of pricing a look at a partner: when it is worth the cost, why, once the other person responds, looking harder can tell a checker less, and who else pays."
+order: 13
+topic: "Signals & information"
+summary: "Before you check on a partner, ask what you'd do with the answer. When looking is worth its cost, when looking harder tells you less, and who else pays."
 lead: "Before you find out, ask what you would do with the answer. An economist's way of pricing a look at a partner: when it is worth the cost, why, once the other person responds, looking harder can tell a checker less, and who else pays."
 excerpt: "Before you find out, ask what you would do with the answer. An economist's way of pricing a look at a partner: when it is worth the cost, why, once the other person responds, looking harder can tell a checker less, and who else pays."
 image: /assets/images/essays/choosing-to-monitor.svg
@@ -108,6 +115,9 @@ So far the person being looked at has been furniture. That made the first model 
 Here is the same checker, now choosing how hard to look rather than whether to look once more. The other person is a player, and responds in one of two ways. A partner who might be unfaithful chooses how often to lapse, knowing that harder looking makes a lapse more likely to be seen; so they lapse less. A faithful partner does not scheme, but being looked at harder can make their behaviour more guarded, more ambiguous, more withdrawn. The direction of that second response is an analogy from laboratory games, in which control lowered effort; it is not measured in couples (Box A). The checker still reads flags: the noise from Section 3, now responding to the look. The model needs only that their behaviour can respond to how much looking there is. Whether they know, what a discovered look does to trust, and what being watched without knowing does to a person all lie outside it, and nothing here is evidence on any of them.
 
 Two things happen to a flag. At light looking the partner has barely changed, so a flag is still worth acting on, and each extra bit of looking mainly adds the chance of getting a reading at all: the decision value of looking rises. But real lapses become rarer, because a partner who might lapse is deterred, so there is less to find; and with fewer real lapses, a larger share of the flags that do turn up are false. The decision value of looking rises, peaks, and then falls, and past a further point a flag can no longer be acted on, because it is too likely to be false. Beyond the peak, one more look tells you less, even if it costs nothing. This needs a flag to be actionable at light looking, and it needs the partner who might lapse to lapse less when a lapse is more likely to be seen. If a partner answers scrutiny by lapsing more, the peak is gone.
+
+> Beyond the peak, one more look tells you less, even if it costs nothing.
+{: .pull}
 
 ```
   WHAT ONE MORE LOOK IS WORTH  (shape only)

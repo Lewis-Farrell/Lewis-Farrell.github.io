@@ -1,11 +1,18 @@
 ---
 title: "Attraction Is Not Alignment"
-date: 2026-10-17
+date: 2026-08-27
+date_public: true
+takeaways:
+  - "A partner can like you and still gain from keeping the relationship vague, because ambiguity can be a reward."
+  - "Once you rely on them, effort is hard to observe, and staying because leaving is costly is not dedication."
+  - "Ask what clarity would cost them and which options they have actually closed, not just described."
 status: published
 category: Intimacy Economics
 reading_time: 15
+order: 6
+topic: "Signals & information"
+summary: "Attraction is easy to see and alignment is not. Why a partner can like you and still be mismatched on what the relationship should become."
 excerpt: "Attraction is easy to see and alignment is not. Why a partner can like you and still be badly matched on what the relationship should become, and how to tell the difference."
-summary: "Attraction is easy to see and alignment is not. Why a partner can like you and still be badly matched on what the relationship should become, and how to tell the difference."
 lead: "Attraction is easy to see and alignment is not. Why a partner can like you and still be badly matched on what the relationship should become, and how to tell the difference."
 image: /assets/images/essays/principal-agent.svg
 ---
@@ -122,6 +129,9 @@ relationship public would create accountability. Naming it would turn a soft
 arrangement into a legible one with social and emotional consequences. If the
 status quo gives them many of the benefits already, ambiguity is not a bug in
 the structure. It may be one of the rewards.
+
+> Constraint can hold two people together. Dedication keeps two people actively choosing each other.
+{: .pull}
 
 That helps explain why asymmetrically committed relationships are so fragile.
 Relationships where one person is meaningfully more invested than the other are

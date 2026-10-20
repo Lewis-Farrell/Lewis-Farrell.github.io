@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Systems icon in original editorial style</title>
+  <desc id="desc">A dotted circular system with black, red and warm-stone nodes.</desc>
+  <circle cx="160" cy="140" r="76" fill="none" stroke="#0F0F0F" stroke-width="3" stroke-dasharray="4 7"/>
+  <circle cx="160" cy="64" r="16" fill="#0F0F0F"/>
+  <circle cx="94" cy="178" r="16" fill="#E6392D" stroke="#0F0F0F" stroke-width="2"/>
+  <circle cx="226" cy="178" r="16" fill="#EDE7E1" stroke="#0F0F0F" stroke-width="2"/>
+  <text x="160" y="278" text-anchor="middle" fill="#343230" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="7">SYSTEMS</text>
+</svg>

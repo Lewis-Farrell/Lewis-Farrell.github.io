@@ -8,7 +8,8 @@ page_class: project
     <div class="container">
       <span class="kicker">{{ page.category | default: "Case study" }}</span>
       <h1 class="article-title">{{ page.title }}</h1>
-      {% if page.summary %}<p class="article-dek">{{ page.summary }}</p>{% endif %}
+      {% assign dek = page.dek | default: page.summary %}
+      {% if dek %}<p class="article-dek">{{ dek }}</p>{% endif %}
     </div>
   </header>
 
@@ -54,3 +55,4 @@ page_class: project
     </aside>
   </div>
 </article>
+<script src="{{ '/assets/js/essay.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

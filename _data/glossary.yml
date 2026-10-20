@@ -1,0 +1,192 @@
+# Glossary terms. 'match' is a regex alternation used by glossary.js; 'essays' are slugs.
+- term: "Adverse selection"
+  definition: "When one side knows more than the other, the people who most want a deal are often the ones the other side should worry about most."
+  match: "adverse selection"
+  essays: [monogamy-ess]
+
+- term: "Agency cost"
+  definition: "The value lost when someone acts for you but wants slightly different things than you do, plus the cost of keeping an eye on them."
+  match: "agency cost"
+  essays: [principal-agent]
+
+- term: "Asymmetric information"
+  aka: "information asymmetry"
+  definition: "A situation where one person knows something important that the other cannot easily check."
+  match: "asymmetric information|information asymmetry"
+  essays: [principal-agent]
+
+- term: "Assortative matching"
+  aka: "assortative"
+  definition: "The tendency for people to pair up with others who are similar to them on things like looks, education or ambition."
+  match: "assortative"
+  essays: [partner-utility-economics, signaling-game, why-relationships, your-type]
+
+- term: "Bargaining power"
+  definition: "How much say you have in a shared decision, mostly determined by how good your alternatives are."
+  match: "bargaining power"
+  essays: [marriage-merger, partner-utility-economics, why-relationships]
+
+- term: "Cheap talk"
+  definition: "Words that cost nothing to say and so prove nothing, because a liar can say them just as easily."
+  match: "cheap talk"
+  essays: [choosing-to-monitor, friends-and-third-parties, mechanism-design, monogamy-ess, principal-agent, signaling-game]
+
+- term: "Choice architecture"
+  definition: "The way options are laid out, which quietly shapes what people end up choosing."
+  match: "choice architecture"
+  essays: [choice-architecture]
+
+- term: "Commitment device"
+  definition: "Anything that makes it costly to back out later, so that a promise becomes believable."
+  match: "commitment device"
+  essays: [marriage-merger, signaling-game, two-is-nash]
+
+- term: "Coordination game"
+  definition: "A situation where both people do best by picking the same option, whichever one it is."
+  match: "coordination game"
+  essays: [two-is-nash]
+
+- term: "Costly signal"
+  definition: "A signal that is believable because it is expensive or hard to fake."
+  match: "costly signal"
+  essays: [signaling-game]
+
+- term: "Credible commitment"
+  definition: "A promise the other person has good reason to believe, because breaking it would hurt you."
+  match: "credible commitment|credibly commit"
+  essays: [monogamy-ess]
+
+- term: "Deferred acceptance"
+  definition: "A matching procedure where each side proposes and holds its best offers while keeping the option to trade up, until no one wants to switch."
+  match: "deferred acceptance"
+  essays: [partner-utility-economics]
+
+- term: "Defection"
+  definition: "Breaking a cooperative arrangement to grab a short-term gain at the other person's expense."
+  match: "defection"
+  essays: [monogamy-ess, signaling-game]
+
+- term: "Equilibrium"
+  definition: "A stable outcome where nobody can do better by changing their own behavior alone."
+  match: "equilibrium"
+  essays: [choosing-to-monitor, mechanism-design, monogamy-ess, partner-utility-economics, principal-agent, signaling-game, two-is-nash]
+
+- term: "Evolutionarily stable strategy"
+  aka: "ESS"
+  definition: "A strategy that, once most people follow it, cannot be beaten by any rival strategy that tries to take over."
+  match: "evolutionarily stable"
+  essays: [monogamy-ess]
+
+- term: "Focal point"
+  aka: "Schelling point"
+  definition: "An option that stands out so naturally that people converge on it without talking."
+  match: "focal point"
+  essays: [two-is-nash]
+
+- term: "Game theory"
+  definition: "The study of decisions where the best choice for you depends on what other people choose."
+  match: "game theory"
+  essays: [monogamy-ess, two-is-nash]
+
+- term: "Hold-up problem"
+  aka: "hold-up"
+  definition: "When you invest in something that only pays off with one partner, that partner can then demand more because you cannot easily walk away."
+  match: "hold-up|holdup"
+  essays: [two-is-nash]
+
+- term: "Loss aversion"
+  definition: "The tendency to feel a loss more sharply than an equal gain."
+  match: "loss aversion"
+  essays: [partner-utility-economics]
+
+- term: "Mechanism design"
+  definition: "Designing the rules of a situation so that people acting in their own interest end up producing a good result."
+  match: "mechanism design"
+  essays: [mechanism-design]
+
+- term: "Moral hazard"
+  definition: "The temptation to take more risk or put in less effort when someone else bears the cost."
+  match: "moral hazard"
+  essays: [principal-agent, two-is-nash]
+
+- term: "Nash equilibrium"
+  definition: "A set of choices where no one can gain by changing only their own choice. It is stable, though not always good for anyone."
+  match: "nash equilibrium"
+  essays: [monogamy-ess, two-is-nash]
+
+- term: "Opportunity cost"
+  definition: "What you give up by choosing one option instead of the next best one."
+  match: "opportunity cost"
+  essays: [mechanism-design, partner-utility-economics, signaling-game, why-relationships]
+
+- term: "Outside option"
+  definition: "What you could do instead if this deal or relationship ended. It sets how much leverage you have."
+  match: "outside option"
+  essays: [choosing-to-monitor, marriage-merger, partner-utility-economics, principal-agent, relationship-strategic-alliance, signaling-game, two-is-nash, why-relationships]
+
+- term: "Pooling equilibrium"
+  definition: "An outcome where different types of people behave the same way, so their behavior tells you nothing about who they are."
+  match: "pooling equilibrium"
+  essays: [mechanism-design, signaling-game]
+
+- term: "Principal-agent problem"
+  aka: "principal-agent"
+  definition: "The difficulty of getting someone who acts on your behalf to act in your interest when you cannot see everything they do."
+  match: "principal-agent|principal–agent|principal agent"
+  essays: [choosing-to-monitor, principal-agent, two-is-nash]
+
+- term: "Repeated game"
+  definition: "A situation people face again and again, which makes cooperation and reputation worth more than a one-off gain."
+  match: "repeated game"
+  essays: [signaling-game, two-is-nash]
+
+- term: "Revealed preference"
+  definition: "What your choices show you actually want, as opposed to what you say you want."
+  match: "revealed preference"
+  essays: [two-is-nash]
+
+- term: "Screening"
+  definition: "Sorting people by designing a test or a cost that only the right kind of person will accept."
+  match: "screening"
+  essays: [choice-architecture, friends-and-third-parties, marriage-merger, mechanism-design, monogamy-ess, partner-utility-economics, principal-agent, signaling-game]
+
+- term: "Search cost"
+  definition: "The time, effort and emotional energy spent finding and evaluating options."
+  match: "search cost"
+  essays: [partner-utility-economics, signaling-game]
+
+- term: "Separating equilibrium"
+  definition: "An outcome where different types behave differently, so you can tell them apart from what they do."
+  match: "separating equilibrium"
+  essays: [signaling-game]
+
+- term: "Signaling"
+  aka: "signalling"
+  definition: "Doing something visible and costly to show a hidden quality that words alone cannot prove."
+  match: "signaling|signalling"
+  essays: [friends-and-third-parties, marriage-merger, mechanism-design, principal-agent, signaling-game]
+
+- term: "Stable matching"
+  definition: "A pairing of people where nobody would rather leave their partner for someone who would also prefer them."
+  match: "stable matching"
+  essays: [partner-utility-economics]
+
+- term: "Stated preference"
+  definition: "What people say they want, which often differs from what their choices reveal."
+  match: "stated preference"
+  essays: [partner-utility-economics, signaling-game, your-type]
+
+- term: "Sunk cost"
+  definition: "Time or money already spent that cannot be recovered, and which should not drive what you do next."
+  match: "sunk cost"
+  essays: [choice-architecture, mechanism-design, partner-utility-economics]
+
+- term: "Surplus"
+  definition: "The extra value created when two people are together compared with being apart."
+  match: "surplus"
+  essays: [friends-and-third-parties, partner-utility-economics, two-is-nash, why-relationships]
+
+- term: "Transaction cost"
+  definition: "The friction of making and keeping an arrangement, including negotiating, coordinating and enforcing it."
+  match: "transaction cost"
+  essays: [marriage-merger, two-is-nash]

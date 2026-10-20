@@ -1,10 +1,13 @@
 {% assign p = include.project %}
-<a href="{{ p.url | relative_url }}" class="essay-card">
+<a href="{{ p.url | relative_url }}" class="essay-card project-card">
   {% if p.image %}
   <div class="essay-card-media"><img src="{{ p.image | relative_url }}" alt="" loading="lazy"></div>
   {% endif %}
   <div class="essay-card-body">
     <span class="essay-card-kicker">{{ p.category | default: "Case study" }}</span>
+    {% if p.metric %}
+    <p class="project-metric"><strong>{{ p.metric }}</strong><span>{{ p.metric_label }}</span></p>
+    {% endif %}
     <h3 class="essay-card-title">{{ p.title }}</h3>
     {% if p.summary %}<p class="essay-card-dek">{{ p.summary }}</p>{% endif %}
     <div class="essay-card-meta">{{ p.client }}{% if p.period %} &middot; {{ p.period }}{% endif %}</div>

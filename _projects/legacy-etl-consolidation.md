@@ -7,6 +7,8 @@ client: Midsized bank
 role: Management consultant, data architecture and strategy
 period: Woodhurst · Data modernisation
 status: published
+metric: "~300"
+metric_label: "legacy ETL processes consolidated into one pipeline"
 summary: "The end-to-end data architecture for a bank's modernisation: one daily-refresh pipeline, an engineering operating model, and a five-year data strategy."
 stack:
   - Databricks Unity Catalog

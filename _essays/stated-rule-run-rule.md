@@ -1,10 +1,17 @@
 ---
 title: "The Rule You State and the Rule You Run"
-date: 2026-10-17
+date: 2026-10-16
+date_public: true
+takeaways:
+  - "A rule that works only while the other person is unaware sorts people only through a belief gap."
+  - "Stating the real price makes everyone comply, so a hidden rule gets its signal by letting them guess wrong."
+  - "The watched pays for a price never named, so ask what the response costs them and whether you fixed it."
 status: published
 category: Intimacy Economics
 reading_time: 26
-summary: "If a rule only works while the other person doesn't know about it, what is it measuring? An essay on stated rules, unstated rules, and what each one costs the person who runs it and the person who is run."
+order: 14
+topic: "Signals & information"
+summary: "If a rule only works while the other person doesn't know it, what is it measuring? Stated and unstated rules, and what each costs the one who runs it."
 excerpt: "If a rule only works while the other person doesn't know about it, what is it measuring? An essay on stated rules, unstated rules, and what each one costs the person who runs it and the person who is run."
 lead: "If a rule only works while the other person doesn't know about it, what is it measuring? An essay on stated rules, unstated rules, and what each one costs the person who runs it and the person who is run."
 image: /assets/images/essays/stated-rule-run-rule.svg
@@ -47,6 +54,9 @@ Or they can make the price look lower. *See other people if you want, just tell 
 But look at what moved. The price didn't fall. The response is still in reserve (the cooled plans, the slow withdrawal, the exit), and it costs them what it always would have. What fell was their belief about the price. The information was bought by letting them be wrong about what follows.
 
 Call the distance between what the watched believes will follow and what will actually follow the **belief gap**. It is the only term this essay coins, and the argument hangs on it: a rule that sorts the tempted from the untempted only while it is hidden works only through a belief gap, and closing the gap returns you to the announced rule. The stated rule that isn't the run rule is the sharpest case because a sentence opens the gap: one price is named, another is charged. The word is close to what is ordinarily called deceiving, but it needs no intent and works by omission as well as by statement. ("Fail", below, is the watcher's label for what the watched did after being told it was allowed.)
+
+> The information was bought by letting them be wrong about what follows.
+{: .pull}
 
 Announcing does not always destroy the screen. Within this price model it does so only if the real response is severe enough to deter even the most tempted. If the response is mild, a sulk or a cooler week, the tempted act anyway, in the open, and saying the rule costs the watcher little. (Announcing can also ruin a test by letting people perform the standard; the model does not cover that route.) For someone who means "see other people, just tell me" entirely, there is no gap and no screen.
 

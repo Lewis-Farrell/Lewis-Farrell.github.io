@@ -1,10 +1,17 @@
 ---
 title: "Why You Keep Dating the Same Person"
-date: 2026-10-17
+date: 2026-06-23
+date_public: true
+takeaways:
+  - "A type is fine as a hypothesis, but fast cues predict attraction better than the slow traits that matter."
+  - "The pattern rarely updates because you sample the same cues and blame the person, not the pattern."
+  - "Read your history as a cluster, change where you meet people, and ask what evidence would change your mind."
 status: published
 category: Intimacy Economics
 reading_time: 13
-summary: "Your type can be useful. It can also become a shortcut that keeps steering you back to the same outcome. The problem is not that you have a type. It is that familiar cues are easy to notice, easy to reward, and much harder to update than most people think."
+order: 5
+topic: "Dating mechanics"
+summary: "Your type can be a useful shortcut or a rut. Why familiar cues are easy to notice and reward, and much harder to update than most people think."
 excerpt: "Your type can be useful. It can also become a shortcut that keeps steering you back to the same outcome. The problem is not that you have a type. It is that familiar cues are easy to notice, easy to reward, and much harder to update than most people think."
 lead: "Your type can be useful. It can also become a shortcut that keeps steering you back to the same outcome. The problem is not that you have a type. It is that familiar cues are easy to notice, easy to reward, and much harder to update than most people think."
 image: /assets/images/essays/your-type.svg
@@ -102,6 +109,9 @@ to you more. Some social worlds keep putting you in front of the same kind of
 person. Some versions of you - your profile, your clothes, your jokes, your
 friend group, the places you go - make you easier for certain people to read
 and reward. After enough repetitions, familiarity starts to feel like truth.
+
+> Fast cues predict attraction more readily than they predict the slower traits that matter for compatibility.
+{: .pull}
 
 This is one reason types become sticky even without any grand theory. You get
 smoother with what you have already practiced. You know how to flirt with this

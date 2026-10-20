@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Intimacy Economics wordless symbol trio</title>
+  <desc id="desc">The people, incentives and systems symbols arranged as a transparent horizontal set.</desc>
+  <g transform="translate(50 50)">
+    <g fill="none" stroke="#0F0F0F" stroke-width="4"><circle cx="120" cy="58" r="25"/><circle cx="200" cy="58" r="25"/><path d="M65 181v-42c0-38 22-58 55-58s55 20 55 58v42c0 12-8 20-20 20H85c-12 0-20-8-20-20ZM145 181v-42c0-38 22-58 55-58s55 20 55 58v42c0 12-8 20-20 20h-70c-12 0-20-8-20-20Z"/></g><path d="M160 104C148 119 148 160 160 184C172 160 172 119 160 104Z" fill="#E7D6D2" fill-opacity=".42" stroke="#E6392D" stroke-width="3"/>
+  </g>
+  <line x1="400" y1="70" x2="400" y2="290" stroke="#C9C4BF" stroke-width="2"/>
+  <g transform="translate(440 50)"><g fill="none" stroke="#0F0F0F" stroke-width="4"><rect x="72" y="144" width="35" height="55"/><rect x="124" y="111" width="35" height="88"/><rect x="176" y="72" width="35" height="127"/></g><path d="M68 106c54-13 99-42 145-92M194 19l20-8-1 22" fill="none" stroke="#E6392D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <line x1="800" y1="70" x2="800" y2="290" stroke="#C9C4BF" stroke-width="2"/>
+  <g transform="translate(840 50)"><circle cx="160" cy="125" r="76" fill="none" stroke="#0F0F0F" stroke-width="3" stroke-dasharray="4 7"/><circle cx="160" cy="49" r="16" fill="#0F0F0F"/><circle cx="94" cy="163" r="16" fill="#E6392D" stroke="#0F0F0F" stroke-width="2"/><circle cx="226" cy="163" r="16" fill="#EDE7E1" stroke="#0F0F0F" stroke-width="2"/></g>
+</svg>

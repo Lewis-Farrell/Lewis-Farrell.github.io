@@ -1,13 +1,13 @@
-{% assign e = include.essay %}
-<a href="{{ e.url | relative_url }}" class="essay-card{% if include.lead %} essay-card--lead{% endif %}">
+{%- assign e = include.essay -%}
+{%- assign dek = e.summary | default: e.lead | default: e.excerpt -%}
+<a href="{{ e.url | relative_url }}" class="essay-card{% if include.lead %} essay-card--lead{% endif %}"{% if e.topic %} data-topic="{{ e.topic | slugify }}"{% endif %}>
   {% if e.image %}
-  <div class="essay-card-media"><img src="{{ e.image | relative_url }}" alt="" loading="lazy"></div>
+  <div class="essay-card-media"><img src="{{ e.image | relative_url }}" width="1200" height="900" alt="Illustration for {{ e.title | escape }}"{% unless include.lead or include.eager %} loading="lazy" decoding="async"{% endunless %}></div>
   {% endif %}
   <div class="essay-card-body">
-    <span class="essay-card-kicker">{{ e.category | default: "Intimacy Economics" }}</span>
+    <span class="essay-card-kicker">{{ e.topic | default: e.category | default: "Intimacy Economics" }}</span>
     <h3 class="essay-card-title">{{ e.title }}</h3>
-    {% assign dek = e.excerpt | default: e.summary %}
     {% if dek %}<p class="essay-card-dek">{{ dek | strip_html }}</p>{% endif %}
-    <div class="essay-card-meta">{{ e.date | date: "%b %-d, %Y" }} &middot; {{ e.reading_time | default: 8 }} min read</div>
+    <div class="essay-card-meta">{{ e.reading_time | default: 8 }} min read{% if e.reading_time >= 30 %} <span class="essay-card-badge">In depth</span>{% endif %}</div>
   </div>
 </a>

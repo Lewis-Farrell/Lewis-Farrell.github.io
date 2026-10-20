@@ -1,10 +1,17 @@
 ---
 title: "The Best Date Depends On What You're Trying To Learn"
-date: 2026-10-17
+date: 2026-10-06
+date_public: true
+takeaways:
+  - "A date is a screen, not scenery: the setting shapes which traits show up and which stay hidden."
+  - "Low friction reads baseline ease, charged rooms add noise, and joint tasks test cooperation."
+  - "Decide what you want to learn, pick that format, then vary the setting before trusting the read."
 status: published
 category: Intimacy Economics
 reading_time: 15
-summary: "Most date advice treats venue choice as taste. But a date is a screening environment: the structure changes what becomes easy, what becomes awkward, and what kinds of chemistry can be mistaken for compatibility. The useful question is not \"what is the best date?\" but \"what am I trying to learn, and what kind of noise am I willing to add?\""
+order: 4
+topic: "Dating mechanics"
+summary: "A date is a screening environment. The venue changes what you can learn, so ask what you want to find out and what noise you are willing to add."
 lead: "Most date advice treats venue choice as taste. But a date is a screening environment: the structure changes what becomes easy, what becomes awkward, and what kinds of chemistry can be mistaken for compatibility. The useful question is not \"what is the best date?\" but \"what am I trying to learn, and what kind of noise am I willing to add?\""
 excerpt: "Most date advice treats venue choice as taste. But a date is a screening environment: the structure changes what becomes easy, what becomes awkward, and what kinds of chemistry can be mistaken for compatibility. The useful question is not \"what is the best date?\" but \"what am I trying to learn, and what kind of noise am I willing to add?\""
 image: /assets/images/essays/choice-architecture.svg
@@ -123,6 +130,9 @@ That is what makes low-friction dates clean. The conversation is not hidden
 behind a menu, a DJ, a timed activity, or a giant bill. If the night works,
 you get a decent read on responsiveness, pacing, humor, and whether interest
 survives once neither person can lean on spectacle.
+
+> A coffee date can be honest and still be incomplete.
+{: .pull}
 
 What these dates do **not** reveal especially well matters just as much. They
 say less about how someone handles planning effort, how they look once the room

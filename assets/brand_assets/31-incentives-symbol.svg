@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="260" viewBox="0 0 320 260" role="img" aria-labelledby="title desc">
+  <title id="title">Incentives symbol</title>
+  <desc id="desc">Wordless transparent ascending bars and red growth curve.</desc>
+  <g fill="none" stroke="#0F0F0F" stroke-width="4">
+    <rect x="72" y="144" width="35" height="55"/><rect x="124" y="111" width="35" height="88"/><rect x="176" y="72" width="35" height="127"/>
+  </g>
+  <path d="M68 106c54-13 99-42 145-92M194 19l20-8-1 22" fill="none" stroke="#E6392D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

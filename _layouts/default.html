@@ -4,11 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{{ page.summary | default: site.description }}">
+  {%- assign pg_title = page.title | default: site.title -%}
+  {%- assign pg_desc = page.summary | default: page.description | default: site.description | strip_html | strip_newlines | escape -%}
+  {%- assign pg_img = page.image | default: '/assets/images/headshot.jpg' -%}
+  {%- if pg_img contains '://' -%}{%- assign pg_img_url = pg_img -%}{%- else -%}{%- assign pg_img_url = pg_img | absolute_url -%}{%- endif -%}
+  <meta name="description" content="{{ pg_desc }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  <meta name="theme-color" content="#121212">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ pg_title | escape }}">
+  <meta property="og:description" content="{{ pg_desc }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="{% if page.url contains '/essays/' %}article{% else %}website{% endif %}">
+  <meta property="og:image" content="{{ pg_img_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ pg_title | escape }}">
+  <meta name="twitter:description" content="{{ pg_desc }}">
+  <meta name="twitter:image" content="{{ pg_img_url }}">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   {% if page.math %}
   <script>
     MathJax = {
@@ -24,15 +43,16 @@
   {% endif %}
 </head>
 <body{% if page.url contains '/essays/' %} class="page-essay"{% elsif page.page_class %} class="page-{{ page.page_class }}"{% endif %}>
+  <a class="skip-link" href="#main">Skip to content</a>
   {% include navbar.html %}
   {% include mobile-menu.html %}
 
-  <main>
+  <main id="main" tabindex="-1">
     {{ content }}
   </main>
 
   {% include footer.html %}
 
-  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>

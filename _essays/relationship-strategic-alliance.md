@@ -1,10 +1,17 @@
 ---
 title: "Caring Is Not an Operating System"
-date: 2026-10-17
+date: 2026-07-29
+date_public: true
+takeaways:
+  - "Couples who care can still run a shared life badly, because willing is not the same as able."
+  - "Unassigned tasks default to whoever can least let them sit, so the one who notices pays."
+  - "Name an owner and a review trigger, then see if the fight recurs to tell will from setup."
 status: published
 category: Intimacy Economics
 reading_time: 27
-summary: "You love each other, you want the same future, and the shared life still keeps dropping things. Research on business partnerships has a way to sort that failure: is one of you unwilling, are the two of you badly set up, or does the setup work while quietly billing one of you for it? Each has a different fix, and you can tell them apart in an evening."
+order: 10
+topic: "Structure & commitment"
+summary: "When a shared life keeps dropping things, is one of you unwilling, is the setup bad, or is it quietly billing one of you? Each failure has a different fix."
 excerpt: "You love each other, you want the same future, and the shared life still keeps dropping things. Research on business partnerships has a way to sort that failure: is one of you unwilling, are the two of you badly set up, or does the setup work while quietly billing one of you for it? Each has a different fix, and you can tell them apart in an evening."
 lead: "You love each other, you want the same future, and the shared life still keeps dropping things. Research on business partnerships has a way to sort that failure: is one of you unwilling, are the two of you badly set up, or does the setup work while quietly billing one of you for it? Each has a different fix, and you can tell them apart in an evening."
 image: /assets/images/essays/relationship-strategic-alliance.svg
@@ -107,6 +114,9 @@ Now add caring to the model, which is where the title comes from.
 Suppose each of you minds not only your own cost of waiting but some of your partner's: when the envelope bothers them, it bothers you a little too. That shortens how long you can let it sit, because each week of delay now costs you on two counts, yours and theirs. So the more caring partner moves sooner.
 
 This is one model of caring — it lowers your tolerance for waiting by making the other person's discomfort your own. A different model, where caring instead raises the intrinsic value of the shared task, would spread the burden more evenly. Which picture is closer to any specific couple is not something the model settles.
+
+> Mutual devotion speeds up the race; it does not assign the task.
+{: .pull}
 
 Two things fall out of the first model. If you both care a great deal, you both move sooner, but someone still has to move first, and caring does not say who. Mutual devotion speeds up the race; it does not assign the task. Caring is not an operating system. It is a reason to want the system to work, and it quietly shapes who ends up running it.
 

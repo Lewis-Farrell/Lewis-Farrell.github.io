@@ -2,6 +2,7 @@
 layout: page
 title: Professional
 page_class: professional
+section: professional
 ---
 
 <section class="page-hero">
@@ -9,6 +10,7 @@ page_class: professional
     <span class="eyebrow">Professional</span>
     <h1>Strategy &amp; Systems</h1>
     <p>Management consultant in Data and AI for financial services. I build production data platforms on Databricks and Azure, and the strategy and operating models that let teams run them.</p>
+    <p class="cv-links"><a href="{{ '/contact' | relative_url }}" class="btn-text">Get in touch</a></p>
   </div>
 </section>
 
@@ -20,7 +22,7 @@ page_class: professional
       heading="Case studies"
       text="Client engagements and internal builds, described without the client names."
     %}
-    <div class="essay-grid">
+    <div class="essay-grid case-grid">
       {% assign projects = site.projects | where_exp: "p", "p.status != 'draft'" | sort: "order" %}
       {% for project in projects %}
         {% include project-card.html project=project %}
@@ -40,19 +42,45 @@ page_class: professional
     <div class="capabilities">
       <div class="capability">
         <h3>Data platforms</h3>
-        <p>Databricks (PySpark, Delta Lake, DLT, Asset Bundles), Unity Catalog, dimensional modelling, SCD1/SCD2, change data capture.</p>
+        <ul class="chips">
+          <li>Databricks (PySpark, Delta Lake, DLT, Asset Bundles)</li>
+          <li>Unity Catalog</li>
+          <li>Dimensional modelling</li>
+          <li>SCD1/SCD2</li>
+          <li>Change data capture</li>
+        </ul>
       </div>
       <div class="capability">
         <h3>Azure</h3>
-        <p>Data Factory, ADLS, Functions, Event Grid, Synapse, Container App Jobs, Terraform.</p>
+        <ul class="chips">
+          <li>Data Factory</li>
+          <li>ADLS</li>
+          <li>Functions</li>
+          <li>Event Grid</li>
+          <li>Synapse</li>
+          <li>Container App Jobs</li>
+          <li>Terraform</li>
+        </ul>
       </div>
       <div class="capability">
         <h3>Engineering practice</h3>
-        <p>Python, SQL, Git, CI/CD on Azure DevOps, SDLC and Agile, environment-controlled deployments.</p>
+        <ul class="chips">
+          <li>Python</li>
+          <li>SQL</li>
+          <li>Git</li>
+          <li>CI/CD on Azure DevOps</li>
+          <li>SDLC and Agile</li>
+          <li>Environment-controlled deployments</li>
+        </ul>
       </div>
       <div class="capability">
         <h3>Strategy &amp; AI</h3>
-        <p>Data strategy and maturity assessment, cloud target-architecture evaluation, business cases, agentic AI tooling (Genie, Codex, Claude Code).</p>
+        <ul class="chips">
+          <li>Data strategy and maturity assessment</li>
+          <li>Cloud target-architecture evaluation</li>
+          <li>Business cases</li>
+          <li>Agentic AI tooling (Genie, Codex, Claude Code)</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -86,6 +114,7 @@ page_class: professional
         <p class="timeline-desc">BA (Hons), 2:1. Game Theory, Quantitative Economics, Microeconomics, Strategy and Finance. Crankstart Scholar.</p>
       </div>
     </div>
-    <p class="section-more"><a href="{{ '/cv' | relative_url }}" class="btn-text">Full CV &rarr;</a></p>
   </div>
 </section>
+
+{% include cta-section.html heading="Work with me" text="Data and AI consulting for financial services, from strategy through to production delivery." cta1_label="Get in touch" cta1_link="/contact" %}

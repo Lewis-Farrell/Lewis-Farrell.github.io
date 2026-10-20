@@ -7,6 +7,8 @@ client: CapitOx
 role: Senior consultant
 period: Oct – Dec 2022
 status: published
+metric: "20M+"
+metric_label: "datapoints analysed across 10 firms"
 summary: An analysis of 20M+ datapoints across 10 firms showing the sector's shift from fixed fees to FX-margin pricing.
 stack:
   - Python

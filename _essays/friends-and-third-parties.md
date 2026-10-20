@@ -1,10 +1,17 @@
 ---
 title: "Don't Impress Her. Impress Her Friends."
-date: 2026-10-17
+date: 2026-09-15
+date_public: true
+takeaways:
+  - "Impressing a partner's friends works as a signal only if it costs the wrong person more than the right one."
+  - "Friends have their own interests and hear your partner's story, so their verdict is coarse and partly an echo."
+  - "Ask whether your partner listens to them, and whether the effort would cost a poor partner anything."
 status: published
 category: Intimacy Economics
 reading_time: 39
-summary: "A familiar tip says to win over your partner's friends rather than your partner. Worked through as a way of showing what you are really like, it holds only under conditions (in its simplest form, inside a window): when your partner actually listens to them, when what they see would cost the wrong person more to fake, and when their own interests do not drown out what they know. Outside them, the effort shows your partner nothing about you."
+order: 12
+topic: "Signals & information"
+summary: "Impressing a partner's friends works as a signal only if they are listened to, faking costs the wrong person more, and their interests do not intrude."
 excerpt: "A familiar tip says to win over your partner's friends rather than your partner. Worked through as a way of showing what you are really like, it holds only under conditions (in its simplest form, inside a window): when your partner actually listens to them, when what they see would cost the wrong person more to fake, and when their own interests do not drown out what they know. Outside them, the effort shows your partner nothing about you."
 lead: "A familiar tip says to win over your partner's friends rather than your partner. Worked through as a way of showing what you are really like, it holds only under conditions (in its simplest form, inside a window): when your partner actually listens to them, when what they see would cost the wrong person more to fake, and when their own interests do not drown out what they know. Outside them, the effort shows your partner nothing about you."
 image: /assets/images/essays/friends-and-third-parties.svg
@@ -55,6 +62,9 @@ Is there a second impression to be had at all? There are hints that the people a
 Say you spend the ten minutes remembering what each friend does for a living and asking about it. That is a performance: effort aimed at the friends, and it costs something. Here is the central result in the simplest version of the model (one friend, one meeting, a performer who knows their own cost, effort that is all or nothing). There is a way for a performance like that to sort good partners from poor ones if the prize riding on it is big enough that the right person bothers, and small enough that the wrong person does not bother to fake it.
 
 The prize is not your partner's whole decision. It is a fraction of it, built from three things multiplied together: what is at stake for you if your partner goes on with you; how far your partner defers to what the friends say; and how likely the friends are to see the performance, or to hear of it from someone who did. On the other side sit two costs: what the performance costs a person who would be good to your partner when unwatched, and what it costs a person who would not. If the prize lies between those two costs, the good person performs and the other does not, and the friends' yes means something. If it does not, it does not.
+
+> When something costs everyone the same, everyone who wants the prize does it, and watching it tells you nothing about who is doing it.
+{: .pull}
 
 Say the performance costs the good person 2 and the other person 8. The table runs the all-or-nothing arithmetic with invented numbers. Here and throughout, numbers illustrate structure and are not estimates of anything about real people.
 

@@ -7,6 +7,8 @@ client: Woodhurst
 role: Founder and lead, technical innovation function
 period: Internal
 status: published
+metric: "60%"
+metric_label: "reduction in storage costs"
 summary: "A green-field Azure architecture for an AI-first consultancy: lower storage costs, a home for company automations, and better governance."
 stack:
   - Terraform

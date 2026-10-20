@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="260" viewBox="0 0 320 260" role="img" aria-labelledby="title desc">
+  <title id="title">People symbol</title>
+  <desc id="desc">Wordless transparent people icon with a warm-blush and red overlap.</desc>
+  <g fill="none" stroke="#0F0F0F" stroke-width="4">
+    <circle cx="120" cy="58" r="25"/><circle cx="200" cy="58" r="25"/>
+    <path d="M65 181v-42c0-38 22-58 55-58s55 20 55 58v42c0 12-8 20-20 20H85c-12 0-20-8-20-20Z"/>
+    <path d="M145 181v-42c0-38 22-58 55-58s55 20 55 58v42c0 12-8 20-20 20h-70c-12 0-20-8-20-20Z"/>
+  </g>
+  <path d="M160 104C148 119 148 160 160 184C172 160 172 119 160 104Z" fill="#E7D6D2" fill-opacity=".42" stroke="#E6392D" stroke-width="3" stroke-linejoin="round"/>
+</svg>
