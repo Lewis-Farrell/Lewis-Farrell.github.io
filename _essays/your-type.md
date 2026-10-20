@@ -69,18 +69,18 @@ trying to explain.
 
 Even so, people really do carry stable templates. Gerlach and colleagues found
 that ideal-partner preferences prospectively predicted characteristics of later
-partners.^1 Types are not fantasy. They do some real sorting work.
+partners.[^1] Types are not fantasy. They do some real sorting work.
 
 But they do narrower work than people often imagine. Eastwick, Finkel, and
 Eagly found that ideal-partner matching helped predict romantic interest when
 people were evaluating profiles in the abstract, but the effect disappeared
-after live interaction.^2 Fast cues predict attraction more readily than they
+after live interaction.[^2] Fast cues predict attraction more readily than they
 predict the slower traits that matter for compatibility. They get you to the
 table. They do not tell you nearly enough about what happens once you are
 actually there.
 
 The useful economic idea is simple: dating is a learning process, not a string
-of isolated taste expressions.^3 Each flirtation, date, and relationship is a
+of isolated taste expressions.[^3] Each flirtation, date, and relationship is a
 chance to collect information. The real question is whether your search is
 producing new information or just rewarding what already feels legible.
 
@@ -93,9 +93,9 @@ deserve to. Not always your first relationship, but often one of the first that
 felt like this - the first time intensity arrived wearing a particular face and
 a particular emotional rhythm. Dugan and colleagues, using data that followed
 participants from childhood into adulthood, found that early interpersonal
-experience had enduring links to adult attachment orientations.^4 Fraley and
+experience had enduring links to adult attachment orientations.[^4] Fraley and
 Roisman supply the necessary correction: those effects are real, but weaker and
-less deterministic than pop attachment talk usually suggests.^5
+less deterministic than pop attachment talk usually suggests.[^5]
 
 That is exactly why the template can be misleading. It is not that one early
 relationship permanently wires you. It is that important impressions often get
@@ -147,14 +147,14 @@ from it.
 
 Self-awareness does not solve this by itself. Whyte and Torgler found a
 measurable gap between stated preferences and actual contact behavior in online
-dating.^6 People can describe their pattern and still keep enacting it. Anyone
+dating.[^6] People can describe their pattern and still keep enacting it. Anyone
 who has ever announced, with complete sincerity, that they are "trying
 something different this year" and then felt their attention lock onto the same
 familiar profile understands the problem.
 
 The last part is more inferential, but it matters. Fincham and Bradbury found
 that how partners explain relationship difficulties was longitudinally related
-to relationship satisfaction.^7 That does not prove that people preserve their
+to relationship satisfaction.[^7] That does not prove that people preserve their
 type by blaming each failed relationship on the individual. It does suggest why
 this kind of updating is hard. When a familiar relationship fails, the easiest
 story is usually "wrong person," not "wrong pattern." The person absorbs the
@@ -171,21 +171,21 @@ person, not the pattern.
 
 App dating did not invent types. It did make visible cues easier to sort on and
 easier to perform at scale. Pew's recent reporting shows that online dating is
-now a mainstream channel in the United States.^11 That matters because the more
+now a mainstream channel in the United States.[^11] That matters because the more
 of your search happens through profiles, the more power accrues to whatever can
 be read quickly from a profile.
 
 And people do manipulate exactly those surfaces. Toma, Hancock, and Ellison
 found that online-dating profile inaccuracies were common but usually small:
 men were more likely to overstate height, women to understate weight, and
-photographs were among the least accurate parts of the profile.^8 Toma and
+photographs were among the least accurate parts of the profile.[^8] Toma and
 Hancock later found that lower-attractiveness users were especially likely to
 enhance visible physical cues rather than unrelated traits like income or
-occupation.^9 People lie where your type looks first.
+occupation.[^9] People lie where your type looks first.
 
 Ellison, Hancock, and Toma offer the right frame for this: a dating profile is
 better understood as a promise to be tested later than as a complete factual
-document.^10 That does not mean every promising profile is deceptive. It means
+document.[^10] That does not mean every promising profile is deceptive. It means
 that if your type leans heavily on visible cues, app environments make it
 easier for those cues to pull your attention before the harder evidence arrives.
 
@@ -216,7 +216,7 @@ like repetition from the outside.
 
 That objection is good, and the article should concede it directly. Gerlach's
 findings are exactly what you would expect if many people do carry useful
-templates.^1 The right contrast is not "type bad, randomness good." It is
+templates.[^1] The right contrast is not "type bad, randomness good." It is
 between a template that keeps being tested against new evidence and one that
 keeps getting protected by familiar cues.
 
@@ -254,14 +254,14 @@ tracking something deep or just something familiar.
 
 Third, stop mistaking intensity for signal. Arriaga and colleagues found that
 fluctuations in perceived partner commitment predicted breakup better than
-commitment level alone.^12 The rollercoaster is not proof that something
+commitment level alone.[^12] The rollercoaster is not proof that something
 important is happening. It may be proof that something unstable is happening.
 Familiar tension can feel rich because you already know how to play it.
 
 Fourth, notice whether the relationship is being chosen or merely carried
 forward by momentum. Rhoades, Stanley, and Markman distinguish dedication from
 constraint: relationships can persist through both, but persistence is not the
-same as satisfaction or freely chosen commitment.^13 A relationship can survive
+same as satisfaction or freely chosen commitment.[^13] A relationship can survive
 because it is good. It can also survive because leaving is expensive, socially
 messy, or humiliating. Those are not the same achievement.
 
@@ -282,58 +282,58 @@ wrong, you will keep learning the same lesson in slightly different outfits.
 
 ## Citations
 
-^1 Tanja M. Gerlach, Ruben C. Arslan, Thomas Schultze, Selina K. Reinhard,
-and Lars Penke, "Predictive Validity and Adjustment of Ideal Partner
-Preferences Across the Transition Into Romantic Relationships," *Journal of
-Personality and Social Psychology* 116, no. 2 (2019): 313-330.
+[^1]: Tanja M. Gerlach, Ruben C. Arslan, Thomas Schultze, Selina K. Reinhard,
+    and Lars Penke, "Predictive Validity and Adjustment of Ideal Partner
+    Preferences Across the Transition Into Romantic Relationships," *Journal of
+    Personality and Social Psychology* 116, no. 2 (2019): 313-330.
 
-^2 Paul W. Eastwick, Eli J. Finkel, and Alice H. Eagly, "When and Why Do
-Ideal Partner Preferences Affect the Process of Initiating and Maintaining
-Romantic Relationships?" *Journal of Personality and Social Psychology* 101,
-no. 5 (2011): 1012-1032.
+[^2]: Paul W. Eastwick, Eli J. Finkel, and Alice H. Eagly, "When and Why Do
+    Ideal Partner Preferences Affect the Process of Initiating and Maintaining
+    Romantic Relationships?" *Journal of Personality and Social Psychology* 101,
+    no. 5 (2011): 1012-1032.
 
-^3 Yair Antler, Daniel Bird, and Daniel Fershtman, "Learning in the Marriage
-Market: The Economics of Dating," forthcoming, *American Economic Journal:
-Microeconomics*.
+[^3]: Yair Antler, Daniel Bird, and Daniel Fershtman, "Learning in the Marriage
+    Market: The Economics of Dating," forthcoming, *American Economic Journal:
+    Microeconomics*.
 
-^4 Keely A. Dugan, Jacob J. Kunkel, R. Chris Fraley, Jeffry A. Simpson,
-Ethan M. McCormick, Maria E. Bleil, Cathryn Booth-LaForce, and Glenn I.
-Roisman, "A Prospective Longitudinal Study of the Associations Between
-Childhood and Adolescent Interpersonal Experiences and Adult Attachment
-Orientations," *Journal of Personality and Social Psychology* (2026).
+[^4]: Keely A. Dugan, Jacob J. Kunkel, R. Chris Fraley, Jeffry A. Simpson,
+    Ethan M. McCormick, Maria E. Bleil, Cathryn Booth-LaForce, and Glenn I.
+    Roisman, "A Prospective Longitudinal Study of the Associations Between
+    Childhood and Adolescent Interpersonal Experiences and Adult Attachment
+    Orientations," *Journal of Personality and Social Psychology* (2026).
 
-^5 R. Chris Fraley and Glenn I. Roisman, "The Development of Adult Attachment
-Styles: Four Lessons," *Current Opinion in Psychology* 25 (2019): 26-30.
+[^5]: R. Chris Fraley and Glenn I. Roisman, "The Development of Adult Attachment
+    Styles: Four Lessons," *Current Opinion in Psychology* 25 (2019): 26-30.
 
-^6 Stephen Whyte and Benno Torgler, "Preference Versus Choice in Online
-Dating," *Cyberpsychology, Behavior, and Social Networking* 20, no. 3 (2017):
-150-156.
+[^6]: Stephen Whyte and Benno Torgler, "Preference Versus Choice in Online
+    Dating," *Cyberpsychology, Behavior, and Social Networking* 20, no. 3 (2017):
+    150-156.
 
-^7 Frank D. Fincham and Thomas N. Bradbury, "The Impact of Attributions in
-Marriage: A Longitudinal Analysis," *Journal of Personality and Social
-Psychology* 53, no. 3 (1987): 510-517.
+[^7]: Frank D. Fincham and Thomas N. Bradbury, "The Impact of Attributions in
+    Marriage: A Longitudinal Analysis," *Journal of Personality and Social
+    Psychology* 53, no. 3 (1987): 510-517.
 
-^8 Catalina L. Toma, Jeffrey T. Hancock, and Nicole B. Ellison, "Separating
-Fact From Fiction: An Examination of Deceptive Self-Presentation in Online
-Dating Profiles," *Personality and Social Psychology Bulletin* 34, no. 8
-(2008): 1023-1036.
+[^8]: Catalina L. Toma, Jeffrey T. Hancock, and Nicole B. Ellison, "Separating
+    Fact From Fiction: An Examination of Deceptive Self-Presentation in Online
+    Dating Profiles," *Personality and Social Psychology Bulletin* 34, no. 8
+    (2008): 1023-1036.
 
-^9 Catalina L. Toma and Jeffrey T. Hancock, "Looks and Lies: The Role of
-Physical Attractiveness in Online Dating Self-Presentation and Deception,"
-*Communication Research* 37, no. 3 (2010): 335-351.
+[^9]: Catalina L. Toma and Jeffrey T. Hancock, "Looks and Lies: The Role of
+    Physical Attractiveness in Online Dating Self-Presentation and Deception,"
+    *Communication Research* 37, no. 3 (2010): 335-351.
 
-^10 Nicole B. Ellison, Jeffrey T. Hancock, and Catalina L. Toma, "Profile as
-Promise: A Framework for Conceptualizing Veracity in Online Dating
-Self-Presentations," *New Media and Society* 14, no. 1 (2012): 45-62.
+[^10]: Nicole B. Ellison, Jeffrey T. Hancock, and Catalina L. Toma, "Profile as
+    Promise: A Framework for Conceptualizing Veracity in Online Dating
+    Self-Presentations," *New Media and Society* 14, no. 1 (2012): 45-62.
 
-^11 Pew Research Center, "From Looking for Love to Swiping the Field: Online
-Dating in the U.S." (February 2, 2023).
+[^11]: Pew Research Center, "From Looking for Love to Swiping the Field: Online
+    Dating in the U.S." (February 2, 2023).
 
-^12 Ximena B. Arriaga, Jason T. Reed, Wind Goodfriend, and Christopher R.
-Agnew, "Relationship Perceptions and Persistence: Do Fluctuations in Perceived
-Partner Commitment Undermine Dating Relationships?" *Journal of Personality and
-Social Psychology* 91, no. 6 (2006): 1045-1065.
+[^12]: Ximena B. Arriaga, Jason T. Reed, Wind Goodfriend, and Christopher R.
+    Agnew, "Relationship Perceptions and Persistence: Do Fluctuations in Perceived
+    Partner Commitment Undermine Dating Relationships?" *Journal of Personality and
+    Social Psychology* 91, no. 6 (2006): 1045-1065.
 
-^13 Galena K. Rhoades, Scott M. Stanley, and Howard J. Markman, "Should I Stay
-or Should I Go? Predicting Dating Relationship Stability From Four Aspects of
-Commitment," *Journal of Family Psychology* 24, no. 5 (2010): 543-550.
+[^13]: Galena K. Rhoades, Scott M. Stanley, and Howard J. Markman, "Should I Stay
+    or Should I Go? Predicting Dating Relationship Stability From Four Aspects of
+    Commitment," *Journal of Family Psychology* 24, no. 5 (2010): 543-550.

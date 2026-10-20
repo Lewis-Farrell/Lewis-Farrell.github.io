@@ -13,6 +13,33 @@ page_class: writing
   </div>
 </section>
 
+{%- assign start_essays = site.essays | where_exp: "e", "e.status != 'draft'" -%}
+{%- assign start_slugs = "mechanism-design,how-monogamy-got-made,your-type" | split: "," -%}
+
+<!-- Start here -->
+<section class="section start-here" id="start-here">
+  <div class="container">
+    <div class="section-header fade-in">
+      <p class="eyebrow">New here?</p>
+      <h2>Start with these three</h2>
+    </div>
+    <div class="start-grid">
+      {% for slug in start_slugs %}
+        {%- assign want = "/essays/" | append: slug | append: "/" -%}
+        {%- assign e = start_essays | where: "url", want | first -%}
+        {% if e %}
+        <a href="{{ e.url | relative_url }}" class="start-card">
+          <span class="essay-card-kicker">{{ e.topic | default: "Intimacy Economics" }}</span>
+          <h3 class="essay-card-title">{{ e.title }}</h3>
+          <p class="essay-card-dek">{{ e.summary | strip_html }}</p>
+          <span class="essay-card-meta">{{ e.reading_time | default: 8 }} min read</span>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 {% if site.reports and site.reports.size > 0 %}
 <!-- Professional Reports -->
 <section class="section" id="reports">

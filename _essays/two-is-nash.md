@@ -42,11 +42,11 @@ On the article's status: each mechanism comes from a well-established literature
 
 ## 1. The Case for More Is Better Than You Think
 
-Start where economists start with couples. Gary Becker treated a marriage as a small firm:^1 two people pooling time, skills and attention to produce things neither can produce as well alone. Those things include companionship, sex, a functioning household, children, and someone who knows exactly why you've gone quiet at dinner. The relationship exists because of the *surplus*, meaning what the two of you make together minus what you'd each make apart.
+Start where economists start with couples. Gary Becker treated a marriage as a small firm:[^1] two people pooling time, skills and attention to produce things neither can produce as well alone. Those things include companionship, sex, a functioning household, children, and someone who knows exactly why you've gone quiet at dinner. The relationship exists because of the *surplus*, meaning what the two of you make together minus what you'd each make apart.
 
 If you accept that model, polyamory looks less like a rebellion and more like the obvious next step. If you and B produce surplus, and you and C could produce surplus too, why should the efficient number of firms to belong to be one? Diversification says spread your exposure: a single partner is a concentrated position, and concentrated positions blow up. Comparative advantage says specialize: the person who's brilliant to argue about books with may not be the person you want to build a kitchen with, and asking one human to be both is asking a lot. A portfolio should beat a single stock.
 
-Nor is this a thought experiment. YouGov polling put the share of American adults in consensually non-monogamous relationships at roughly 5% in 2020 and about 6% by 2023, with polyamory specifically at around 4%.^2 The satisfaction literature also refuses to hand monogamists the verdict they'd like. A 2024 scoping review by Gupta and colleagues found that people in consensual non-monogamy were "as satisfied or more satisfied" than monogamous counterparts across a number of studies. Not all of them, though: two found lower happiness and romantic satisfaction.^3 The evidence is mixed, and mixed is not damning.
+Nor is this a thought experiment. YouGov polling put the share of American adults in consensually non-monogamous relationships at roughly 5% in 2020 and about 6% by 2023, with polyamory specifically at around 4%.[^2] The satisfaction literature also refuses to hand monogamists the verdict they'd like. A 2024 scoping review by Gupta and colleagues found that people in consensual non-monogamy were "as satisfied or more satisfied" than monogamous counterparts across a number of studies. Not all of them, though: two found lower happiness and romantic satisfaction.[^3] The evidence is mixed, and mixed is not damning.
 
 So the puzzle is a fair one. The economics say diversify, and the data doesn't say diversification makes people miserable. Yet the large majority of people, including many who have thought about it carefully, keep ending up at two. Either they're all making the same mistake, or the naive model is missing something.
 
@@ -56,7 +56,7 @@ What it's missing is the cost side. To see why those costs settle into a stable 
 
 ## 2. What "Equilibrium" Actually Claims
 
-"Nash equilibrium" sounds like a credential, but the idea is simple.^4 A set of choices is an equilibrium when nobody involved can do better by changing their own choice, given what everyone else is choosing. It says nothing about whether the outcome is good. The prisoner's dilemma is the classic case: both prisoners confess, both would have done better staying silent, and the outcome is still stable because neither can gain by switching alone. An equilibrium is where things stop moving, not where they ought to stop.
+"Nash equilibrium" sounds like a credential, but the idea is simple.[^4] A set of choices is an equilibrium when nobody involved can do better by changing their own choice, given what everyone else is choosing. It says nothing about whether the outcome is good. The prisoner's dilemma is the classic case: both prisoners confess, both would have done better staying silent, and the outcome is still stable because neither can gain by switching alone. An equilibrium is where things stop moving, not where they ought to stop.
 
 Apply this to the opening scene, simplified as far as it will go. Each of you picks one of two strategies, *exclusive* or *open*. Then look at what each of the four combinations is worth to each of you.
 
@@ -81,7 +81,7 @@ Three things follow from this toy model.
 
 **The mismatches are where the damage happens.** This is a coordination game: most of your payoff comes from matching your partner's structure. That's why the sentence in the opening lands so heavily. Your partner isn't only stating a preference. They're proposing to move you into a cell you may not want to be in, and your best response depends on what they do.
 
-**The game isn't played only between the two of you.** Who you can pair up with depends on what the rest of the dating pool is doing. When most people play exclusive, open arrangements cost more to find and keep going: fewer compatible partners, more explaining, more friction with families and institutions designed around couples. Thomas Schelling called this kind of thing a *focal point*,^5 a solution people converge on partly because everyone expects everyone else to. Some of two's stability reinforces itself in exactly this way. That deserves to be said early, because it means some of what poly pays are the costs of being a minority, not costs of poly itself. Section 8 comes back to this.
+**The game isn't played only between the two of you.** Who you can pair up with depends on what the rest of the dating pool is doing. When most people play exclusive, open arrangements cost more to find and keep going: fewer compatible partners, more explaining, more friction with families and institutions designed around couples. Thomas Schelling called this kind of thing a *focal point*,[^5] a solution people converge on partly because everyone expects everyone else to. Some of two's stability reinforces itself in exactly this way. That deserves to be said early, because it means some of what poly pays are the costs of being a minority, not costs of poly itself. Section 8 comes back to this.
 
 Focal points alone can't explain why the focal number is two rather than three, or why the both-exclusive cell pays more for most people. The four mechanisms are, in effect, arguments about the numbers in that table.
 
@@ -91,13 +91,13 @@ Focal points alone can't explain why the focal number is two rather than three, 
 
 The first mechanism has nothing to do with feelings. It's arithmetic.
 
-Ronald Coase asked why firms exist at all if markets are so efficient. His answer was that using the market costs something.^6 Finding the other party, negotiating, monitoring and enforcing all carry overhead, and firms exist wherever it's cheaper to organize an activity inside one structure than to negotiate it from scratch every time. Oliver Williamson made the question sharper: which way of organizing a relationship is cheapest depends on what's being exchanged.^7 Three features matter. How *specific* is the investment, meaning would it be worth much in any other relationship? How *uncertain* is the future? How *frequent* is the interaction?
+Ronald Coase asked why firms exist at all if markets are so efficient. His answer was that using the market costs something.[^6] Finding the other party, negotiating, monitoring and enforcing all carry overhead, and firms exist wherever it's cheaper to organize an activity inside one structure than to negotiate it from scratch every time. Oliver Williamson made the question sharper: which way of organizing a relationship is cheapest depends on what's being exchanged.[^7] Three features matter. How *specific* is the investment, meaning would it be worth much in any other relationship? How *uncertain* is the future? How *frequent* is the interaction?
 
 Put a relationship through that test. Knowing exactly which silence means tired and which means hurt, the private jokes, the trust built through one particular bad winter: none of it is worth much anywhere else, so it is as specific as investment gets. The future is unknowable, and the interaction is continuous. For a profile like that, Williamson's framework calls for tight, integrated governance: one firm, not a loose consortium. Here, that means the exclusive pair.
 
 Now add people. Two people have one relationship to maintain. Three people who all know each other have three pairwise relationships, plus the group as a whole. Four people have six. The number of connections grows faster than the number of people, and each connection has its own schedule, its own history, its own unspoken rules, and its own need to hear about decisions made in the others. Not every pair has to be romantic, but every pair has to be coordinated. Take a *hinge*, the person in the middle of a V whose two partners aren't with each other. The hinge doesn't just split their time; they become the clearing-house for everyone's plans. Practitioners have a name for the load that falls on that person: the "hinge tax."
 
-None of this requires anyone to be jealous, insecure or bad at communicating. Perfect communicators still pay the overhead, because communicating perfectly *is* the overhead. The people living this way say as much. A 2026 study in the *Journal of Sex & Marital Therapy* found that time management was the challenge polyamorous respondents reported most often, cited by 72.6% of them, and it included logistics, scheduling, and feeling "spread too thin." Jealousy, the thing outsiders assume will sink poly, came third at 35.2%.^8 The most common complaint isn't heartache. It's the calendar.
+None of this requires anyone to be jealous, insecure or bad at communicating. Perfect communicators still pay the overhead, because communicating perfectly *is* the overhead. The people living this way say as much. A 2026 study in the *Journal of Sex & Marital Therapy* found that time management was the challenge polyamorous respondents reported most often, cited by 72.6% of them, and it included logistics, scheduling, and feeling "spread too thin." Jealousy, the thing outsiders assume will sink poly, came third at 35.2%.[^8] The most common complaint isn't heartache. It's the calendar.
 
 > Perfect communicators still pay the overhead, because communicating perfectly is the overhead.
 {: .pull}
@@ -112,13 +112,13 @@ The second mechanism usually gets misdiagnosed as a communication problem. It is
 
 The first layer is a budget constraint, as solid as anything in economics. Time and attention are finite, and spending them on one person means not spending them on another: the Tuesday evening you give one partner is not available to the other. When two people with fair claims both need you on the same night (one has had a terrible week, the other planned this dinner a month ago), one claim goes unmet. No amount of honesty changes the number of Tuesdays.
 
-The second layer is subtler, and it's why the problem is worse than scheduling. Economists call it *common agency*: one agent and several principals, each trying independently to influence what the agent does. The literature that grew out of Bernheim and Whinston's work studies exactly this setup.^9 Each principal pulls the agent toward their own interests, and none of them takes into account what their pull does to the others. Whether that competition cancels out or distorts the agent's choices depends on what the principals can observe and enforce. Relationships sit at the bad end of that range: nobody can see the effort going into the other relationship, and nothing can be written into an enforceable agreement.
+The second layer is subtler, and it's why the problem is worse than scheduling. Economists call it *common agency*: one agent and several principals, each trying independently to influence what the agent does. The literature that grew out of Bernheim and Whinston's work studies exactly this setup.[^9] Each principal pulls the agent toward their own interests, and none of them takes into account what their pull does to the others. Whether that competition cancels out or distorts the agent's choices depends on what the principals can observe and enforce. Relationships sit at the bad end of that range: nobody can see the effort going into the other relationship, and nothing can be written into an enforceable agreement.
 
 In plain terms: neither of your partners is being unreasonable. Each one, in good faith, makes their case for your time, with warmth, with need, and with hurt when the time isn't there. Neither is thinking about what winning tonight costs the other relationship, and it isn't their job to. So how you divide your time ends up reflecting whose claim is most compelling in the moment, not what you'd pick if you could step back and plan the week.
 
-Holmström and Milgrom's work on multitasking adds the last twist.^10 When an agent has several tasks and some are easier to see and reward than others, effort drains toward the visible tasks and away from the quiet ones. In relationships, the visible tasks are the partner in crisis, the partner who texts, and the new relationship with all its excitement and demands. The quiet task is the steady, secure relationship that's "fine," whose upkeep nobody notices until it stops being fine. The partner who asks for the least gets the least. That isn't because you love them less. It's because their claim is the easiest one to put off.
+Holmström and Milgrom's work on multitasking adds the last twist.[^10] When an agent has several tasks and some are easier to see and reward than others, effort drains toward the visible tasks and away from the quiet ones. In relationships, the visible tasks are the partner in crisis, the partner who texts, and the new relationship with all its excitement and demands. The quiet task is the steady, secure relationship that's "fine," whose upkeep nobody notices until it stops being fine. The partner who asks for the least gets the least. That isn't because you love them less. It's because their claim is the easiest one to put off.
 
-Some research on hierarchical poly fits this pattern: partners in secondary roles report lower satisfaction with the time and investment they get.^11 Treat that as suggestive, since the source still needs confirming. The mechanism doesn't depend on it.
+Some research on hierarchical poly fits this pattern: partners in secondary roles report lower satisfaction with the time and investment they get.[^11] Treat that as suggestive, since the source still needs confirming. The mechanism doesn't depend on it.
 
 If this sounds like a workplace problem, that's because it is one. Anyone who has had two bosses with conflicting priorities knows the result isn't caused by incompetence; the structure produces it. It also answers the question of why two specifically, and not just why exclusive. A closed triad is exclusive, but each member still answers to two people, and the competition for Tuesdays is back. A dyad is the only arrangement in which no other partner is bidding for your evening.
 
@@ -126,9 +126,9 @@ If this sounds like a workplace problem, that's because it is one. Anyone who ha
 
 ## 5. Nobody Renovates a House They Might Be Evicted From
 
-The third mechanism explains why exclusivity changes what it makes sense to invest, and it's the reason the both-exclusive cell pays more than the both-open one. (A companion piece, *How Monogamy Got Made*, covers exclusivity as a commitment device in depth.^12 The question here is narrower.)
+The third mechanism explains why exclusivity changes what it makes sense to invest, and it's the reason the both-exclusive cell pays more than the both-open one. (A companion piece, *How Monogamy Got Made*, covers exclusivity as a commitment device in depth.[^12] The question here is narrower.)
 
-Oliver Hart and John Moore built a theory around a puzzle:^13 why do people in long-term relationships, commercial or otherwise, routinely under-invest in exactly the things that would make the relationship valuable? Their answer is the *hold-up problem*. Some investments only pay off inside one particular relationship and can't be written into an enforceable contract. Once you've made them, the other side can change the terms or walk away, leaving your investment stranded. Knowing this in advance, you invest less than would be best for both of you, and so do they.
+Oliver Hart and John Moore built a theory around a puzzle:[^13] why do people in long-term relationships, commercial or otherwise, routinely under-invest in exactly the things that would make the relationship valuable? Their answer is the *hold-up problem*. Some investments only pay off inside one particular relationship and can't be written into an enforceable contract. Once you've made them, the other side can change the terms or walk away, leaving your investment stranded. Knowing this in advance, you invest less than would be best for both of you, and so do they.
 
 Emotional investment in a particular partner is the purest case of this you could design. You can't contract for vulnerability, and no court will enforce "I rearranged my life around you." The shared history, the trust, the merged friendships, the city you moved to: all of it is worth the most inside this relationship, and all of it is at risk the moment the other person's attention or commitment shifts.
 
@@ -142,13 +142,13 @@ This is also why the mismatch cell is so bad. If your partner opens things up an
 
 If two is stable, it is also leaky. People in exclusive relationships cheat, often people who sincerely meant not to. A model that explains why two holds should also explain how it fails. Three mechanisms combine.
 
-**The contract is incomplete.** Monogamy specifies one term, exclusivity, and leaves almost everything else unwritten: what happens when desire fades, when one person's needs go unmet for a year, when someone new and electric walks into the room. Every contract is incomplete,^13 and this one is unusually so. Wherever the contract is silent, each person keeps their own discretion.
+**The contract is incomplete.** Monogamy specifies one term, exclusivity, and leaves almost everything else unwritten: what happens when desire fades, when one person's needs go unmet for a year, when someone new and electric walks into the room. Every contract is incomplete,[^13] and this one is unusually so. Wherever the contract is silent, each person keeps their own discretion.
 
-**Security breeds moral hazard.**^14 Once the relationship feels secure, with leaving costly and the commitment settled, the payoff to upkeep changes. Skipping the difficult conversation costs little this week. The effort that used to go into being attentive and desirable now has a less visible return. Effort decays, not out of bad faith, but because security lowers the short-term cost of coasting. This is Section 4's quiet-task problem, operating inside a dyad.
+**Security breeds moral hazard.**[^14] Once the relationship feels secure, with leaving costly and the commitment settled, the payoff to upkeep changes. Skipping the difficult conversation costs little this week. The effort that used to go into being attentive and desirable now has a less visible return. Effort decays, not out of bad faith, but because security lowers the short-term cost of coasting. This is Section 4's quiet-task problem, operating inside a dyad.
 
-**Temptation arrives in the present tense.** David Laibson formalized how people discount the future steeply in the near term and only gently at a distance.^15 From far away, faithfulness wins easily: you would never trade the relationship for one night. Up close, the trade looks different. The night is now, certain, vivid and physical, while the cost is uncertain, delayed, and discounted. The person who would never, while planning their life, sleep with a colleague is not the same decision-maker as the person at the end of the work party, four drinks in, with a hand on the small of their back and a shared cab waiting outside. The preferences are the same, but the timing changes the answer.
+**Temptation arrives in the present tense.** David Laibson formalized how people discount the future steeply in the near term and only gently at a distance.[^15] From far away, faithfulness wins easily: you would never trade the relationship for one night. Up close, the trade looks different. The night is now, certain, vivid and physical, while the cost is uncertain, delayed, and discounted. The person who would never, while planning their life, sleep with a colleague is not the same decision-maker as the person at the end of the work party, four drinks in, with a hand on the small of their back and a shared cab waiting outside. The preferences are the same, but the timing changes the answer.
 
-Ted O'Donoghue and Matthew Rabin divide people into two types on exactly this point.^16 *Naifs* don't anticipate how their preferences will shift. They trust their future self to be as firm as their planning self, walk into the situation, and are genuinely shocked by what they do. *Sophisticates* know their future self will be weaker, so they change the situation instead of relying on willpower: they leave the party early, skip the last drink, and keep the phone face-up on the table. The model predicts that, on average, people will cheat more than they expect to. That prediction is plausible, but it should be checked against data rather than assumed.
+Ted O'Donoghue and Matthew Rabin divide people into two types on exactly this point.[^16] *Naifs* don't anticipate how their preferences will shift. They trust their future self to be as firm as their planning self, walk into the situation, and are genuinely shocked by what they do. *Sophisticates* know their future self will be weaker, so they change the situation instead of relying on willpower: they leave the party early, skip the last drink, and keep the phone face-up on the table. The model predicts that, on average, people will cheat more than they expect to. That prediction is plausible, but it should be checked against data rather than assumed.
 
 None of this is a verdict. It's a failure analysis: an incomplete contract, an incentive for upkeep that weakens as security grows, and a decision moment that reverses what you'd choose from a distance. The equilibrium still holds in the sense that matters, because when it breaks, most people rebuild the same structure, as the next section shows. But it holds the way a dam holds, with predictable seepage.
 
@@ -158,15 +158,15 @@ None of this is a verdict. It's a failure analysis: an incomplete contract, an i
 
 The second leak is slower. Modern monogamy is mostly serial: fully committed until it ends, then fully committed again to someone else.
 
-The logic here borrows from the theory of repeated games, and it needs careful handling. In the textbook version, if two players know exactly when their game ends, cooperation can unravel backwards from the final round. Relationships don't work that way, because nobody knows the end date, so the strict version doesn't apply. A softer version does. Robert Axelrod's phrase for what keeps cooperation going is the *shadow of the future*:^17 people invest in cooperating now because tomorrow matters. Anything that shortens that shadow weakens the case for long-term investment.
+The logic here borrows from the theory of repeated games, and it needs careful handling. In the textbook version, if two players know exactly when their game ends, cooperation can unravel backwards from the final round. Relationships don't work that way, because nobody knows the end date, so the strict version doesn't apply. A softer version does. Robert Axelrod's phrase for what keeps cooperation going is the *shadow of the future*:[^17] people invest in cooperating now because tomorrow matters. Anything that shortens that shadow weakens the case for long-term investment.
 
 Once you assign a real probability to the relationship ending, whether because you've watched your own relationships end or because everyone around you treats relationships as provisional, the investments with the longest payback start to look like bad bets: deep vulnerability, merged finances, letting your friendships become joint friendships. You don't refuse them. You just make them a little later and a little smaller, with a little held back, and so does your partner.
 
 It doesn't feel like calculation. It feels like wariness: a faint reluctance to fully believe in something that experience says might end, the part of you that keeps the lease in your own name. And it fulfils itself. Guarding yourself makes the relationship thinner, a thinner relationship is easier to leave, and leaving proves that guarding was wise.
 
-The divorce figures are at least consistent with this. Second marriages are widely reported to end about 67% of the time and third marriages about 73% of the time,^18 more often than first marriages despite all that extra experience. One reading is that people who have been through a breakup carry a more realistic estimate of the next one and invest accordingly. Another is selection: the people who remarry may be disproportionately people whose bar for commitment was lower to begin with. These figures can't tell the two explanations apart, and this article won't pretend they can.
+The divorce figures are at least consistent with this. Second marriages are widely reported to end about 67% of the time and third marriages about 73% of the time,[^18] more often than first marriages despite all that extra experience. One reading is that people who have been through a breakup carry a more realistic estimate of the next one and invest accordingly. Another is selection: the people who remarry may be disproportionately people whose bar for commitment was lower to begin with. These figures can't tell the two explanations apart, and this article won't pretend they can.
 
-But look at what people do after the failure. Roughly 64% of divorced men and 52% of divorced women remarry.^19 Having watched the exclusive couple fail them personally, most people choose it again. Economists call that revealed preference. In the terms of Section 2, it is the system settling back into its equilibrium.
+But look at what people do after the failure. Roughly 64% of divorced men and 52% of divorced women remarry.[^19] Having watched the exclusive couple fail them personally, most people choose it again. Economists call that revealed preference. In the terms of Section 2, it is the system settling back into its equilibrium.
 
 ---
 
@@ -180,16 +180,16 @@ Much of this should be conceded.
 
 The satisfaction data is the strongest evidence poly advocates have, and it can't be explained away. If equal satisfaction holds up in better, longer-term studies, then the cost argument is right about the costs but underestimates what some people gain on the benefit side: enough to cover the overhead and then some. That wouldn't refute the mechanisms, but it would shrink their reach from "most people" toward "many people," which is a real difference.
 
-The minority-stress point is also fair. Some of the friction measured in poly research is almost certainly the cost of explaining your life to doctors, landlords, employers and parents, and studies have linked internalized stigma to lower satisfaction and worse mental health among people in consensual non-monogamy.^20 Section 2's focal-point logic predicts exactly this: when everyone else plays exclusive, playing open costs more. Stigma inflates poly's costs, and current data can't cleanly separate stigma from structure.
+The minority-stress point is also fair. Some of the friction measured in poly research is almost certainly the cost of explaining your life to doctors, landlords, employers and parents, and studies have linked internalized stigma to lower satisfaction and worse mental health among people in consensual non-monogamy.[^20] Section 2's focal-point logic predicts exactly this: when everyone else plays exclusive, playing open costs more. Stigma inflates poly's costs, and current data can't cleanly separate stigma from structure.
 
-Jealousy also appears to be partly learned. Practitioners report feeling less of it than monogamous people predict they would feel in the same position.^21 If the feeling can shrink, one cost shrinks with it. Managing jealousy, though, through conversations, check-ins and deliberate reframing, is itself coordination work. The cost moves from the heart to the calendar.
+Jealousy also appears to be partly learned. Practitioners report feeling less of it than monogamous people predict they would feel in the same position.[^21] If the feeling can shrink, one cost shrinks with it. Managing jealousy, though, through conversations, check-ins and deliberate reframing, is itself coordination work. The cost moves from the heart to the calendar.
 
-There is also almost no long-term data. Gupta's review is blunt about it: "Due to a lack of longitudinal data, we know little about the long-term relationship satisfaction in polyamorists."^3 This article can't claim that poly fails over time. The mechanisms predict friction that grows with complexity, and that prediction hasn't been tested.
+There is also almost no long-term data. Gupta's review is blunt about it: "Due to a lack of longitudinal data, we know little about the long-term relationship satisfaction in polyamorists."[^3] This article can't claim that poly fails over time. The mechanisms predict friction that grows with complexity, and that prediction hasn't been tested.
 
 What doesn't get conceded is this. The objection treats the question as whether poly is *better*. The model replaces that with a sharper question, better for whom and under what conditions, and it gives a specific answer. Run each mechanism in reverse:
 
 - **Coordination costs fall** for people with unusual organizational skill, flexible schedules, and a high tolerance for logistics. For them, the overhead curve rises slowly.
-- **Competing claims matter less** when the partners don't much care about being someone's priority, when B genuinely doesn't mind that A also sees C. Some research suggests that non-hierarchical poly, which avoids labelling anyone secondary, reports higher satisfaction than hierarchical arrangements.^22 The model predicts exactly that: remove the explicit second-place label and you remove the sharpest form of the under-service problem.
+- **Competing claims matter less** when the partners don't much care about being someone's priority, when B genuinely doesn't mind that A also sees C. Some research suggests that non-hierarchical poly, which avoids labelling anyone secondary, reports higher satisfaction than hierarchical arrangements.[^22] The model predicts exactly that: remove the explicit second-place label and you remove the sharpest form of the under-service problem.
 - **The hold-up problem weakens** when nobody is planning a forty-year joint project. With shorter horizons, more self-contained lives and fewer merged assets, the protection exclusivity offers is worth less, because there's less to protect.
 
 Now picture a network where all three conditions hold. Three or four people who have all met each other and agreed on the terms together. None of them is trying to build a mortgage-and-children life with anyone in it, and each has the temperament to treat a shared calendar as a solvable puzzle rather than a referendum on love. That network hasn't failed to find the equilibrium. It's sitting in the other one, the equilibrium that pays its members more. The model doesn't merely allow for that network; it predicts it.
@@ -244,46 +244,46 @@ You can find that comforting or you can find it bleak. The model doesn't have a 
 
 ## Citations
 
-^1 Becker, Gary S. (1973). "A Theory of Marriage: Part I." *Journal of Political Economy*, 81(4), 813–846.
+[^1]: Becker, Gary S. (1973). "A Theory of Marriage: Part I." *Journal of Political Economy*, 81(4), 813–846.
 
-^2 YouGov surveys on consensual non-monogamy and polyamory prevalence among US adults (December 2020; December 2023). [Specific releases to be confirmed.]
+[^2]: YouGov surveys on consensual non-monogamy and polyamory prevalence among US adults (December 2020; December 2023). [Specific releases to be confirmed.]
 
-^3 Gupta et al. (2024). Scoping review of consensual non-monogamy and relationship satisfaction. *Journal of Family Theory & Review*. [Authors, volume, pages and DOI to be confirmed.]
+[^3]: Gupta et al. (2024). Scoping review of consensual non-monogamy and relationship satisfaction. *Journal of Family Theory & Review*. [Authors, volume, pages and DOI to be confirmed.]
 
-^4 Nash, John F. (1950). "Equilibrium Points in N-Person Games." *Proceedings of the National Academy of Sciences*, 36(1), 48–49.
+[^4]: Nash, John F. (1950). "Equilibrium Points in N-Person Games." *Proceedings of the National Academy of Sciences*, 36(1), 48–49.
 
-^5 Schelling, Thomas C. (1960). *The Strategy of Conflict*. Harvard University Press.
+[^5]: Schelling, Thomas C. (1960). *The Strategy of Conflict*. Harvard University Press.
 
-^6 Coase, Ronald H. (1937). "The Nature of the Firm." *Economica*, 4(16), 386–405.
+[^6]: Coase, Ronald H. (1937). "The Nature of the Firm." *Economica*, 4(16), 386–405.
 
-^7 Williamson, Oliver E. (1975). *Markets and Hierarchies: Analysis and Antitrust Implications*. Free Press; Williamson, Oliver E. (1979). "Transaction-Cost Economics: The Governance of Contractual Relations." *Journal of Law and Economics*, 22(2), 233–261.
+[^7]: Williamson, Oliver E. (1975). *Markets and Hierarchies: Analysis and Antitrust Implications*. Free Press; Williamson, Oliver E. (1979). "Transaction-Cost Economics: The Governance of Contractual Relations." *Journal of Law and Economics*, 22(2), 233–261.
 
-^8 [Authors TBC] (2026). Study of challenges reported in polyamorous relationships. *Journal of Sex & Marital Therapy*. [Full citation to be confirmed; see fact-check item 1.]
+[^8]: [Authors TBC] (2026). Study of challenges reported in polyamorous relationships. *Journal of Sex & Marital Therapy*. [Full citation to be confirmed; see fact-check item 1.]
 
-^9 Bernheim, B. Douglas, and Michael D. Whinston (1986). "Common Agency." *Econometrica*, 54(4), 923–942. See also Bernheim and Whinston (1985), "Common Marketing Agency as a Device for Facilitating Collusion," *RAND Journal of Economics*, 16(2), 269–281. [See fact-check item 4.]
+[^9]: Bernheim, B. Douglas, and Michael D. Whinston (1986). "Common Agency." *Econometrica*, 54(4), 923–942. See also Bernheim and Whinston (1985), "Common Marketing Agency as a Device for Facilitating Collusion," *RAND Journal of Economics*, 16(2), 269–281. [See fact-check item 4.]
 
-^10 Holmström, Bengt, and Paul Milgrom (1991). "Multitask Principal-Agent Analyses: Incentive Contracts, Asset Ownership, and Job Design." *Journal of Law, Economics, & Organization*, 7 (Special Issue), 24–52.
+[^10]: Holmström, Bengt, and Paul Milgrom (1991). "Multitask Principal-Agent Analyses: Incentive Contracts, Asset Ownership, and Job Design." *Journal of Law, Economics, & Organization*, 7 (Special Issue), 24–52.
 
-^11 [Authors TBC] (2017). Study of perceptions of primary and secondary relationships in polyamory. *PLOS ONE*. [Unidentified; see fact-check item 7.]
+[^11]: [Authors TBC] (2017). Study of perceptions of primary and secondary relationships in polyamory. *PLOS ONE*. [Unidentified; see fact-check item 7.]
 
-^12 [CROSS-REF: companion article *How Monogamy Got Made*, this publication.]
+[^12]: [CROSS-REF: companion article *How Monogamy Got Made*, this publication.]
 
-^13 Hart, Oliver, and John Moore (1988). "Incomplete Contracts and Renegotiation." *Econometrica*, 56(4), 755–785; Hart, Oliver, and John Moore (1990). "Property Rights and the Nature of the Firm." *Journal of Political Economy*, 98(6), 1119–1158; Grossman, Sanford J., and Oliver D. Hart (1986). "The Costs and Benefits of Ownership: A Theory of Vertical and Lateral Integration." *Journal of Political Economy*, 94(4), 691–719; Hart, Oliver (2016). "Incomplete Contracts and Control." Nobel Prize Lecture, Stockholm.
+[^13]: Hart, Oliver, and John Moore (1988). "Incomplete Contracts and Renegotiation." *Econometrica*, 56(4), 755–785; Hart, Oliver, and John Moore (1990). "Property Rights and the Nature of the Firm." *Journal of Political Economy*, 98(6), 1119–1158; Grossman, Sanford J., and Oliver D. Hart (1986). "The Costs and Benefits of Ownership: A Theory of Vertical and Lateral Integration." *Journal of Political Economy*, 94(4), 691–719; Hart, Oliver (2016). "Incomplete Contracts and Control." Nobel Prize Lecture, Stockholm.
 
-^14 Holmström, Bengt (1979). "Moral Hazard and Observability." *Bell Journal of Economics*, 10(1), 74–91.
+[^14]: Holmström, Bengt (1979). "Moral Hazard and Observability." *Bell Journal of Economics*, 10(1), 74–91.
 
-^15 Laibson, David (1997). "Golden Eggs and Hyperbolic Discounting." *Quarterly Journal of Economics*, 112(2), 443–477. [Page range to be confirmed; see fact-check item 16.]
+[^15]: Laibson, David (1997). "Golden Eggs and Hyperbolic Discounting." *Quarterly Journal of Economics*, 112(2), 443–477. [Page range to be confirmed; see fact-check item 16.]
 
-^16 O'Donoghue, Ted, and Matthew Rabin (1999). "Doing It Now or Later." *American Economic Review*, 89(1), 103–124.
+[^16]: O'Donoghue, Ted, and Matthew Rabin (1999). "Doing It Now or Later." *American Economic Review*, 89(1), 103–124.
 
-^17 Axelrod, Robert (1984). *The Evolution of Cooperation*. Basic Books. On finite-horizon unravelling, see Osborne, Martin J., and Ariel Rubinstein (1994). *A Course in Game Theory*. MIT Press.
+[^17]: Axelrod, Robert (1984). *The Evolution of Cooperation*. Basic Books. On finite-horizon unravelling, see Osborne, Martin J., and Ariel Rubinstein (1994). *A Course in Game Theory*. MIT Press.
 
-^18 US divorce statistics for second and third marriages. [Source to be confirmed, e.g. CDC/NCHS; see fact-check item 14.]
+[^18]: US divorce statistics for second and third marriages. [Source to be confirmed, e.g. CDC/NCHS; see fact-check item 14.]
 
-^19 US remarriage statistics by sex. [Source to be confirmed; see fact-check item 15.]
+[^19]: US remarriage statistics by sex. [Source to be confirmed; see fact-check item 15.]
 
-^20 Research on minority stress and internalized CNM negativity. [Source to be confirmed; see fact-check item 11.]
+[^20]: Research on minority stress and internalized CNM negativity. [Source to be confirmed; see fact-check item 11.]
 
-^21 Research comparing jealousy experienced by CNM practitioners with jealousy predicted by monogamous people. [Source to be confirmed; see fact-check item 12.]
+[^21]: Research comparing jealousy experienced by CNM practitioners with jealousy predicted by monogamous people. [Source to be confirmed; see fact-check item 12.]
 
-^22 Research comparing satisfaction in hierarchical and non-hierarchical polyamory. [Source to be confirmed; see fact-check item 10.]
+[^22]: Research comparing satisfaction in hierarchical and non-hierarchical polyamory. [Source to be confirmed; see fact-check item 10.]

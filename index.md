@@ -19,7 +19,7 @@ section: home
       <p class="home-card-text">I design data systems for organisations. I study relationships as systems &mdash; shaped by incentives, strategy, and human behaviour.</p>
       <div class="home-cta">
         <a href="{{ '/professional' | relative_url }}#work" class="btn btn-primary">See case studies</a>
-        <a href="{{ '/relationships' | relative_url }}#essays" class="btn btn-secondary">Read the essays</a>
+        <a href="{{ '/writing' | relative_url }}#essays" class="btn btn-secondary">Read the essays</a>
       </div>
     </div>
   </div>
@@ -39,7 +39,7 @@ section: home
       <span class="track-count">{{ projects.size }} case studies</span>
       <span class="track-link">View professional work &rarr;</span>
     </a>
-    <a href="{{ '/relationships' | relative_url }}" class="track">
+    <a href="{{ '/writing' | relative_url }}" class="track">
       <span class="eyebrow">Intimacy Economics</span>
       <h2>Dating &amp; Relationships</h2>
       <p>Frameworks, essays, and products exploring how modern relationships actually work — beneath the surface.</p>
@@ -75,7 +75,7 @@ section: home
   <div class="container">
     <div class="section-bar">
       <h2>Latest essays</h2>
-      <a href="{{ '/relationships' | relative_url }}#essays">All essays &rarr;</a>
+      <a href="{{ '/writing' | relative_url }}#essays">All essays &rarr;</a>
     </div>
     {% if essays.size > 0 %}
     <div class="essay-lead">
